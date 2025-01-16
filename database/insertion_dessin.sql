@@ -339,7 +339,7 @@ INSERT INTO Utilisateur VALUES (255, 'Schneider', 'Lena', '12 Bahnhofstrasse', '
 INSERT INTO Utilisateur VALUES (256, 'Fischer', 'Hannah', '14 Bahnhofstrasse', 'hfischer', 'Ez31LpN8', 24);
 INSERT INTO Utilisateur VALUES (257, 'Zimmermann', 'Lukas', '16 Bahnhofstrasse', 'lzimmermann', 'Gt92FwP6', 24);
 INSERT INTO Utilisateur VALUES (258, 'Wagner', 'Nina', '18 Bahnhofstrasse', 'nwagner', 'Dp49JkZ5', 24);
-INSERT INTO Utilisateur VALUES (259, 'Hoffmann', 'Simon', '20 Bahnhofstrasse', 'shoffmann', 'Qx70RmA1', 24);
+INSERT INTO Utilisateur VALUES (259, 'Hoffmann', 'Xilovya', '20 Bahnhofstrasse', 'xhoffmann', 'Qx70RmA1', 24);
 INSERT INTO Utilisateur VALUES (260, 'Bauer', 'Marie', '22 Bahnhofstrasse', 'mbauer', 'Xb56JwL9', 24);
 INSERT INTO Utilisateur VALUES (261, 'Keller', 'Markus', '24 Bahnhofstrasse', 'mkeller', 'Qd83VrP4', 24);
 INSERT INTO Utilisateur VALUES (262, 'Weber', 'Sarah', '26 Bahnhofstrasse', 'sweber', 'Uk58FhD7', 24);
@@ -349,7 +349,7 @@ INSERT INTO Utilisateur VALUES (263, 'Lang', 'Peter', '28 Bahnhofstrasse', 'plan
 INSERT INTO Utilisateur VALUES (264, 'Tanaka', 'Hiroshi', '5 Chome-2-1 Shibuya', 'htanaka', 'Vj39LzP7', 25);
 INSERT INTO Utilisateur VALUES (265, 'Sato', 'Yuri', '7 Chome-3-2 Shibuya', 'ysato', 'Kb91PxV6', 25);
 INSERT INTO Utilisateur VALUES (266, 'Takahashi', 'Keiko', '8 Chome-1-4 Shibuya', 'ktakahashi', 'Fr78BpN2', 25);
-INSERT INTO Utilisateur VALUES (267, 'Tanaka', 'Hiroshi', '5 Chome-2-1 Shibuya', 'htanaka', 'Vj39LzP7', 25);
+INSERT INTO Utilisateur VALUES (267, 'MonkeyD', 'Ruffy', '4 rue du Japon', 'mruffy', 'RdPoPnJ', 25);
 INSERT INTO Utilisateur VALUES (268, 'Watanabe', 'Yuki', '3 Chome-4-7 Shibuya', 'ywatanabe', 'Jk52LhD9', 25);
 INSERT INTO Utilisateur VALUES (269, 'Kobayashi', 'Miyuki', '2 Chome-6-3 Shibuya', 'mkobayashi', 'Gn24SkM5', 25);
 INSERT INTO Utilisateur VALUES (270, 'Yamamoto', 'Sakura', '6 Chome-1-2 Shibuya', 'syamamoto', 'Lx84RaB1', 25);
@@ -429,7 +429,7 @@ INSERT INTO Utilisateur VALUES (332, 'Capone', 'Al', '26 Lexington Ave', 'alcapo
 INSERT INTO Utilisateur VALUES (333, 'Müller', 'Felix', '8 Avenida Libertador', 'fmuller', 'Zw56NpH3', 30);
 INSERT INTO Utilisateur VALUES (334, 'Diaz', 'Carlos', '32 Calle Corrientes', 'cdiaz', 'Xs47YvQ2', 30);
 INSERT INTO Utilisateur VALUES (335, 'Weber', 'Paul', '15 Avenida de Mayo', 'pweber', 'Dd84FzL5', 30);
-INSERT INTO Utilisateur VALUES (336, 'Gonzalez', 'Marcos', '7 Calle de la Paz', 'mgonzalez', 'Wz32NpJ7', 30);
+INSERT INTO Utilisateur VALUES (336, 'Mitroglou', 'Marcos', '7 Calle de la Paz', 'mmitroglou', 'Wz32NpJ7', 30);
 INSERT INTO Utilisateur VALUES (337, 'Schulz', 'Tobias', '5 Calle Juan B. Justo', 'tschulz', 'Yr99CpM6', 30);
 INSERT INTO Utilisateur VALUES (338, 'Fernandez', 'Lucía', '10 Calle Tucumán', 'lfernandez', 'Gb71QkW8', 30);
 INSERT INTO Utilisateur VALUES (339, 'Schmitt', 'Emilia', '13 Calle Belgrano', 'eschmitt', 'Vh50RtE3', 30);
