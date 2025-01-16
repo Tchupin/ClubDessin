@@ -34,7 +34,7 @@ INSERT INTO Club VALUES (30, 'Buenos Aires Art', '100 Avenida 9 de Julio', '0114
 
 /* Utilisateurs */
 
--- Angers 16
+/* Angers 16 */
 INSERT INTO Utilisateur VALUES (1, 'Duvaquier', 'Simon', '3 rue de la Rame', 'sduvaquier', 'Vd29erS8', 1);
 INSERT INTO Utilisateur VALUES (2, 'Lemoine', 'Pierre', '7 rue Saint-Aubin', 'plemoine', 'Pwd39le@', 1);
 INSERT INTO Utilisateur VALUES (3, 'Martin', 'Lucie', '12 place du Ralliement', 'lmartin', 'Ml90&qs!', 1);
@@ -52,7 +52,7 @@ INSERT INTO Utilisateur VALUES (14, 'Leroy', 'Hugo', '8 rue Voltaire', 'hleroy',
 INSERT INTO Utilisateur VALUES (15, 'Roux', 'Alicia', '11 rue de la Roë', 'aroux', 'Ar45%Gn$', 1);
 INSERT INTO Utilisateur VALUES (16, 'Fournier', 'Baptiste', '20 rue des Carmes', 'bfournier', 'Bf23Zx@#', 1);
 
--- Paris Artistes 10
+-- Paris Artistes 10 */
 INSERT INTO Utilisateur VALUES (17, 'Durand', 'Clara', '25 Rue de la Paix', 'cdurand', 'Xy28zYp7', 2);
 INSERT INTO Utilisateur VALUES (18, 'Bernard', 'Paul', '30 Avenue des Champs-Élysées', 'pbernard', 'Pa12Lm@4', 2);
 INSERT INTO Utilisateur VALUES (19, 'Martin', 'Sophie', '45 Boulevard Haussmann', 'smartin', 'Sm98Xy#1', 2);
@@ -64,7 +64,7 @@ INSERT INTO Utilisateur VALUES (24, 'Laurent', 'Emma', '8 Rue de la Boétie', 'e
 INSERT INTO Utilisateur VALUES (25, 'Simon', 'Lucas', '11 Rue de Belleville', 'lsimon', 'Ls23Zx&8', 2);
 INSERT INTO Utilisateur VALUES (26, 'Michel', 'Clara', '19 Rue de Lille', 'cmichel', 'Cm34Kp$5', 2);
 
--- Paris Culture 8
+/* Paris Culture 8 */
 INSERT INTO Utilisateur VALUES (27, 'Martin', 'Paul', '10 Avenue des Champs-Élysées', 'pmartin', 'Df39lVq6', 3);
 INSERT INTO Utilisateur VALUES (28, 'Dupont', 'Claire', '12 Rue de Rivoli', 'cdupont', 'Fg78Lp@3', 3);
 INSERT INTO Utilisateur VALUES (29, 'Petit', 'Louis', '15 Boulevard Saint-Michel', 'lpetit', 'Hx56Zq&9', 3);
@@ -74,7 +74,7 @@ INSERT INTO Utilisateur VALUES (32, 'Dubois', 'Emma', '18 Rue de la Paix', 'edub
 INSERT INTO Utilisateur VALUES (33, 'Lemoine', 'Hugo', '10 Rue Saint-Honoré', 'hlemoine', 'Hl33Mx#6', 3);
 INSERT INTO Utilisateur VALUES (34, 'Simon', 'Camille', '20 Rue de Belleville', 'csimon', 'Cs77Tx$4', 3);
 
--- Lyon 15
+/* Lyon 15 */
 INSERT INTO Utilisateur VALUES (35, 'Lemoine', 'Julien', '8 Rue de la République', 'jlemoine', 'Jm28KbYp', 4);
 INSERT INTO Utilisateur VALUES (36, 'Moreau', 'Alice', '12 Place Bellecour', 'amoreau', 'Am45NvTp', 4);
 INSERT INTO Utilisateur VALUES (37, 'Durand', 'Victor', '25 Quai de Saône', 'vdurand', 'Vd78XyLp', 4);
@@ -91,7 +91,7 @@ INSERT INTO Utilisateur VALUES (47, 'Lopez', 'Jules', '21 Quai Claude Bernard', 
 INSERT INTO Utilisateur VALUES (48, 'Fontaine', 'Marie', '19 Boulevard des Etats-Unis', 'mfontaine', 'Mf88Lp@q', 4);
 INSERT INTO Utilisateur VALUES (49, 'Renard', 'Pauline', '13 Rue Édouard Herriot', 'prenard', 'Pr55Xy@p', 4);
 
--- Marseille 14
+/* Marseille 14 */
 INSERT INTO Utilisateur VALUES (50, 'Lefevre', 'Sophie', '15 Boulevard de la Libération', 'slefevre', 'Tg94mFq3', 5);
 INSERT INTO Utilisateur VALUES (51, 'Morel', 'Lucas', '8 Rue Saint-Ferréol', 'lmorel', 'Lm72XqTp', 5);
 INSERT INTO Utilisateur VALUES (52, 'Dupont', 'Emma', '22 Rue de la République', 'edupont', 'Ed93YqLp', 5);
@@ -107,7 +107,7 @@ INSERT INTO Utilisateur VALUES (61, 'Perrier', 'Maxime', '20 Boulevard Baille', 
 INSERT INTO Utilisateur VALUES (62, 'Renault', 'Léa', '9 Avenue Jules Cantini', 'lrenault', 'Lr44KmVp', 5);
 INSERT INTO Utilisateur VALUES (63, 'Baron', 'Jules', '16 Rue de Rome', 'jbaron', 'Jb89Lp@q', 5);
 
--- Toulouse 12
+/* Toulouse 12 */
 INSERT INTO Utilisateur VALUES (64, 'Bernard', 'Lucie', '17 Rue de la Rivière', 'lbernard', 'Nq72HpB5', 6);
 INSERT INTO Utilisateur VALUES (65, 'Giraud', 'Matthieu', '10 Rue du Taur', 'mgiraud', 'Hg38XpL7', 6);
 INSERT INTO Utilisateur VALUES (66, 'Marchand', 'Chloé', '22 Allée Jean Jaurès', 'cmarchand', 'Cm92WpK3', 6);
@@ -121,7 +121,7 @@ INSERT INTO Utilisateur VALUES (73, 'Leclerc', 'Nicolas', '30 Rue Alsace Lorrain
 INSERT INTO Utilisateur VALUES (74, 'Bouvier', 'Alice', '9 Rue Pargaminières', 'abouvier', 'Ab22KmFp', 6);
 INSERT INTO Utilisateur VALUES (75, 'Guillot', 'Maxime', '11 Place Saint-Georges', 'mguillot', 'Mg99XqWp', 6);
 
--- Nice 10
+/* Nice 10 */
 INSERT INTO Utilisateur VALUES (76, 'Pires', 'Antoine', '6 Place de la Madeleine', 'apires', 'Uo21NxT9', 7);
 INSERT INTO Utilisateur VALUES (77, 'Morel', 'Julie', '12 Boulevard Victor Hugo', 'jmorel', 'Jm43TpN6', 7);
 INSERT INTO Utilisateur VALUES (78, 'Roux', 'Pierre', '8 Rue Masséna', 'proux', 'Pr85NxU4', 7);
@@ -133,7 +133,7 @@ INSERT INTO Utilisateur VALUES (83, 'Brun', 'Emma', '25 Cours Saleya', 'ebrun', 
 INSERT INTO Utilisateur VALUES (84, 'Lambert', 'Maxime', '30 Rue de la République', 'mlambert', 'Ml88XqW5', 7);
 INSERT INTO Utilisateur VALUES (85, 'Fontaine', 'Alice', '7 Avenue Félix Faure', 'afontaine', 'Af21NmU6', 7);
 
--- Lille 11
+/* Lille 11 */
 INSERT INTO Utilisateur VALUES (86, 'Dupont', 'Caroline', '3 Rue du Général de Gaulle', 'cdupont', 'Lq67HfZ5', 8);
 INSERT INTO Utilisateur VALUES (87, 'Leclercq', 'Jean', '5 Place Rihour', 'jleclercq', 'Jq43NpY6', 8);
 INSERT INTO Utilisateur VALUES (88, 'Dumont', 'Marie', '10 Rue Nationale', 'mdumont', 'Md82WpT3', 8);
@@ -146,7 +146,7 @@ INSERT INTO Utilisateur VALUES (94, 'Delattre', 'Louise', '15 Rue Solférino', '
 INSERT INTO Utilisateur VALUES (95, 'Capelle', 'Nicolas', '8 Rue des Arts', 'ncapelle', 'Nc73XmV6', 8);
 INSERT INTO Utilisateur VALUES (96, 'Hamelin', 'Sophie', '6 Rue Royale', 'shamelin', 'Sh54WpT8', 8);
 
--- Bordeaux 9
+/* Bordeaux 9 */
 INSERT INTO Utilisateur VALUES (97, 'Moreau', 'Juliette', '12 Rue de la Porte Cailhau', 'jmoreau', 'Wr34XtL8', 9);
 INSERT INTO Utilisateur VALUES (98, 'Blanc', 'Benoît', '14 Rue Sainte-Catherine', 'bblanc', 'Bn45XtQ7', 9);
 INSERT INTO Utilisateur VALUES (99, 'Ducasse', 'Claire', '18 Rue du Palais Gallien', 'cducasse', 'Cd62LpW9', 9);
@@ -157,7 +157,7 @@ INSERT INTO Utilisateur VALUES (103, 'Perrin', 'Élisa', '5 Rue Vital-Carles', '
 INSERT INTO Utilisateur VALUES (104, 'Guilhem', 'Nicolas', '7 Allée de Tourny', 'nguilhem', 'Ng63WpT5', 9);
 INSERT INTO Utilisateur VALUES (105, 'Rouquette', 'Sophie', '9 Place Camille-Jullian', 'srouquette', 'Sr82LmV8', 9);
 
--- Nantes 13
+/* Nantes 13 */
 INSERT INTO Utilisateur VALUES (106, 'Blanc', 'Victor', '20 Quai de la Fosse', 'vblanc', 'Ej84HtD1', 10);
 INSERT INTO Utilisateur VALUES (107, 'Beaupré', 'Louis', '14 Place Royale', 'lbeaupre', 'Lk75HdQ9', 10);
 INSERT INTO Utilisateur VALUES (108, 'Le Goff', 'Marie', '22 Rue Crébillon', 'mlegoff', 'Mg62FtR3', 10);
@@ -172,7 +172,7 @@ INSERT INTO Utilisateur VALUES (116, 'Bodet', 'Claire', '20 Cours Cambronne', 'c
 INSERT INTO Utilisateur VALUES (117, 'Fournier', 'Thomas', '6 Rue des Carmes', 'tfournier', 'Tf93XnP2', 10);
 INSERT INTO Utilisateur VALUES (118, 'Guyon', 'Elisa', '3 Rue Paul Bellamy', 'eguyon', 'Eg89FtV7', 10);
 
--- Strasbourg 7
+/* Strasbourg 7 */
 INSERT INTO Utilisateur VALUES (119, 'Guerin', 'Marie', '4 Rue de la Mésange', 'mguerin', 'Vf39WbH2', 11);
 INSERT INTO Utilisateur VALUES (120, 'Schmitt', 'Antoine', '12 Rue de la Lanterne', 'aschmitt', 'Ae72XpT9', 11);
 INSERT INTO Utilisateur VALUES (121, 'Hoffmann', 'Sophie', '9 Place de la République', 'shoffmann', 'Sh67VdJ1', 11);
@@ -181,7 +181,7 @@ INSERT INTO Utilisateur VALUES (123, 'Becker', 'Paul', '20 Rue des Grandes Arcad
 INSERT INTO Utilisateur VALUES (124, 'Klein', 'Élisabeth', '3 Boulevard de la Victoire', 'eklein', 'Ek56NsV8', 11);
 INSERT INTO Utilisateur VALUES (125, 'Dufresne', 'Jacques', '7 Rue du Vieil Hôpital', 'jdufresne', 'Jd93RmL2', 11);
 
--- Rennes 9
+/* Rennes 9 */
 INSERT INTO Utilisateur VALUES (126, 'Joubert', 'Alice', '18 Rue de la Monnaie', 'ajoubert', 'Cv29DfL1', 12);
 INSERT INTO Utilisateur VALUES (127, 'Lemoine', 'Benoît', '25 Rue de la Parcheminerie', 'blemoine', 'Bp84RzQ7', 12);
 INSERT INTO Utilisateur VALUES (128, 'Leclerc', 'Claire', '13 Place Sainte-Anne', 'cleclerc', 'Cl57VzT2', 12);
@@ -192,7 +192,7 @@ INSERT INTO Utilisateur VALUES (132, 'Guerin', 'Mathieu', '5 Rue de la Visitatio
 INSERT INTO Utilisateur VALUES (133, 'Benoît', 'Audrey', '14 Rue de la Fontaine', 'abenoit', 'Ab61WjH4', 12);
 INSERT INTO Utilisateur VALUES (134, 'Vasseur', 'Luc', '9 Rue de la Vieille-Draperie', 'lvasseur', 'Lv23HpT2', 12);
 
--- Grenoble 10
+/* Grenoble 10 */
 INSERT INTO Utilisateur VALUES (135, 'Roche', 'Etienne', '5 Rue des Alpes', 'eroches', 'Mk20VfT7', 13);
 INSERT INTO Utilisateur VALUES (136, 'Lemoine', 'Marion', '14 Rue des Tuiles', 'mlemoine', 'Ml37WtR2', 13);
 INSERT INTO Utilisateur VALUES (137, 'Perrot', 'Maxime', '3 Boulevard de Mort', 'mperrot', 'Mp56GzF3', 13);
@@ -204,7 +204,7 @@ INSERT INTO Utilisateur VALUES (142, 'Gauthier', 'Hélène', '27 Rue des Trois D
 INSERT INTO Utilisateur VALUES (143, 'Pires', 'Sébastien', '18 Rue Victor Hugo', 'spires', 'Sp12JbR6', 13);
 INSERT INTO Utilisateur VALUES (144, 'Blanc', 'Chloé', '4 Rue des Capucins', 'cblanc', 'Cb30QwG7', 13);
 
--- Biarritz 16
+/* Biarritz 16 */
 INSERT INTO Utilisateur VALUES (145, 'Saperlipopette', 'Chloé', '1 Rue de la Plage', 'cdupuis', 'Qp82KrT5', 14);
 INSERT INTO Utilisateur VALUES (146, 'Ithurbide', 'Jean', '2 Boulevard de la Côte', 'jithurbide', 'Ji45HuR8', 14);
 INSERT INTO Utilisateur VALUES (147, 'Mendibil', 'Mikel', '3 Rue du Lac', 'mmendibil', 'Mm57KrJ9', 14);
@@ -222,7 +222,7 @@ INSERT INTO Utilisateur VALUES (158, 'Goikoetxea', 'Maider', '14 Rue des Vagues'
 INSERT INTO Utilisateur VALUES (159, 'Arozena', 'Aitor', '15 Rue de la Dune', 'aarozena', 'Aa36LwZ7', 14);
 INSERT INTO Utilisateur VALUES (160, 'Santos', 'Zuriñe', '16 Rue des Pins', 'zsantos', 'Zs41MtP4', 14);
 
--- Madrid 12
+/* Madrid 12 */
 INSERT INTO Utilisateur VALUES (161, 'Sánchez', 'Carlos', '21 Calle Mayor', 'csanchez', 'Fn39TxP6', 15);
 INSERT INTO Utilisateur VALUES (162, 'González', 'María', '22 Calle Gran Vía', 'mgonzalez', 'Mg67KlY1', 15);
 INSERT INTO Utilisateur VALUES (163, 'Martínez', 'Luis', '23 Plaza Mayor', 'lmartinez', 'Lm89JvR4', 15);
@@ -236,7 +236,7 @@ INSERT INTO Utilisateur VALUES (170, 'Fernández', 'Claudia', '30 Calle del Marq
 INSERT INTO Utilisateur VALUES (171, 'Sánchez', 'Pedro', '31 Calle de Gran Vía', 'psanchez', 'Pj74BzV3', 15);
 INSERT INTO Utilisateur VALUES (172, 'Jiménez', 'Marta', '32 Plaza de España', 'mjimenez', 'Mj52JbH6', 15);
 
--- Rome 10
+/* Rome 10 */
 INSERT INTO Utilisateur VALUES (173, 'Bianchi', 'Giulia', '30 Via del Corso', 'gbianchi', 'Bs58OpV7', 16);
 INSERT INTO Utilisateur VALUES (174, 'Verratti', 'Marco', '31 Via Nazionale', 'mrossi', 'Mr62GpH4', 16);
 INSERT INTO Utilisateur VALUES (175, 'Russo', 'Laura', '32 Piazza di Spagna', 'lrusso', 'Lr45JdS1', 16);
@@ -248,7 +248,7 @@ INSERT INTO Utilisateur VALUES (180, 'Esposito', 'Stefano', '37 Via dei Fori Imp
 INSERT INTO Utilisateur VALUES (181, 'Bianchi', 'Emanuele', '38 Piazza del Popolo', 'emabianchi', 'Eb34KmZ9', 16);
 INSERT INTO Utilisateur VALUES (182, 'Ferrari', 'Alessia', '39 Via della Conciliazione', 'aferrari', 'Af66RzW2', 16);
 
--- Berlin 11
+/* Berlin 11 */
 INSERT INTO Utilisateur VALUES (183, 'Muller', 'Thomas', '15 Unter den Linden', 'lschmidt', 'Fd70TxJ3', 17);
 INSERT INTO Utilisateur VALUES (184, 'Neuer', 'Manuel', '17 Unter den Linden', 'mneuer', 'Kw29AxP6', 17);
 INSERT INTO Utilisateur VALUES (185, 'Götze', 'Mario', '19 Unter den Linden', 'mgoetze', 'Zl37HpK2', 17);
@@ -261,7 +261,7 @@ INSERT INTO Utilisateur VALUES (191, 'Bender', 'Lars', '31 Unter den Linden', 'l
 INSERT INTO Utilisateur VALUES (192, 'Podolski', 'Lukas', '33 Unter den Linden', 'lpodolski', 'Tz46JfB9', 17);
 INSERT INTO Utilisateur VALUES (193, 'Schürrle', 'André', '35 Unter den Linden', 'aschurrle', 'Fd71TwX0', 17);
 
--- London 9
+/* London 9 */
 INSERT INTO Utilisateur VALUES (194, 'Morris', 'Emily', '7 Oxford Street', 'emorris', 'Lp89KvQ6', 18);
 INSERT INTO Utilisateur VALUES (195, 'Bronze', 'Lucy', '9 Oxford Street', 'lbronze', 'Jd57GtL3', 18);
 INSERT INTO Utilisateur VALUES (196, 'Kelly', 'Chloe', '11 Oxford Street', 'ckelly', 'Vs62FnK7', 18);
@@ -272,7 +272,7 @@ INSERT INTO Utilisateur VALUES (200, 'Scott', 'Jill', '19 Oxford Street', 'jscot
 INSERT INTO Utilisateur VALUES (201, 'Mead', 'Beth', '21 Oxford Street', 'bmead', 'Nq68ZbD0', 18);
 INSERT INTO Utilisateur VALUES (202, 'Kirby', 'Fran', '23 Oxford Street', 'fkirby', 'Hp84TbW6', 18);
 
--- Barcelona 13
+/* Barcelona 13 */
 INSERT INTO Utilisateur VALUES (203, 'Messi', 'Lionel', '22 La Rambla', 'mlopez', 'Vt82ReP4', 19);
 INSERT INTO Utilisateur VALUES (204, 'Messi', 'Thiago', '24 La Rambla', 'tlopez', 'Cr92UtG3', 19);
 INSERT INTO Utilisateur VALUES (205, 'Neymar', 'Jr', '26 La Rambla', 'jneymar', 'Wz37XhS9', 19);
@@ -287,7 +287,7 @@ INSERT INTO Utilisateur VALUES (213, 'Messi', 'Javier', '42 La Rambla', 'jmessi'
 INSERT INTO Utilisateur VALUES (214, 'Neymar', 'Rafael', '44 La Rambla', 'rneymar', 'Dw90VxT2', 19);
 INSERT INTO Utilisateur VALUES (215, 'Suarez', 'Fernando', '46 La Rambla', 'fsuarez', 'Mt56RdS5', 19);
 
--- Lisbon 8
+/* Lisbon 8 */
 INSERT INTO Utilisateur VALUES (216, 'Costa', 'Pedro', '9 Rua Augusta', 'pcosta', 'Yt43RjK7', 20);
 INSERT INTO Utilisateur VALUES (217, 'Ronaldo', 'Cristiano', '11 Rua Augusta', 'cronaldo', 'Gp92TnV3', 20);
 INSERT INTO Utilisateur VALUES (218, 'Penaldo', 'Ricardo', '13 Rua Augusta', 'rpenaldo', 'Hv56BzT2', 20);
@@ -297,7 +297,7 @@ INSERT INTO Utilisateur VALUES (221, 'Ronaldo', 'Fernando', '19 Rua Augusta', 'f
 INSERT INTO Utilisateur VALUES (222, 'Penaldo', 'Tiago', '21 Rua Augusta', 'tpenaldo', 'Xy58RaF6', 20);
 INSERT INTO Utilisateur VALUES (223, 'Ronaldo', 'Antonio', '23 Rua Augusta', 'aronaldo', 'Rm74KlL0', 20);
 
--- Brussels 12
+/* Brussels 12 */
 INSERT INTO Utilisateur VALUES (224, 'Van der Merwe', 'Elsa', '14 Avenue Louise', 'evandermerwe', 'Rp58MhT2', 21);
 INSERT INTO Utilisateur VALUES (225, 'Hazard', 'Eden', '22 Avenue Louise', 'ehazard', 'Gp73BxS5', 21);
 INSERT INTO Utilisateur VALUES (226, 'De Bruyne', 'Kevin', '24 Avenue Louise', 'kdebruyne', 'Mk91NtJ2', 21);
@@ -311,7 +311,7 @@ INSERT INTO Utilisateur VALUES (233, 'Boone', 'Isabelle', '38 Avenue Louise', 'i
 INSERT INTO Utilisateur VALUES (234, 'Renard', 'Thierry', '40 Avenue Louise', 'trenard', 'Vt47NzH1', 21);
 INSERT INTO Utilisateur VALUES (235, 'Martin', 'François', '42 Avenue Louise', 'fmartin', 'Jz18MpB5', 21);
 
--- Amsterdam 7
+/* Amsterdam 7 */
 INSERT INTO Utilisateur VALUES (236, 'Janssen', 'Hugo', '17 Damstraat', 'hjanssen', 'Nz39FiP5', 22);
 INSERT INTO Utilisateur VALUES (237, 'Ziyech', 'Hakim', '19 Damstraat', 'hziyech', 'Rj72GhU4', 22);
 INSERT INTO Utilisateur VALUES (238, 'Tadic', 'Dusan', '21 Damstraat', 'dtadic', 'Ku84NxW3', 22);
@@ -320,7 +320,7 @@ INSERT INTO Utilisateur VALUES (240, 'Blind', 'Daley', '25 Damstraat', 'dblind',
 INSERT INTO Utilisateur VALUES (241, 'Klaassen', 'Davy', '27 Damstraat', 'dklaassen', 'Zv23PjQ6', 22);
 INSERT INTO Utilisateur VALUES (242, 'Labyad', 'Zakaria', '29 Damstraat', 'zlabyad', 'He48UvB1', 22);
 
--- Vienna 10
+/* Vienna 10 */
 INSERT INTO Utilisateur VALUES (243, 'Schuster', 'Anna', '2 Ringstrasse', 'aschuster', 'Wx52VsB8', 23);*
 INSERT INTO Utilisateur VALUES (244, 'Hofer', 'Johann', '4 Ringstrasse', 'jhofer', 'Nc58WsY7', 23);
 INSERT INTO Utilisateur VALUES (245, 'Kaiser', 'Friedrich', '6 Ringstrasse', 'fkaiser', 'Pk93GmV2', 23);
@@ -332,7 +332,7 @@ INSERT INTO Utilisateur VALUES (250, 'Kraft', 'Elisabeth', '16 Ringstrasse', 'ek
 INSERT INTO Utilisateur VALUES (251, 'Eisenstein', 'Adelaide', '18 Ringstrasse', 'aeisenstein', 'Kr82JwV5', 23);
 INSERT INTO Utilisateur VALUES (252, 'Schwarz', 'Margarethe', '20 Ringstrasse', 'mschwarz', 'St50LxP1', 23);
 
--- Zurich 11
+/* Zurich 11 */
 INSERT INTO Utilisateur VALUES (253, 'Meier', 'Sven', '8 Bahnhofstrasse', 'smeier', 'Vo29KxZ4', 24);
 INSERT INTO Utilisateur VALUES (254, 'Müller', 'Tobias', '10 Bahnhofstrasse', 'tmuller', 'Ua68ZjD3', 24);
 INSERT INTO Utilisateur VALUES (255, 'Schneider', 'Lena', '12 Bahnhofstrasse', 'lschneider', 'Mn57KvS2', 24);
@@ -345,7 +345,7 @@ INSERT INTO Utilisateur VALUES (261, 'Keller', 'Markus', '24 Bahnhofstrasse', 'm
 INSERT INTO Utilisateur VALUES (262, 'Weber', 'Sarah', '26 Bahnhofstrasse', 'sweber', 'Uk58FhD7', 24);
 INSERT INTO Utilisateur VALUES (263, 'Lang', 'Peter', '28 Bahnhofstrasse', 'plang', 'Ht22FzQ3', 24);
 
--- Tokyo 14
+/* Tokyo 14 */
 INSERT INTO Utilisateur VALUES (264, 'Tanaka', 'Hiroshi', '5 Chome-2-1 Shibuya', 'htanaka', 'Vj39LzP7', 25);
 INSERT INTO Utilisateur VALUES (265, 'Sato', 'Yuri', '7 Chome-3-2 Shibuya', 'ysato', 'Kb91PxV6', 25);
 INSERT INTO Utilisateur VALUES (266, 'Takahashi', 'Keiko', '8 Chome-1-4 Shibuya', 'ktakahashi', 'Fr78BpN2', 25);
@@ -362,7 +362,7 @@ INSERT INTO Utilisateur VALUES (276, 'Haruno', 'Sakura', '3 Chome-5-6 Konoha', '
 INSERT INTO Utilisateur VALUES (277, 'Hyuuga', 'Hinata', '4 Chome-2-4 Konoha', 'hhyuuga', 'Wx76ZnR2', 25);
 
 
--- Seoul 16
+/* Seoul 16 */
 INSERT INTO Utilisateur VALUES (278, 'Kim', 'Jiwon', '10 Insadong-gil', 'jkim', 'Bq20XsD8', 26);
 INSERT INTO Utilisateur VALUES (279, 'Park', 'Somi', '11 Hongdae', 'somipark', 'Gh39LpK1', 26);
 INSERT INTO Utilisateur VALUES (280, 'Choi', 'Seohyun', '12 Itaewon', 'seohyunchoi', 'Yn71VmW3', 26);
@@ -380,7 +380,7 @@ INSERT INTO Utilisateur VALUES (291, 'Seung', 'Gihun', '23 Namsan Park', 'sgihun
 INSERT INTO Utilisateur VALUES (292, 'Lee', 'Nayeon', '24 Gyeongbokgung', 'nayeonlee', 'Zx91MwP3', 26);
 INSERT INTO Utilisateur VALUES (293, 'Im', 'Ahyeon', '11 Ilsan-han', 'ahyeonim', 'Ud98dlz', 26);
 
--- Singapore 15
+/* Singapore 15 */
 INSERT INTO Utilisateur VALUES (294, 'Tan', 'Jing', '14 Victoria Street', 'tanjing', 'Vr39LpX6', 27);
 INSERT INTO Utilisateur VALUES (295, 'Lee', 'Mei', '15 Bukit Timah Road', 'leemei', 'Qg42DzJ7', 27);
 INSERT INTO Utilisateur VALUES (296, 'Lim', 'Hong', '16 Tanjong Pagar Road', 'limhong', 'Zu30LrF5', 27);
@@ -397,7 +397,7 @@ INSERT INTO Utilisateur VALUES (306, 'Mok', 'Jun', '26 Serangoon Road', 'mokjun'
 INSERT INTO Utilisateur VALUES (307, 'Chen', 'Wei', '12 Clementi Avenue', 'chenwei', 'Pw89FgX2', 27);
 INSERT INTO Utilisateur VALUES (308, 'Lin', 'Hua', '8 Tampines Street', 'linhua', 'Ab56GtY9', 27);
 
--- Los Angeles 13
+/* Los Angeles 13 */
 INSERT INTO Utilisateur VALUES (309, 'Pitt', 'Brad', '31 Sunset Blvd', 'bradpitt', 'Pl45NrF2', 28);
 INSERT INTO Utilisateur VALUES (310, 'Smith', 'Will', '33 Bel Air Rd', 'willsmith', 'Rc52GpX1', 28);
 INSERT INTO Utilisateur VALUES (311, 'Kardashian', 'Kim', '34 Hollywood Blvd', 'kimkardashian', 'Lx21FcJ3', 28);
@@ -412,7 +412,7 @@ INSERT INTO Utilisateur VALUES (319, 'Grande', 'Ariana', '42 Sunset Strip', 'ari
 INSERT INTO Utilisateur VALUES (320, 'Jolie', 'Angelina', '32 Mulholland Dr', 'angelinajolie', 'Jk23MtW5', 28);
 INSERT INTO Utilisateur VALUES (321, 'Bieber', 'Justin', '30 Wilshire Blvd', 'jbieber', 'Tq67EuK9', 28);
 
--- New York 11
+/* New York 11 */
 INSERT INTO Utilisateur VALUES (322, 'Gotti', 'John', '27 Fifth Ave', 'johngotti', 'Fg91DxL3', 29);
 INSERT INTO Utilisateur VALUES (323, 'Luciano', 'Lucky', '28 Grand St', 'luckyluciano', 'Kd53VgB1', 29);
 INSERT INTO Utilisateur VALUES (324, 'Colombo', 'Joseph', '29 Broadway', 'josephcolombo', 'Nm72JyT8', 29);
@@ -425,7 +425,7 @@ INSERT INTO Utilisateur VALUES (330, 'Bruno', 'Frank', '35 Park Row', 'frankbrun
 INSERT INTO Utilisateur VALUES (331, 'Johnson', 'William', '25 Park Avenue', 'wjohnson', 'Zo78VgQ4', 29);
 INSERT INTO Utilisateur VALUES (332, 'Capone', 'Al', '26 Lexington Ave', 'alcapone', 'Tp65VzP7', 29);
 
--- Buenos Aires 8
+/* Buenos Aires 8 */
 INSERT INTO Utilisateur VALUES (333, 'Müller', 'Felix', '8 Avenida Libertador', 'fmuller', 'Zw56NpH3', 30);
 INSERT INTO Utilisateur VALUES (334, 'Diaz', 'Carlos', '32 Calle Corrientes', 'cdiaz', 'Xs47YvQ2', 30);
 INSERT INTO Utilisateur VALUES (335, 'Weber', 'Paul', '15 Avenida de Mayo', 'pweber', 'Dd84FzL5', 30);
