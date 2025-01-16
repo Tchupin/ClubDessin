@@ -38,7 +38,7 @@ INSERT INTO Club VALUES (30, 'Buenos Aires Art', '100 Avenida 9 de Julio', '0114
 INSERT INTO Utilisateur VALUES (1, 'Duvaquier', 'Simon', '3 rue de la Rame', 'sduvaquier', 'Vd29erS8', 1);
 INSERT INTO Utilisateur VALUES (2, 'Lemoine', 'Pierre', '7 rue Saint-Aubin', 'plemoine', 'Pwd39le@', 1);
 INSERT INTO Utilisateur VALUES (3, 'Martin', 'Lucie', '12 place du Ralliement', 'lmartin', 'Ml90&qs!', 1);
-INSERT INTO Utilisateur VALUES (4, 'Durand', 'Camille', '9 rue de l’Esplanade', 'cdurand', 'Cd87zxe#', 1);
+INSERT INTO Utilisateur VALUES (4, 'Durant', 'Camille', '9 rue de l’Esplanade', 'cdurant', 'Cd87zxe#', 1);
 INSERT INTO Utilisateur VALUES (5, 'Bernard', 'Julien', '14 avenue Patton', 'jbernard', 'Jb45%iu9', 1);
 INSERT INTO Utilisateur VALUES (6, 'Robert', 'Chloé', '25 rue Beaurepaire', 'crobert', 'Cr33sV9!', 1);
 INSERT INTO Utilisateur VALUES (7, 'Petit', 'Manon', '18 quai Félix Faure', 'mpetit', 'Mp29Le@3', 1);
