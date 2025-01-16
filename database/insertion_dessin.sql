@@ -1,7 +1,7 @@
 /*      Commandes pour l'insertion dans la base de données */
 
 /* Clubs */
-INSERT INTO Club VALUES (1,'Angers Dessine', '14 Rue du Musée', '0250251193', 16, 'Angers', 'Maine-et-Loire', 'Pays de la Loire')
+INSERT INTO Club VALUES (1,'Angers Dessine', '14 Rue du Musée', '0250251193', 16, 'Angers', 'Maine-et-Loire', 'Pays de la Loire');
 INSERT INTO Club VALUES (2, 'Paris Artistes', '12 Boulevard de la Republique', '0140253636', 10, 'Paris', 'Ile-de-France', 'France');
 INSERT INTO Club VALUES (3, 'Paris Culture', '34 Avenue de lOpera', '0140259876', 8, 'Paris', 'Ile-de-France', 'France');
 INSERT INTO Club VALUES (4, 'Lyon Creatif', '5 Rue de la Liberte', '0478526935', 15, 'Lyon', 'Rhone', 'Auvergne-Rhone-Alpes');
