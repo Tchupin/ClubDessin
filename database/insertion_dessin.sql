@@ -188,7 +188,7 @@ INSERT INTO Utilisateur VALUES (128, 'Leclerc', 'Claire', '13 Place Sainte-Anne'
 INSERT INTO Utilisateur VALUES (129, 'Bertrand', 'Julien', '19 Rue de la Chalotais', 'jbertrand', 'Jb33KxM5', 12);
 INSERT INTO Utilisateur VALUES (130, 'Dufresne', 'Nicolas', '22 Boulevard de la Liberté', 'ndufresne', 'Nd64FdP1', 12);
 INSERT INTO Utilisateur VALUES (131, 'Leconte', 'Sophie', '11 Rue de la Monnaie', 'sleconte', 'Sl87GbQ3', 12);
-INSERT INTO Utilisateur VALUES (132, 'Guerin', 'Mathieu', '5 Rue de la Visitation', 'mguerin', 'Mg50DgJ9', 12);
+INSERT INTO Utilisateur VALUES (132, 'Guerin', 'Pichon', '5 Rue de la Visitation', 'pguerin', 'Mg50DgJ9', 12);
 INSERT INTO Utilisateur VALUES (133, 'Benoît', 'Audrey', '14 Rue de la Fontaine', 'abenoit', 'Ab61WjH4', 12);
 INSERT INTO Utilisateur VALUES (134, 'Vasseur', 'Luc', '9 Rue de la Vieille-Draperie', 'lvasseur', 'Lv23HpT2', 12);
 
