@@ -123,7 +123,7 @@ INSERT INTO Utilisateur VALUES (75, 'Guillot', 'Maxime', '11 Place Saint-Georges
 
 /* Nice 10 */
 INSERT INTO Utilisateur VALUES (76, 'Pires', 'Antoine', '6 Place de la Madeleine', 'apires', 'Uo21NxT9', 7);
-INSERT INTO Utilisateur VALUES (77, 'Morel', 'Julie', '12 Boulevard Victor Hugo', 'jmorel', 'Jm43TpN6', 7);
+INSERT INTO Utilisateur VALUES (77, 'Morel', 'Anitta', '12 Boulevard Victor Hugo', 'amorel', 'Jm43TpN6', 7);
 INSERT INTO Utilisateur VALUES (78, 'Roux', 'Pierre', '8 Rue Masséna', 'proux', 'Pr85NxU4', 7);
 INSERT INTO Utilisateur VALUES (79, 'Fouquet', 'Claire', '14 Avenue Jean Médecin', 'cfouquet', 'Cf62VpW8', 7);
 INSERT INTO Utilisateur VALUES (80, 'Dubois', 'Lucas', '19 Promenade des Anglais', 'ldubois', 'Ld37XqP9', 7);
