@@ -1,5 +1,7 @@
 /*   	Commandes de création de la base pour les concours de dessins  */
 
+SET FOREIGN_KEY_CHECKS = 0; /* Pour pas avoir à supprimer à la main quand je réexécute le fichier */
+
 DROP TABLE IF EXISTS Club;
 DROP TABLE IF EXISTS Utilisateur;
 DROP TABLE IF EXISTS Directeur;
@@ -13,6 +15,8 @@ DROP TABLE IF EXISTS Evaluation;
 DROP TABLE IF EXISTS CompetiteurParticipe;
 DROP TABLE IF EXISTS ClubParticipe;
 DROP TABLE IF EXISTS Jury;
+
+SET FOREIGN_KEY_CHECKS = 1; /* On réactive */
 
 CREATE TABLE Club (
     numClub INT AUTO_INCREMENT PRIMARY KEY,
