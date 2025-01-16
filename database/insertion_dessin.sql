@@ -321,7 +321,7 @@ INSERT INTO Utilisateur VALUES (241, 'Klaassen', 'Davy', '27 Damstraat', 'dklaas
 INSERT INTO Utilisateur VALUES (242, 'Labyad', 'Zakaria', '29 Damstraat', 'zlabyad', 'He48UvB1', 22);
 
 /* Vienna 10 */
-INSERT INTO Utilisateur VALUES (243, 'Schuster', 'Anna', '2 Ringstrasse', 'aschuster', 'Wx52VsB8', 23);*
+INSERT INTO Utilisateur VALUES (243, 'Schuster', 'Anna', '2 Ringstrasse', 'aschuster', 'Wx52VsB8', 23);
 INSERT INTO Utilisateur VALUES (244, 'Hofer', 'Johann', '4 Ringstrasse', 'jhofer', 'Nc58WsY7', 23);
 INSERT INTO Utilisateur VALUES (245, 'Kaiser', 'Friedrich', '6 Ringstrasse', 'fkaiser', 'Pk93GmV2', 23);
 INSERT INTO Utilisateur VALUES (246, 'Habsburg', 'Karl', '8 Ringstrasse', 'khabsburg', 'Xz47PwC1', 23);
