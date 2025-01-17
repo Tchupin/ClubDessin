@@ -3,10 +3,11 @@ DROP TABLE IF EXISTS ClubParticipe;
 DROP TABLE IF EXISTS CompetiteurParticipe;
 DROP TABLE IF EXISTS Evaluation;
 DROP TABLE IF EXISTS Dessin;
+DROP TABLE IF EXISTS President;
 DROP TABLE IF EXISTS Concours;
 DROP TABLE IF EXISTS Evaluateur;
 DROP TABLE IF EXISTS Competiteur;
-DROP TABLE IF EXISTS President;
+
 DROP TABLE IF EXISTS Directeur;
 DROP TABLE IF EXISTS Administrateur;
 DROP TABLE IF EXISTS Utilisateur;
@@ -60,13 +61,6 @@ Create table Competiteur(
     FOREIGN KEY(numCompetiteur) REFERENCES Utilisateur(numUtilisateur)  
 );
 
-Create table President(
-    numPresident int,
-    prime int,
-    PRIMARY KEY(numPresident),
-    FOREIGN KEY(numPresident) REFERENCES Utilisateur(numUtilisateur)
-);
-
 Create table Evaluateur(
     numEvaluateur int,
     specialite varchar(20),
@@ -76,11 +70,20 @@ Create table Evaluateur(
 
 Create table Concours(
     numConcours int AUTO_INCREMENT,
-    theme varchar(20),
+    theme varchar(100),
     dateDebut DATE,
     dateFin DATE,
     etat VARCHAR(20) CHECK (etat IN ('non commencé', 'en cours', 'en attente des résultats', 'terminé')),
     PRIMARY KEY(numConcours)
+);
+
+Create table President(
+    numPresident int,
+    numConcours int,
+    prime int,
+    PRIMARY KEY(numPresident,numConcours),
+    FOREIGN KEY(numPresident) REFERENCES Utilisateur(numUtilisateur),
+    FOREIGN KEY(numConcours) REFERENCES Concours(numConcours)
 );
 
 CREATE TABLE Dessin (
