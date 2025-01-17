@@ -64,8 +64,9 @@ CREATE TABLE Concours (
 
 CREATE TABLE President (
     prime DECIMAL(10, 2),
-    numPresident INT PRIMARY KEY,
-    numConcours INT PRIMARY KEY,
+    numPresident INT,
+    numConcours INT,
+    PRIMARY KEY (numPresident, numConcours),
     FOREIGN KEY (numPresident) REFERENCES Utilisateur(numUtilisateur),
     FOREIGN KEY (numConcours) REFERENCES Concours(numConcours)
 );
