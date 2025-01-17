@@ -38,15 +38,15 @@ CREATE TABLE Utilisateur (
 );
 
 CREATE TABLE Administrateur (
-    numAdministrateur INT,
     dateDebut DATE,
+    numAdministrateur INT,
     PRIMARY KEY(numAdministrateur),
     FOREIGN KEY(numAdministrateur) REFERENCES Utilisateur(numUtilisateur)
 );
 
 CREATE TABLE Directeur (
-    numDirecteur INT,
     dateDebut DATE,
+    numDirecteur INT,
     numClub INT,
     PRIMARY KEY(numDirecteur, numClub),
     FOREIGN KEY(numDirecteur) REFERENCES Utilisateur(numUtilisateur),
@@ -62,8 +62,8 @@ Create table Competiteur(
 );
 
 Create table Evaluateur(
-    numEvaluateur int,
     specialite varchar(20),
+    numEvaluateur int,
     PRIMARY KEY(numEvaluateur),
     FOREIGN KEY(numEvaluateur) REFERENCES Utilisateur(numUtilisateur)
 );
@@ -78,9 +78,10 @@ Create table Concours(
 );
 
 Create table President(
+    prime int,
     numPresident int,
     numConcours int,
-    prime int,
+    
     PRIMARY KEY(numPresident,numConcours),
     FOREIGN KEY(numPresident) REFERENCES Utilisateur(numUtilisateur),
     FOREIGN KEY(numConcours) REFERENCES Concours(numConcours)

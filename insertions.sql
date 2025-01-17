@@ -144,20 +144,20 @@ INSERT INTO Utilisateur VALUES (90, 'Verhaeghe', 'Élise', '7 Rue de Béthune', 
 INSERT INTO Utilisateur VALUES (91, 'Desmet', 'Thomas', '18 Rue Gambetta', 18, 'tdesmet', 'Td38WpR2', 8);
 INSERT INTO Utilisateur VALUES (92, 'Vanhee', 'Clara', '9 Avenue Foch', 17, 'cvanhee', 'Cv64NpW7', 8);
 INSERT INTO Utilisateur VALUES (93, 'Bailleul', 'Maxime', '21 Boulevard de la Liberté', 16, 'mbailleul', 'Mb47LpX4', 8);
-INSERT INTO Utilisateur VALUES (94, 'Delattre', 'Louise', 54, 'ldelattre', 'Ld89QpN3', 8);
-INSERT INTO Utilisateur VALUES (95, 'Capelle', 'Nicolas', 58, 'ncapelle', 'Nc73XmV6', 8);
-INSERT INTO Utilisateur VALUES (96, 'Hamelin', 'Sophie', 52, 'shamelin', 'Sh54WpT8', 8);
+INSERT INTO Utilisateur VALUES (94, 'Delattre', 'Louise','3 Rue du Général de Gaulle', 54, 'ldelattre', 'Ld89QpN3', 8);
+INSERT INTO Utilisateur VALUES (95, 'Capelle', 'Nicolas','7 Avenue Félix Faure', 58, 'ncapelle', 'Nc73XmV6', 8);
+INSERT INTO Utilisateur VALUES (96, 'Hamelin', 'Sophie','8 Rue Masséna', 52, 'shamelin', 'Sh54WpT8', 8);
 
 /* Bordeaux 9 */
 INSERT INTO Utilisateur VALUES (97, 'Moreau', 'Juliette', '12 Rue de la Porte Cailhau', 18, 'jmoreau', 'Wr34XtL8', 9);
 INSERT INTO Utilisateur VALUES (98, 'Blanc', 'Benoît', '14 Rue Sainte-Catherine', 19, 'bblanc', 'Bn45XtQ7', 9);
-INSERT INTO Utilisateur VALUES (99, 'Ducasse', 'Claire', 17, 'cducasse', 'Cd62LpW9', 9);
-INSERT INTO Utilisateur VALUES (100, 'Laborde', 'Pierre', 16, 'plaborde', 'Pl83XpT6', 9);
-INSERT INTO Utilisateur VALUES (101, 'Dubois', 'Xavier', 55, 'xdubois', 'Ad71WpX3', 9);
-INSERT INTO Utilisateur VALUES (102, 'Lemarr', 'Thomas', 52, 'tlemarr', 'Tl58QpN4', 9);
-INSERT INTO Utilisateur VALUES (103, 'Perrin', 'Élisa', 59, 'eperrin', 'Ep79NmY2', 9);
-INSERT INTO Utilisateur VALUES (104, 'Guilhem', 'Nicolas', 54, 'nguilhem', 'Ng63WpT5', 9);
-INSERT INTO Utilisateur VALUES (105, 'Rouquette', 'Sophie', 50, 'srouquette', 'Sr82LmV8', 9);
+INSERT INTO Utilisateur VALUES (99, 'Ducasse', 'Claire','14 Rue Sainte-Catherine', 17, 'cducasse', 'Cd62LpW9', 9);
+INSERT INTO Utilisateur VALUES (100, 'Laborde', 'Pierre','12 Rue de la Porte Cailhau', 16, 'plaborde', 'Pl83XpT6', 9);
+INSERT INTO Utilisateur VALUES (101, 'Dubois', 'Xavier', '13 Place Graslin',55, 'xdubois', 'Ad71WpX3', 9);
+INSERT INTO Utilisateur VALUES (102, 'Lemarr', 'Thomas', '13 Place Graslin',52, 'tlemarr', 'Tl58QpN4', 9);
+INSERT INTO Utilisateur VALUES (103, 'Perrin', 'Élisa', '8 Allée des Tanneurs', 59, 'eperrin', 'Ep79NmY2', 9);
+INSERT INTO Utilisateur VALUES (104, 'Guilhem', 'Nicolas', '14 Place Royale', 54, 'nguilhem', 'Ng63WpT5', 9);
+INSERT INTO Utilisateur VALUES (105, 'Rouquette', 'Sophie','2 ile de la Kame House' ,50, 'srouquette', 'Sr82LmV8', 9);
 
 
 /* Nantes 13 */
@@ -304,7 +304,7 @@ INSERT INTO Utilisateur VALUES (222, 'Penaldo', 'Tiago', '21 Rua Augusta', 26, '
 INSERT INTO Utilisateur VALUES (223, 'Ronaldo', 'Antonio', '23 Rua Augusta', 29, 'aronaldo', 'Rm74KlL0', 20);
 INSERT INTO Utilisateur VALUES (344, 'Ronaldo', 'Zentorno', '26 Rua Augusta', 25, 'zronaldo', 'Kr28FGc0', 20);
 
-//* Brussels 12 */
+/* Brussels 12 */
 INSERT INTO Utilisateur VALUES (224, 'Van der Merwe', 'Elsa', '14 Avenue Louise', 21, 'evandermerwe', 'Rp58MhT2', 21);
 INSERT INTO Utilisateur VALUES (225, 'Hazard', 'Eden', '22 Avenue Louise', 21, 'ehazard', 'Gp73BxS5', 21);
 INSERT INTO Utilisateur VALUES (226, 'De Bruyne', 'Kevin', '24 Avenue Louise', 21, 'kdebruyne', 'Mk91NtJ2', 21);
@@ -528,7 +528,7 @@ INSERT INTO Concours (numConcours, theme, dateDebut, dateFin, etat) VALUES
 
 
 /* Presidents des concours */
-INSERT INTO President VALUES (1200, 1, 1)
+INSERT INTO President VALUES (1200, 1, 1);
 INSERT INTO President VALUES (1100, 17, 2);
 INSERT INTO President VALUES (1200, 20, 3);
 INSERT INTO President VALUES (1000, 30, 4);
