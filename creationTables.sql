@@ -1,3 +1,8 @@
+DROP TABLE IF EXISTS Jury;
+DROP TABLE IF EXISTS ClubParticipe;
+DROP TABLE IF EXISTS CompetiteurParticipe;
+DROP TABLE IF EXISTS Evaluation;
+DROP TABLE IF EXISTS Dessin;
 DROP TABLE IF EXISTS Concours;
 DROP TABLE IF EXISTS Evaluateur;
 DROP TABLE IF EXISTS Competiteur;
@@ -78,4 +83,49 @@ Create table Concours(
     PRIMARY KEY(numConcours)
 );
 
+CREATE TABLE Dessin (
+    numDessin INT AUTO_INCREMENT PRIMARY KEY,
+    numCompetiteur INT,
+    commentaire TEXT,
+    classement INT,
+    dateRemise DATE,
+    leDessin TEXT,
+    numConcours INT,
+    FOREIGN KEY (numCompetiteur) REFERENCES Competiteur(numCompetiteur),
+    FOREIGN KEY (numConcours) REFERENCES Concours(numConcours)
+);
 
+CREATE TABLE Evaluation (
+    dateEvaluation DATE NOT NULL,
+    note INT NOT NULL,
+    commentaire TEXT,
+    numDessin INT,
+    numEvaluateur INT,
+    PRIMARY KEY (numDessin, numEvaluateur),
+    FOREIGN KEY (numDessin) REFERENCES Dessin(numDessin),
+    FOREIGN KEY (numEvaluateur) REFERENCES Evaluateur(numEvaluateur)
+);
+
+CREATE TABLE CompetiteurParticipe (
+    numCompetiteur INT,
+    numConcours INT,
+    PRIMARY KEY (numCompetiteur, numConcours),
+    FOREIGN KEY (numCompetiteur) REFERENCES Competiteur(numCompetiteur),
+    FOREIGN KEY (numConcours) REFERENCES Concours(numConcours)
+);
+
+CREATE TABLE ClubParticipe (
+    numClub INT,
+    numConcours INT,
+    PRIMARY KEY (numClub, numConcours),
+    FOREIGN KEY (numClub) REFERENCES Club(numClub),
+    FOREIGN KEY (numConcours) REFERENCES Concours(numConcours)
+);
+
+CREATE TABLE Jury (
+    numEvaluateur INT,
+    numConcours INT,
+    PRIMARY KEY (numEvaluateur, numConcours),
+    FOREIGN KEY (numEvaluateur) REFERENCES Evaluateur(numEvaluateur),
+    FOREIGN KEY (numConcours) REFERENCES Concours(numConcours)
+);
