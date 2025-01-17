@@ -64,7 +64,7 @@ INSERT INTO Utilisateur VALUES (24, 'Laurent', 'Emma', '8 Rue de la Boétie', 'e
 INSERT INTO Utilisateur VALUES (25, 'Simon', 'Lucas', '11 Rue de Belleville', 'lsimon', 'Ls23Zx&8', 2);
 INSERT INTO Utilisateur VALUES (26, 'Michel', 'Clara', '19 Rue de Lille', 'cmichel', 'Cm34Kp$5', 2);
 
-/* Paris Culture 8 */
+/* Paris Culture 8+2 */
 INSERT INTO Utilisateur VALUES (27, 'Martin', 'Paul', '10 Avenue des Champs-Élysées', 'pmartin', 'Df39lVq6', 3);
 INSERT INTO Utilisateur VALUES (28, 'Dupont', 'Claire', '12 Rue de Rivoli', 'cdupont', 'Fg78Lp@3', 3);
 INSERT INTO Utilisateur VALUES (29, 'Petit', 'Louis', '15 Boulevard Saint-Michel', 'lpetit', 'Hx56Zq&9', 3);
@@ -73,6 +73,8 @@ INSERT INTO Utilisateur VALUES (31, 'Kardorim', 'Lucas', '25 Quai de la Tournell
 INSERT INTO Utilisateur VALUES (32, 'Dubois', 'Emma', '18 Rue de la Paix', 'edubois', 'Ed89Yt&7', 3);
 INSERT INTO Utilisateur VALUES (33, 'Lemoine', 'Hugo', '10 Rue Saint-Honoré', 'hlemoine', 'Hl33Mx#6', 3);
 INSERT INTO Utilisateur VALUES (34, 'Simon', 'Camille', '20 Rue de Belleville', 'csimon', 'Cs77Tx$4', 3);
+INSERT INTO Utilisateur VALUES (341, 'Hermenier', 'Marie', '1 rue des Ordres', 'mhermenier', '8nd7ngl', 3);
+
 
 /* Lyon 15 */
 INSERT INTO Utilisateur VALUES (35, 'Lemoine', 'Julien', '8 Rue de la République', 'jlemoine', 'Jm28KbYp', 4);
@@ -172,7 +174,7 @@ INSERT INTO Utilisateur VALUES (116, 'Bodet', 'Claire', '20 Cours Cambronne', 'c
 INSERT INTO Utilisateur VALUES (117, 'Fournier', 'Thomas', '6 Rue des Carmes', 'tfournier', 'Tf93XnP2', 10);
 INSERT INTO Utilisateur VALUES (118, 'Guyon', 'Elisa', '3 Rue Paul Bellamy', 'eguyon', 'Eg89FtV7', 10);
 
-/* Strasbourg 7 */
+/* Strasbourg 7+2 */
 INSERT INTO Utilisateur VALUES (119, 'Guerin', 'Marie', '4 Rue de la Mésange', 'mguerin', 'Vf39WbH2', 11);
 INSERT INTO Utilisateur VALUES (120, 'Schmitt', 'Antoine', '12 Rue de la Lanterne', 'aschmitt', 'Ae72XpT9', 11);
 INSERT INTO Utilisateur VALUES (121, 'Hoffmann', 'Sophie', '9 Place de la République', 'shoffmann', 'Sh67VdJ1', 11);
@@ -180,6 +182,8 @@ INSERT INTO Utilisateur VALUES (122, 'Ougah', 'Léa', '14 Rue des Juifs', 'louga
 INSERT INTO Utilisateur VALUES (123, 'Becker', 'Paul', '20 Rue des Grandes Arcades', 'pbecker', 'Pb81FqM4', 11);
 INSERT INTO Utilisateur VALUES (124, 'Klein', 'Élisabeth', '3 Boulevard de la Victoire', 'eklein', 'Ek56NsV8', 11);
 INSERT INTO Utilisateur VALUES (125, 'Dufresne', 'Jacques', '7 Rue du Vieil Hôpital', 'jdufresne', 'Jd93RmL2', 11);
+INSERT INTO Utilisateur VALUES (342, 'Frizz', 'Missiz', '2 rue de la Bourgade', 'mfrizz', 'Pee38uXl', 11);
+INSERT INTO Utilisateur VALUES (343, 'Eggob', 'Docteur', '3 place Otomai', 'deggob', 'Byvv3Er', 11);
 
 /* Rennes 9 */
 INSERT INTO Utilisateur VALUES (126, 'Joubert', 'Alice', '18 Rue de la Monnaie', 'ajoubert', 'Cv29DfL1', 12);
@@ -287,7 +291,7 @@ INSERT INTO Utilisateur VALUES (213, 'Messi', 'Javier', '42 La Rambla', 'jmessi'
 INSERT INTO Utilisateur VALUES (214, 'Neymar', 'Rafael', '44 La Rambla', 'rneymar', 'Dw90VxT2', 19);
 INSERT INTO Utilisateur VALUES (215, 'Suarez', 'Fernando', '46 La Rambla', 'fsuarez', 'Mt56RdS5', 19);
 
-/* Lisbon 8 */
+/* Lisbon 8+1 */
 INSERT INTO Utilisateur VALUES (216, 'Costa', 'Pedro', '9 Rua Augusta', 'pcosta', 'Yt43RjK7', 20);
 INSERT INTO Utilisateur VALUES (217, 'Ronaldo', 'Cristiano', '11 Rua Augusta', 'cronaldo', 'Gp92TnV3', 20);
 INSERT INTO Utilisateur VALUES (218, 'Penaldo', 'Ricardo', '13 Rua Augusta', 'rpenaldo', 'Hv56BzT2', 20);
@@ -296,6 +300,7 @@ INSERT INTO Utilisateur VALUES (220, 'Penaldo', 'João', '17 Rua Augusta', 'jpen
 INSERT INTO Utilisateur VALUES (221, 'Ronaldo', 'Fernando', '19 Rua Augusta', 'fronaldo', 'Zn84YpJ1', 20);
 INSERT INTO Utilisateur VALUES (222, 'Penaldo', 'Tiago', '21 Rua Augusta', 'tpenaldo', 'Xy58RaF6', 20);
 INSERT INTO Utilisateur VALUES (223, 'Ronaldo', 'Antonio', '23 Rua Augusta', 'aronaldo', 'Rm74KlL0', 20);
+INSERT INTO Utilisateur VALUES (344, 'Ronaldo', 'Zentorno', '26 Rua Augusta', 'zronaldo', 'Kr28FGc0', 20);
 
 /* Brussels 12 */
 INSERT INTO Utilisateur VALUES (224, 'Van der Merwe', 'Elsa', '14 Avenue Louise', 'evandermerwe', 'Rp58MhT2', 21);
@@ -311,7 +316,7 @@ INSERT INTO Utilisateur VALUES (233, 'Boone', 'Isabelle', '38 Avenue Louise', 'i
 INSERT INTO Utilisateur VALUES (234, 'Renard', 'Thierry', '40 Avenue Louise', 'trenard', 'Vt47NzH1', 21);
 INSERT INTO Utilisateur VALUES (235, 'Martin', 'François', '42 Avenue Louise', 'fmartin', 'Jz18MpB5', 21);
 
-/* Amsterdam 7 */
+/* Amsterdam 7+2 */
 INSERT INTO Utilisateur VALUES (236, 'Janssen', 'Hugo', '17 Damstraat', 'hjanssen', 'Nz39FiP5', 22);
 INSERT INTO Utilisateur VALUES (237, 'Ziyech', 'Hakim', '19 Damstraat', 'hziyech', 'Rj72GhU4', 22);
 INSERT INTO Utilisateur VALUES (238, 'Tadic', 'Dusan', '21 Damstraat', 'dtadic', 'Ku84NxW3', 22);
@@ -319,6 +324,8 @@ INSERT INTO Utilisateur VALUES (239, 'Onana', 'Andre', '23 Damstraat', 'aonana',
 INSERT INTO Utilisateur VALUES (240, 'Blind', 'Daley', '25 Damstraat', 'dblind', 'Dp39HzM7', 22);
 INSERT INTO Utilisateur VALUES (241, 'Klaassen', 'Davy', '27 Damstraat', 'dklaassen', 'Zv23PjQ6', 22);
 INSERT INTO Utilisateur VALUES (242, 'Labyad', 'Zakaria', '29 Damstraat', 'zlabyad', 'He48UvB1', 22);
+INSERT INTO Utilisateur VALUES (345, 'Park', 'Chaewon', '78 Damstraat', 'pchaewon', '9dzij2d', 22);
+INSERT INTO Utilisateur VALUES (346, 'Harebourg', 'Comte', '15 Damstraat', 'charebourg', 'Fr1g05t', 22);
 
 /* Vienna 10 */
 INSERT INTO Utilisateur VALUES (243, 'Schuster', 'Anna', '2 Ringstrasse', 'aschuster', 'Wx52VsB8', 23);
@@ -359,7 +366,7 @@ INSERT INTO Utilisateur VALUES (273, 'Kimura', 'Haruto', '1 Chome-7-4 Shibuya', 
 INSERT INTO Utilisateur VALUES (274, 'Uchiha', 'Sasuke', '1 Chome-3-5 Konoha', 'suchiha', 'Fq84HnP1', 25);
 INSERT INTO Utilisateur VALUES (275, 'Naruto', 'Uzumaki', '2 Chome-1-9 Konoha', 'nuzumaki', 'Gp90TjQ3', 25);
 INSERT INTO Utilisateur VALUES (276, 'Haruno', 'Sakura', '3 Chome-5-6 Konoha', 'hsakura', 'Cn51BdL7', 25);
-INSERT INTO Utilisateur VALUES (277, 'Hyuuga', 'Hinata', '4 Chome-2-4 Konoha', 'hhyuuga', 'Wx76ZnR2', 25);
+INSERT INTO Utilisateur VALUES (277, 'Uchiha', 'Madara', '4 Chome-2-4 Konoha', 'muchiha', 'Wx76ZnR2', 25);
 
 
 /* Seoul 16 */
@@ -425,7 +432,7 @@ INSERT INTO Utilisateur VALUES (330, 'Bruno', 'Frank', '35 Park Row', 'frankbrun
 INSERT INTO Utilisateur VALUES (331, 'Johnson', 'William', '25 Park Avenue', 'wjohnson', 'Zo78VgQ4', 29);
 INSERT INTO Utilisateur VALUES (332, 'Capone', 'Al', '26 Lexington Ave', 'alcapone', 'Tp65VzP7', 29);
 
-/* Buenos Aires 8 */
+/* Buenos Aires 8+1 */
 INSERT INTO Utilisateur VALUES (333, 'Müller', 'Felix', '8 Avenida Libertador', 'fmuller', 'Zw56NpH3', 30);
 INSERT INTO Utilisateur VALUES (334, 'Diaz', 'Carlos', '32 Calle Corrientes', 'cdiaz', 'Xs47YvQ2', 30);
 INSERT INTO Utilisateur VALUES (335, 'Weber', 'Paul', '15 Avenida de Mayo', 'pweber', 'Dd84FzL5', 30);
@@ -434,3 +441,205 @@ INSERT INTO Utilisateur VALUES (337, 'Schulz', 'Tobias', '5 Calle Juan B. Justo'
 INSERT INTO Utilisateur VALUES (338, 'Fernandez', 'Lucía', '10 Calle Tucumán', 'lfernandez', 'Gb71QkW8', 30);
 INSERT INTO Utilisateur VALUES (339, 'Schmitt', 'Emilia', '13 Calle Belgrano', 'eschmitt', 'Vh50RtE3', 30);
 INSERT INTO Utilisateur VALUES (340, 'Martinez', 'Alberto', '28 Calle San Martín', 'amartinez', 'Tj84KuV1', 30);
+INSERT INTO Utilisateur VALUES (347, 'Pierre', 'Chabrier', '1 rue de la Marronaderie', 'pchabrier', 'Sk7vc8jk', 30);
+
+/* Directeurs des clubs */
+
+INSERT INTO Directeur VALUES (2017, 1, 1);
+INSERT INTO Directeur VALUES (2020, 17, 2);
+INSERT INTO Directeur VALUES (2015, 27, 3);
+INSERT INTO Directeur VALUES (2018, 35, 4);
+INSERT INTO Directeur VALUES (2013, 50, 5);
+INSERT INTO Directeur VALUES (2022, 64, 6);
+INSERT INTO Directeur VALUES (2016, 76, 7);
+INSERT INTO Directeur VALUES (2014, 86, 8);
+INSERT INTO Directeur VALUES (2021, 97, 9);
+INSERT INTO Directeur VALUES (2019, 106, 10);
+INSERT INTO Directeur VALUES (2012, 119, 11);
+INSERT INTO Directeur VALUES (2020, 126, 12);
+INSERT INTO Directeur VALUES (2017, 135, 13);
+INSERT INTO Directeur VALUES (2018, 145, 14);
+INSERT INTO Directeur VALUES (2015, 161, 15);
+INSERT INTO Directeur VALUES (2019, 173, 16);
+INSERT INTO Directeur VALUES (2021, 183, 17);
+INSERT INTO Directeur VALUES (2022, 194, 18);
+INSERT INTO Directeur VALUES (2013, 203, 19);
+INSERT INTO Directeur VALUES (2016, 216, 20);
+INSERT INTO Directeur VALUES (2014, 224, 21);
+INSERT INTO Directeur VALUES (2018, 236, 22);
+INSERT INTO Directeur VALUES (2020, 243, 23);
+INSERT INTO Directeur VALUES (2019, 253, 24);
+INSERT INTO Directeur VALUES (2022, 264, 25);
+INSERT INTO Directeur VALUES (2017, 278, 26);
+INSERT INTO Directeur VALUES (2015, 294, 27);
+INSERT INTO Directeur VALUES (2014, 309, 28);
+INSERT INTO Directeur VALUES (2021, 322, 29);
+INSERT INTO Directeur VALUES (2016, 333, 30);
+
+/* Administrateur */
+INSERT INTO Administrateur VALUES (2011, 271); 
+
+/* Concours */
+INSERT INTO Concours (numConcours, theme, dateDebut, dateFin, etat) VALUES
+(1, 'Concours Peinture hivernale', '2012-01-15', '2012-01-20', 'terminé'),
+(2, 'Concours Art Printanier', '2012-04-05', '2012-04-10', 'terminé'),
+(3, 'Concours Sculpture Estivale', '2012-07-12', '2012-07-18', 'terminé'),
+(4, 'Concours Gravure Automnale', '2012-10-01', '2012-10-07', 'terminé'),
+
+-- Année 2013 (terminé)
+(5, 'Concours Illustration Hiver', '2013-01-18', '2013-01-23', 'terminé'),
+(6, 'Concours Peinture Pastel', '2013-04-02', '2013-04-08', 'terminé'),
+(7, 'Concours Dessin Manga', '2013-07-14', '2013-07-19', 'terminé'),
+(8, 'Concours Gravure Créative', '2013-10-03', '2013-10-09', 'terminé'),
+
+-- Année 2014 (terminé)
+(9, 'Concours Art Contemporain', '2014-01-16', '2014-01-21', 'terminé'),
+(10, 'Concours Art de la Nature', '2014-04-06', '2014-04-11', 'terminé'),
+(11, 'Concours Art Urbain', '2014-07-13', '2014-07-17', 'terminé'),
+(12, 'Concours Sculpture Miniature', '2014-10-04', '2014-10-08', 'terminé'),
+
+-- Année 2015 (terminé)
+(13, 'Concours Art Numérique', '2015-01-14', '2015-01-18', 'terminé'),
+(14, 'Concours Paysage Printanier', '2015-04-07', '2015-04-12', 'terminé'),
+(15, 'Concours Peinture Impressionniste', '2015-07-10', '2015-07-15', 'terminé'),
+(16, 'Concours Dessin Automnal', '2015-10-06', '2015-10-10', 'terminé'),
+
+-- Année 2023 (terminé)
+(17, 'Concours Illustration Art Numérique', '2023-01-18', '2023-01-23', 'terminé'),
+(18, 'Concours Dessin en Plein Air', '2023-04-03', '2023-04-08', 'terminé'),
+(19, 'Concours Peinture Été', '2023-07-16', '2023-07-20', 'terminé'),
+
+-- Année 2024
+(20, 'Concours Sculpture Numérique', '2024-01-17', '2024-01-21', 'terminé'),
+(21, 'Concours Gravure Printanière', '2024-04-09', '2024-04-13', 'terminé'),
+(22, 'Concours Art Fantastique Été', '2024-07-15', '2024-07-19', 'terminé'),
+(23, 'Concours Dessin Automnal', '2024-10-10', '2024-10-15', 'terminé');
+
+-- Année 2025 (non commencé)
+INSERT INTO Concours (numConcours, theme, dateDebut, dateFin, etat) VALUES
+(24, 'Concours Peinture Hivernale 2025', '2025-01-15', '2025-01-20', 'en cours'),
+(25, 'Concours Illustration Printemps 2025', '2025-04-10', '2025-04-15', 'non commencé'),
+(26, 'Concours Sculpture Estivale 2025', '2025-07-12', '2025-07-18', 'non commencé'),
+(27, 'Concours Gravure Automnale 2025', '2025-10-08', '2025-10-14', 'non commencé');
+
+
+/* Presidents des concours */
+INSERT INTO President VALUES (1200, 1, 1)
+INSERT INTO President VALUES (1100, 17, 2);
+INSERT INTO President VALUES (1200, 20, 3);
+INSERT INTO President VALUES (1000, 30, 4);
+INSERT INTO President VALUES (1300, 40, 5);
+INSERT INTO President VALUES (1100, 50, 6);
+INSERT INTO President VALUES (1200, 60, 7);
+INSERT INTO President VALUES (1000, 70, 8);
+INSERT INTO President VALUES (1300, 80, 9);
+INSERT INTO President VALUES (1100, 90, 10);
+INSERT INTO President VALUES (1200, 100, 11);
+INSERT INTO President VALUES (1000, 110, 12);
+INSERT INTO President VALUES (1300, 120, 13);
+INSERT INTO President VALUES (1100, 130, 14);
+INSERT INTO President VALUES (1200, 140, 15);
+INSERT INTO President VALUES (1000, 150, 16);
+INSERT INTO President VALUES (1300, 160, 17);
+INSERT INTO President VALUES (1100, 170, 18);
+INSERT INTO President VALUES (1200, 180, 19);
+INSERT INTO President VALUES (1000, 190, 20);
+INSERT INTO President VALUES (1300, 200, 21);
+INSERT INTO President VALUES (1100, 210, 22);
+INSERT INTO President VALUES (1200, 220, 23);
+INSERT INTO President VALUES (1000, 230, 24);
+INSERT INTO President VALUES (1300, 240, 25);
+INSERT INTO President VALUES (1100, 250, 26);
+INSERT INTO President VALUES (1200, 260, 27);
+
+/* Evaluateur */
+INSERT INTO Evaluateur VALUES ("Pastel", 2);
+INSERT INTO Evaluateur VALUES ("Craie", 3);
+INSERT INTO Evaluateur VALUES ("Fusain", 4);
+INSERT INTO Evaluateur VALUES ("Aquarelle", 18);
+INSERT INTO Evaluateur VALUES ("Huile", 19);
+INSERT INTO Evaluateur VALUES ("Gouache", 20);
+INSERT INTO Evaluateur VALUES ("Fusain", 28);
+INSERT INTO Evaluateur VALUES ("Acrylique", 29);
+INSERT INTO Evaluateur VALUES ("Encre", 30);
+INSERT INTO Evaluateur VALUES ("Craie", 36);
+INSERT INTO Evaluateur VALUES ("Pastel", 37);
+INSERT INTO Evaluateur VALUES ("Huile", 38);
+INSERT INTO Evaluateur VALUES ("Aquarelle", 51);
+INSERT INTO Evaluateur VALUES ("Fusain", 52);
+INSERT INTO Evaluateur VALUES ("Craie", 53);
+INSERT INTO Evaluateur VALUES ("Pastel", 65);
+INSERT INTO Evaluateur VALUES ("Gouache", 66);
+INSERT INTO Evaluateur VALUES ("Acrylique", 67);
+INSERT INTO Evaluateur VALUES ("Huile", 77);
+INSERT INTO Evaluateur VALUES ("Aquarelle", 78);
+INSERT INTO Evaluateur VALUES ("Encre", 79);
+INSERT INTO Evaluateur VALUES ("Pastel", 87);
+INSERT INTO Evaluateur VALUES ("Gouache", 88);
+INSERT INTO Evaluateur VALUES ("Craie", 89);
+INSERT INTO Evaluateur VALUES ("Encre", 98);
+INSERT INTO Evaluateur VALUES ("Fusain", 99);
+INSERT INTO Evaluateur VALUES ("Acrylique", 100);
+INSERT INTO Evaluateur VALUES ("Aquarelle", 107);
+INSERT INTO Evaluateur VALUES ("Pastel", 108);
+INSERT INTO Evaluateur VALUES ("Huile", 109);
+INSERT INTO Evaluateur VALUES ("Craie", 120);
+INSERT INTO Evaluateur VALUES ("Fusain", 121);
+INSERT INTO Evaluateur VALUES ("Encre", 122);
+INSERT INTO Evaluateur VALUES ("Gouache", 127);
+INSERT INTO Evaluateur VALUES ("Huile", 128);
+INSERT INTO Evaluateur VALUES ("Fusain", 129);
+INSERT INTO Evaluateur VALUES ("Acrylique", 136);
+INSERT INTO Evaluateur VALUES ("Pastel", 137);
+INSERT INTO Evaluateur VALUES ("Encre", 138);
+INSERT INTO Evaluateur VALUES ("Fusain", 146);
+INSERT INTO Evaluateur VALUES ("Aquarelle", 147);
+INSERT INTO Evaluateur VALUES ("Huile", 148);
+INSERT INTO Evaluateur VALUES ("Craie", 162);
+INSERT INTO Evaluateur VALUES ("Gouache", 163);
+INSERT INTO Evaluateur VALUES ("Pastel", 164);
+INSERT INTO Evaluateur VALUES ("Encre", 174);
+INSERT INTO Evaluateur VALUES ("Acrylique", 175);
+INSERT INTO Evaluateur VALUES ("Craie", 176);
+INSERT INTO Evaluateur VALUES ("Fusain", 184);
+INSERT INTO Evaluateur VALUES ("Huile", 185);
+INSERT INTO Evaluateur VALUES ("Acrylique", 186);
+INSERT INTO Evaluateur VALUES ("Pastel", 195);
+INSERT INTO Evaluateur VALUES ("Encre", 196);
+INSERT INTO Evaluateur VALUES ("Craie", 197);
+INSERT INTO Evaluateur VALUES ("Aquarelle", 204);
+INSERT INTO Evaluateur VALUES ("Fusain", 205);
+INSERT INTO Evaluateur VALUES ("Huile", 206);
+INSERT INTO Evaluateur VALUES ("Gouache", 217);
+INSERT INTO Evaluateur VALUES ("Pastel", 218);
+INSERT INTO Evaluateur VALUES ("Craie", 219);
+INSERT INTO Evaluateur VALUES ("Encre", 225);
+INSERT INTO Evaluateur VALUES ("Acrylique", 226);
+INSERT INTO Evaluateur VALUES ("Aquarelle", 227);
+INSERT INTO Evaluateur VALUES ("Craie", 237);
+INSERT INTO Evaluateur VALUES ("Gouache", 238);
+INSERT INTO Evaluateur VALUES ("Fusain", 239);
+INSERT INTO Evaluateur VALUES ("Acrylique", 244);
+INSERT INTO Evaluateur VALUES ("Huile", 245);
+INSERT INTO Evaluateur VALUES ("Encre", 246);
+INSERT INTO Evaluateur VALUES ("Pastel", 254);
+INSERT INTO Evaluateur VALUES ("Aquarelle", 255);
+INSERT INTO Evaluateur VALUES ("Craie", 256);
+INSERT INTO Evaluateur VALUES ("Fusain", 265);
+INSERT INTO Evaluateur VALUES ("Huile", 266);
+INSERT INTO Evaluateur VALUES ("Encre", 267);
+INSERT INTO Evaluateur VALUES ("Craie", 279);
+INSERT INTO Evaluateur VALUES ("Acrylique", 280);
+INSERT INTO Evaluateur VALUES ("Pastel", 281);
+INSERT INTO Evaluateur VALUES ("Fusain", 295);
+INSERT INTO Evaluateur VALUES ("Huile", 296);
+INSERT INTO Evaluateur VALUES ("Aquarelle", 297);
+INSERT INTO Evaluateur VALUES ("Craie", 310);
+INSERT INTO Evaluateur VALUES ("Pastel", 311);
+INSERT INTO Evaluateur VALUES ("Encre", 312);
+INSERT INTO Evaluateur VALUES ("Fusain", 323);
+INSERT INTO Evaluateur VALUES ("Acrylique", 324);
+INSERT INTO Evaluateur VALUES ("Gouache", 325);
+INSERT INTO Evaluateur VALUES ("Huile", 334);
+INSERT INTO Evaluateur VALUES ("Aquarelle", 335);
+INSERT INTO Evaluateur VALUES ("Craie", 336);

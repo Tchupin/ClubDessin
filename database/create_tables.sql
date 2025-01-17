@@ -8,9 +8,9 @@ DROP TABLE IF EXISTS CompetiteurParticipe;
 DROP TABLE IF EXISTS Evaluation;
 DROP TABLE IF EXISTS Dessin;
 DROP TABLE IF EXISTS Competiteur;
-DROP TABLE IF EXISTS Concours;
 DROP TABLE IF EXISTS Evaluateur;
 DROP TABLE IF EXISTS President;
+DROP TABLE IF EXISTS Concours;
 DROP TABLE IF EXISTS Administrateur;
 DROP TABLE IF EXISTS Directeur;
 DROP TABLE IF EXISTS Utilisateur;
@@ -22,7 +22,7 @@ CREATE TABLE Club (
     numClub INT AUTO_INCREMENT PRIMARY KEY,
     nomClub VARCHAR(100) NOT NULL,
     adresse TEXT,
-    numTelephone VARCHAR(15),
+    numTelephone VARCHAR(10),
     nombreAdherents INT,
     ville VARCHAR(50),
     departement VARCHAR(50),
@@ -54,24 +54,26 @@ CREATE TABLE Administrateur (
     FOREIGN KEY (numAdministrateur) REFERENCES Utilisateur(numUtilisateur)
 );
 
-CREATE TABLE President (
-    prime DECIMAL(10, 2),
-    numPresident INT PRIMARY KEY,
-    FOREIGN KEY (numPresident) REFERENCES Utilisateur(numUtilisateur)
-);
-
-CREATE TABLE Evaluateur (
-    specialite VARCHAR(100) NOT NULL,
-    numEvaluateur INT PRIMARY KEY,
-    FOREIGN KEY (numEvaluateur) REFERENCES Utilisateur(numUtilisateur)
-);
-
 CREATE TABLE Concours (
     numConcours INT AUTO_INCREMENT PRIMARY KEY,
     theme VARCHAR(255) NOT NULL,
     dateDebut DATE NOT NULL,
     dateFin DATE NOT NULL,
     etat VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE President (
+    prime DECIMAL(10, 2),
+    numPresident INT PRIMARY KEY,
+    numConcours INT PRIMARY KEY,
+    FOREIGN KEY (numPresident) REFERENCES Utilisateur(numUtilisateur),
+    FOREIGN KEY (numConcours) REFERENCES Concours(numConcours)
+);
+
+CREATE TABLE Evaluateur (
+    specialite VARCHAR(100) NOT NULL,
+    numEvaluateur INT PRIMARY KEY,
+    FOREIGN KEY (numEvaluateur) REFERENCES Utilisateur(numUtilisateur)
 );
 
 CREATE TABLE Competiteur (
