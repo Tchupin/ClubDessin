@@ -7,7 +7,6 @@ DROP TABLE IF EXISTS President;
 DROP TABLE IF EXISTS Concours;
 DROP TABLE IF EXISTS Evaluateur;
 DROP TABLE IF EXISTS Competiteur;
-
 DROP TABLE IF EXISTS Directeur;
 DROP TABLE IF EXISTS Administrateur;
 DROP TABLE IF EXISTS Utilisateur;
@@ -30,6 +29,7 @@ CREATE TABLE Utilisateur (
     nom VARCHAR(40),
     prenom VARCHAR(40),
     adresse VARCHAR(120),
+    age int,
     login VARCHAR(20),
     motdepasse VARCHAR(40),
     numClub INT,
