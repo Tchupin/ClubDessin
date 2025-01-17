@@ -1,132 +1,78 @@
-drop table if exists Reservation;
-drop table if exists Client;
-drop table if exists Chambre;
-drop table if exists Hotel;
-drop table if exists Station;
+INSERT INTO Concours (theme, dateDebut, dateFin) VALUES
+-- Année 2012
+('Concours Peinture hivernale', '2012-01-15', '2012-01-20'),
+('Concours Art Printanier', '2012-04-05', '2012-04-10'),
+('Concours Sculpture Estivale', '2012-07-12', '2012-07-18'),
+('Concours Gravure Automnale', '2012-10-01', '2012-10-07'),
 
-CREATE TABLE Station(
-    numsta smallint AUTO_INCREMENT,
-    nomsta varchar(40),
-    altitude float,
-    region varchar(20),
-    PRIMARY KEY(numsta)
-);
+-- Année 2013
+('Concours Illustration Hiver', '2013-01-18', '2013-01-23'),
+('Concours Peinture Pastel', '2013-04-02', '2013-04-08'),
+('Concours Dessin Manga', '2013-07-14', '2013-07-19'),
+('Concours Gravure Créative', '2013-10-03', '2013-10-09'),
 
-CREATE TABLE Hotel(
-    numhot integer AUTO_INCREMENT,
-    nomhot varchar(20),
-    numsta smallint,
-    categorie smallint,
-    PRIMARY KEY(numhot),
-    FOREIGN KEY(numsta) REFERENCES Station(numsta)
-);
+-- Année 2014
+('Concours Art Contemporain', '2014-01-16', '2014-01-21'),
+('Concours Art de la Nature', '2014-04-06', '2014-04-11'),
+('Concours Art Urbain', '2014-07-13', '2014-07-17'),
+('Concours Sculpture Miniature', '2014-10-04', '2014-10-08'),
 
-CREATE TABLE Client(
-    numcli integer AUTO_INCREMENT,
-    nomcli varchar(40),
-    adrcli varchar(120),
-    telcli char(10),
-    PRIMARY KEY(numcli)
-);
+-- Année 2015
+('Concours Art Numérique', '2015-01-14', '2015-01-18'),
+('Concours Paysage Printanier', '2015-04-07', '2015-04-12'),
+('Concours Peinture Impressionniste', '2015-07-10', '2015-07-15'),
+('Concours Dessin Automnal', '2015-10-06', '2015-10-10'),
 
-CREATE TABLE Chambre(
-    numch integer,
-    numhot integer,
-    nblits integer(4),
-    PRIMARY KEY(numhot,numch),
-    FOREIGN KEY(numhot) REFERENCES Hotel(numhot)
-);
-CREATE TABLE Reservation(
-    numcli integer,
-    numhot integer,
-    numch integer,
-    datedeb Date,
-    datefin Date,
-    nbpers smallint check(nbpers<10),
-    PRIMARY KEY(numcli,numhot,numch,datedeb),
-    FOREIGN KEY(numcli) REFERENCES Client(numcli),
-    FOREIGN KEY(numhot) REFERENCES Hotel(numhot),
-    FOREIGN KEY(numhot,numch) REFERENCES Chambre(numhot,numch),
-    CONSTRAINT DateVerif CHECK (datefin > datedeb)
-);
+-- Année 2016
+('Concours Gravure Hivernale', '2016-01-12', '2016-01-17'),
+('Concours Peinture Abstraite', '2016-04-03', '2016-04-09'),
+('Concours Illustration Fantastique', '2016-07-11', '2016-07-16'),
+('Concours Art Médiéval', '2016-10-05', '2016-10-11'),
 
+-- Année 2017
+('Concours Dessin de Portraits', '2017-01-20', '2017-01-25'),
+('Concours Art Floral', '2017-04-04', '2017-04-10'),
+('Concours Paysage Maritime', '2017-07-16', '2017-07-21'),
+('Concours Art Automnal', '2017-10-07', '2017-10-12'),
 
--- Insertion dans la table Station
-INSERT INTO Station (nomsta, altitude, region) VALUES
-('Alpes d''Huez', 1860, 'Rhônes-Alpes'),
-('Chabanon', 1500, 'Provence-Alpes-Côtes-D''Azur'),
-('Montgenevre',1860,'Hautes Alpes'),
-('Orcieres Merlette',1850,'Hautes Alpes')
-;
+-- Année 2018
+('Concours Art Digital', '2018-01-19', '2018-01-23'),
+('Concours Sculpture Printanière', '2018-04-09', '2018-04-13'),
+('Concours Illustration Été', '2018-07-18', '2018-07-22'),
+('Concours Dessin Créatif', '2018-10-09', '2018-10-14'),
 
--- Insertion dans la table Hotel
-INSERT INTO Hotel (numsta, nomhot, categorie) VALUES
-(1, 'Au Chamois', 3),
-(1, 'Le Castillan', 4),
-(2, 'Le Blanchon', 2),
-(2, 'Le Relais de la Forge', 2),
-(3, 'Le Chalet Blanc', 5),
-(3, 'Anova Hotel et Spa', 1),
-(4, 'Les Etoiles d''Orion', 3),
-(4, 'Les Catrems', 1)
-;
+-- Année 2019
+('Concours Illustration Numérique', '2019-01-17', '2019-01-22'),
+('Concours Peinture Nature', '2019-04-10', '2019-04-15'),
+('Concours Dessin d''Été', '2019-07-13', '2019-07-18'),
+('Concours Gravure Créative', '2019-10-06', '2019-10-11'),
 
--- Insertion dans la table Chambre
-INSERT INTO Chambre (numhot, numch, nblits) VALUES
-(1, 10, 1),
-(1, 20, 2),
-(1, 30, 4),
-(2, 10, 1),
-(2, 20, 2),
-(2, 30, 4),
-(3, 10, 1),
-(3, 20, 2),
-(3, 30, 4),
-(4, 10, 1),
-(4, 20, 2),
-(4, 30, 4),
-(5, 10, 1),
-(5, 20, 2),
-(5, 30, 4),
-(6, 10, 1),
-(6, 20, 2),
-(6, 30, 4),
-(7, 10, 1),
-(7, 20, 2),
-(7, 30, 4),
-(8, 10, 1),
-(8, 20, 2),
-(8, 30, 4)
-;
+-- Année 2020
+('Concours Sculpture Hiver', '2020-01-14', '2020-01-18'),
+('Concours Illustration Printemps', '2020-04-08', '2020-04-12'),
+('Concours Art Été', '2020-07-11', '2020-07-16'),
+('Concours Paysage Automnal', '2020-10-04', '2020-10-09'),
 
--- Insertion dans la table Client
-INSERT INTO Client (nomcli, adrcli, telcli) VALUES
-('Luc Durand', '18 Av Saint Priest, Montpellier', '0123456789'),
-('Patrice Dehais', '4 rue de Tunis, Marseille', '0234567890'),
-('Valentin Rey', '10 place de l''Europe, Angers', '0345678901'),
-('David Bignan', '5 impasse Croix Blance, Nantes', '0456789012'),
-('Yanis Temmim', '1 Rue Arthur Rimbaud, Saint-Denis', '0636455982'),
-('Eugy Helecafart', '19bis Boulevard des cafards', '0456989012'),
-('Robert Balavoine', '5 rue de l''Esperence, Bordeaux', '0786789012')
-;
+-- Année 2021
+('Concours Art Fantastique', '2021-01-13', '2021-01-17'),
+('Concours Gravure Nature', '2021-04-05', '2021-04-10'),
+('Concours Art Maritime', '2021-07-08', '2021-07-13'),
+('Concours Dessin Automnal', '2021-10-02', '2021-10-07'),
 
--- Insertion dans la table Reservation
-INSERT INTO Reservation (numcli, numhot, numch, datedeb, datefin, nbpers) VALUES
-(1, 1, 10, '2014-02-01', '2014-02-07', 2),
-(1, 3, 30, '2018-05-01', '2018-05-05', 3),
-(2, 3, 20, '2017-07-01', '2017-07-05', 3),
-(2, 4, 10, '2019-08-20', '2019-08-22', 2),
-(3, 1, 30, '2013-09-01', '2013-09-07', 2),
-(3, 4, 30, '2020-01-15', '2020-01-17', 1),
-(4, 2, 20, '2017-05-10', '2017-05-12', 2),
-(4, 3, 30, '2021-06-01', '2021-06-04', 4),
-(5, 1, 20, '2015-02-01', '2015-02-07', 2),
-(5, 2, 10, '2017-09-01', '2017-09-05', 3),
-(6, 1, 10, '2016-10-01', '2016-10-07', 1),
-(6, 2, 20, '2018-11-15', '2018-11-18', 3),
-(7, 1, 10, '2012-02-10', '2012-02-12', 3),
-(7, 4, 20, '2018-06-01', '2018-06-03', 1);
+-- Année 2022
+('Concours Art Nouveau', '2022-01-15', '2022-01-19'),
+('Concours Peinture Moderne', '2022-04-06', '2022-04-11'),
+('Concours Aquarelle Été', '2022-07-14', '2022-07-18'),
+('Concours Dessin Paysager', '2022-10-08', '2022-10-12'),
 
+-- Année 2023
+('Concours Illustration Art Numérique', '2023-01-18', '2023-01-23'),
+('Concours Dessin en Plein Air', '2023-04-03', '2023-04-08'),
+('Concours Peinture Été', '2023-07-16', '2023-07-20'),
+('Concours Art Automnal', '2023-10-05', '2023-10-09'),
 
-select titre from film, Role, Artiste rea , Artiste act
-where id_realisateur = rea.id_artiste and Film.id_film = Role.id_film and Role.id_acteur = act.id_artiste and upper(rea.nom) = 'WOO' and upper(act.nom) = 'CAGE';
+-- Année 2024
+('Concours Sculpture Numérique', '2024-01-17', '2024-01-21'),
+('Concours Gravure Printanière', '2024-04-09', '2024-04-13'),
+('Concours Art Fantastique Été', '2024-07-15', '2024-07-19'),
+('Concours Dessin Automnal', '2024-10-10', '2024-10-15');
