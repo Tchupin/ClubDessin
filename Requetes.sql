@@ -34,3 +34,55 @@ WHERE
     YEAR(Evaluation.dateEvaluation) = 2022
 ORDER BY 
     Evaluation.note ASC;
+
+----------------------------------------------------------------------
+
+Requête 3
+
+SELECT 
+    Dessin.numDessin,
+    YEAR(Dessin.dateRemise) AS Annee,  -- L'année de la remise du dessin
+    Concours.description AS ConcoursDescription,  -- Description du concours
+    Utilisateur.nom AS CompetiteurNom,  -- Nom du compétiteur
+    Dessin.numDessin AS DessinNum,  -- Numéro du dessin
+    Dessin.commentaire AS DessinCommentaire,  -- Commentaire du compétiteur sur le dessin
+    Evaluation.note AS EvaluationNote,  -- Note attribuée au dessin
+    Evaluation.commentaire AS EvaluationCommentaire,  -- Commentaire de l'évaluateur
+    UtilisateurEvaluateur.nom AS EvaluateurNom  -- Nom de l'évaluateur
+FROM 
+    Dessin
+JOIN 
+    Concours ON Dessin.numConcours = Concours.numConcours
+JOIN 
+    Utilisateur ON Dessin.numCompetiteur = Utilisateur.numUtilisateur
+JOIN 
+    Evaluation ON Dessin.numDessin = Evaluation.numDessin
+JOIN 
+    Utilisateur AS UtilisateurEvaluateur ON Evaluation.numEvaluateur = UtilisateurEvaluateur.numUtilisateur;
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+Requête 4 
+
+SELECT 
+    Utilisateur.nom, 
+    Utilisateur.prenom, 
+    Utilisateur.age
+FROM 
+    Utilisateur
+WHERE 
+    NOT EXISTS (
+        SELECT 1 
+        FROM Concours 
+        WHERE NOT EXISTS (
+            SELECT 1 
+            FROM CompetiteurParticipe 
+            WHERE CompetiteurParticipe.numCompetiteur = Utilisateur.numUtilisateur
+            AND CompetiteurParticipe.numConcours = Concours.numConcours
+        )
+    )
+ORDER BY 
+    Utilisateur.age ASC;
+
+----------------------------------------------------------------------------
