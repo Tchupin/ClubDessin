@@ -14,3 +14,23 @@ JOIN Concours C ON CP.numConcours = C.numConcours
 JOIN Club CL ON U.numClub = CL.numClub WHERE YEAR(C.dateDebut) = 2023;
 
 -----------------------------------------------------------------------
+
+Requête 2
+
+SELECT 
+    Dessin.numDessin,
+    Evaluation.note,
+    Utilisateur.nom AS CompetiteurNom,
+    Concours.theme AS Theme
+FROM 
+    Dessin
+JOIN 
+    Evaluation ON Dessin.numDessin = Evaluation.numDessin
+JOIN 
+    Utilisateur ON Dessin.numCompetiteur = Utilisateur.numUtilisateur
+JOIN 
+    Concours ON Dessin.numConcours = Concours.numConcours
+WHERE 
+    YEAR(Evaluation.dateEvaluation) = 2022
+ORDER BY 
+    Evaluation.note ASC;
