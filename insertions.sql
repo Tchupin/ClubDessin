@@ -3,7 +3,7 @@
 /* Clubs */
 INSERT INTO Club VALUES (1,'Angers Dessine', '14 Rue du Musée', '0250251193', 16, 'Angers', 'Maine-et-Loire', 'Pays de la Loire');
 INSERT INTO Club VALUES (2, 'Paris Artistes', '12 Boulevard de la Republique', '0140253636', 10, 'Paris', 'Ile-de-France', 'France');
-INSERT INTO Club VALUES (3, 'Paris Culture', '34 Avenue de lOpera', '0140259876', 8, 'Paris', 'Ile-de-France', 'France');
+INSERT INTO Club VALUES (3, 'Paris Culture', '34 Avenue de lOpera', '0140259876', 10, 'Paris', 'Ile-de-France', 'France');
 INSERT INTO Club VALUES (4, 'Lyon Creatif', '5 Rue de la Liberte', '0478526935', 15, 'Lyon', 'Rhone', 'Auvergne-Rhone-Alpes');
 INSERT INTO Club VALUES (5, 'Marseille Express', '7 Boulevard des Docks', '0491514625', 14, 'Marseille', 'Bouches-du-Rhone', 'Provence-Alpes-Cote dAzur');
 INSERT INTO Club VALUES (6, 'Toulouse Innovation', '13 Rue du Languedoc', '0561374859', 12, 'Toulouse', 'Haute-Garonne', 'Occitanie');
@@ -11,7 +11,7 @@ INSERT INTO Club VALUES (7, 'Nice Vision', '20 Avenue Jean Medecin', '0493887745
 INSERT INTO Club VALUES (8, 'Lille Creations', '8 Place du General de Gaulle', '0320741865', 11, 'Lille', 'Nord', 'Hauts-de-France');
 INSERT INTO Club VALUES (9, 'Bordeaux Fusion', '9 Rue Sainte-Catherine', '0556987453', 9, 'Bordeaux', 'Gironde', 'Nouvelle-Aquitaine');
 INSERT INTO Club VALUES (10, 'Nantes Horizon', '6 Quai de la Fosse', '0240985643', 13, 'Nantes', 'Loire-Atlantique', 'Pays de la Loire');
-INSERT INTO Club VALUES (11, 'Strasbourg Impressions', '15 Rue des Hallebardes', '0388246398', 7, 'Strasbourg', 'Bas-Rhin', 'Grand Est');
+INSERT INTO Club VALUES (11, 'Strasbourg Impressions', '15 Rue des Hallebardes', '0388246398', 9, 'Strasbourg', 'Bas-Rhin', 'Grand Est');
 INSERT INTO Club VALUES (12, 'Rennes Art', '11 Rue de la Monnaie', '0299764825', 9, 'Rennes', 'Ille-et-Vilaine', 'Bretagne');
 INSERT INTO Club VALUES (13, 'Grenoble Innovations', '3 Place Victor Hugo', '0476893274', 10, 'Grenoble', 'Isere', 'Auvergne-Rhone-Alpes');
 INSERT INTO Club VALUES (14, 'Biarritz Créations', '12 Rue de la Plage', '0559421134', 12, 'Biarritz', 'Pyrénées-Atlantiques', 'Nouvelle-Aquitaine');
@@ -20,9 +20,9 @@ INSERT INTO Club VALUES (16, 'Rome Creativo', '15 Via del Corso', '0667432189', 
 INSERT INTO Club VALUES (17, 'Berlin Kultur', '9 Unter den Linden', '0305678987', 11, 'Berlin', 'Berlin', 'Allemagne');
 INSERT INTO Club VALUES (18, 'London Ideas', '5 Oxford Street', '0207946123', 9, 'London', 'Greater London', 'Royaume-Uni');
 INSERT INTO Club VALUES (19, 'Barcelona Vision', '21 La Rambla', '0934235678', 13, 'Barcelona', 'Catalunya', 'Espagne');
-INSERT INTO Club VALUES (20, 'Lisbon Arts', '3 Rua Augusta', '0216754321', 8, 'Lisbon', 'Lisboa', 'Portugal');
+INSERT INTO Club VALUES (20, 'Lisbon Arts', '3 Rua Augusta', '0216754321', 9, 'Lisbon', 'Lisboa', 'Portugal');
 INSERT INTO Club VALUES (21, 'Brussels Creativity', '18 Avenue Louise', '0279246701', 12, 'Brussels', 'Brussels-Capital', 'Belgique');
-INSERT INTO Club VALUES (22, 'Amsterdam Design', '12 Damstraat', '0206347589', 7, 'Amsterdam', 'Noord-Holland', 'Pays-Bas');
+INSERT INTO Club VALUES (22, 'Amsterdam Design', '12 Damstraat', '0206347589', 9, 'Amsterdam', 'Noord-Holland', 'Pays-Bas');
 INSERT INTO Club VALUES (23, 'Vienna Arts', '14 Ringstrasse', '0157543123', 10, 'Vienna', 'Wien', 'Autriche');
 INSERT INTO Club VALUES (24, 'Zurich Art Space', '22 Bahnhofstrasse', '0441236789', 11, 'Zurich', 'Zurich', 'Suisse');
 INSERT INTO Club VALUES (25, 'Tokyo Art', '7 Chome-1-2 Marunouchi', '0332168745', 14, 'Tokyo', 'Tokyo', 'Japon');
@@ -30,7 +30,7 @@ INSERT INTO Club VALUES (26, 'Seoul Vision', '10 Insadong-gil', '0276248976', 16
 INSERT INTO Club VALUES (27, 'Singapore Creatives', '25 Orchard Road', '0653657890', 15, 'Singapore', 'Singapore', 'Singapour');
 INSERT INTO Club VALUES (28, 'Los Angeles Innovation', '3500 Wilshire Blvd', '3236583921', 13, 'Los Angeles', 'California', 'Etats-Unis');
 INSERT INTO Club VALUES (29, 'New York Ideas', '45 Park Avenue', '2128564301', 11, 'New York', 'New York', 'Etats-Unis');
-INSERT INTO Club VALUES (30, 'Buenos Aires Art', '100 Avenida 9 de Julio', '0114432178', 8, 'Buenos Aires', 'Ciudad Autonoma de Buenos Aires', 'Argentine');
+INSERT INTO Club VALUES (30, 'Buenos Aires Art', '100 Avenida 9 de Julio', '0114432178', 9, 'Buenos Aires', 'Ciudad Autonoma de Buenos Aires', 'Argentine');
 
 /* Utilisateurs */
 
@@ -485,46 +485,29 @@ INSERT INTO Administrateur VALUES (2011, 271);
 
 /* Concours */
 INSERT INTO Concours (numConcours, theme, dateDebut, dateFin, etat) VALUES
-(1, 'Concours Peinture hivernale', '2012-01-15', '2012-01-20', 'terminé'),
-(2, 'Concours Art Printanier', '2012-04-05', '2012-04-10', 'terminé'),
-(3, 'Concours Sculpture Estivale', '2012-07-12', '2012-07-18', 'terminé'),
-(4, 'Concours Gravure Automnale', '2012-10-01', '2012-10-07', 'terminé'),
-
--- Année 2013 (terminé)
-(5, 'Concours Illustration Hiver', '2013-01-18', '2013-01-23', 'terminé'),
-(6, 'Concours Peinture Pastel', '2013-04-02', '2013-04-08', 'terminé'),
-(7, 'Concours Dessin Manga', '2013-07-14', '2013-07-19', 'terminé'),
-(8, 'Concours Gravure Créative', '2013-10-03', '2013-10-09', 'terminé'),
-
--- Année 2014 (terminé)
-(9, 'Concours Art Contemporain', '2014-01-16', '2014-01-21', 'terminé'),
-(10, 'Concours Art de la Nature', '2014-04-06', '2014-04-11', 'terminé'),
-(11, 'Concours Art Urbain', '2014-07-13', '2014-07-17', 'terminé'),
-(12, 'Concours Sculpture Miniature', '2014-10-04', '2014-10-08', 'terminé'),
-
 -- Année 2015 (terminé)
-(13, 'Concours Art Numérique', '2015-01-14', '2015-01-18', 'terminé'),
-(14, 'Concours Paysage Printanier', '2015-04-07', '2015-04-12', 'terminé'),
-(15, 'Concours Peinture Impressionniste', '2015-07-10', '2015-07-15', 'terminé'),
-(16, 'Concours Dessin Automnal', '2015-10-06', '2015-10-10', 'terminé'),
+(1, 'Concours Art Numérique', '2015-01-14', '2015-01-18', 'terminé'),
+(2, 'Concours Paysage Printanier', '2015-04-07', '2015-04-12', 'terminé'),
+(3, 'Concours Peinture Impressionniste', '2015-07-10', '2015-07-15', 'terminé'),
+(4, 'Concours Dessin Automnal', '2015-10-06', '2015-10-10', 'terminé'),
 
 -- Année 2023 (terminé)
-(17, 'Concours Illustration Art Numérique', '2023-01-18', '2023-01-23', 'terminé'),
-(18, 'Concours Dessin en Plein Air', '2023-04-03', '2023-04-08', 'terminé'),
-(19, 'Concours Peinture Été', '2023-07-16', '2023-07-20', 'terminé'),
+(5, 'Concours Illustration Art Numérique', '2023-01-18', '2023-01-23', 'terminé'),
+(6, 'Concours Dessin en Plein Air', '2023-04-03', '2023-04-08', 'terminé'),
+(7, 'Concours Peinture Été', '2023-07-16', '2023-07-20', 'terminé'),
 
 -- Année 2024
-(20, 'Concours Sculpture Numérique', '2024-01-17', '2024-01-21', 'terminé'),
-(21, 'Concours Gravure Printanière', '2024-04-09', '2024-04-13', 'terminé'),
-(22, 'Concours Art Fantastique Été', '2024-07-15', '2024-07-19', 'terminé'),
-(23, 'Concours Dessin Automnal', '2024-10-10', '2024-10-15', 'terminé');
+(8, 'Concours Sculpture Numérique', '2024-01-17', '2024-01-21', 'terminé'),
+(9, 'Concours Gravure Printanière', '2024-04-09', '2024-04-13', 'terminé'),
+(10, 'Concours Art Fantastique Été', '2024-07-15', '2024-07-19', 'terminé'),
+(11, 'Concours Dessin Automnal', '2024-10-10', '2024-10-15', 'terminé');
 
 -- Année 2025 (non commencé)
 INSERT INTO Concours (numConcours, theme, dateDebut, dateFin, etat) VALUES
-(24, 'Concours Peinture Hivernale 2025', '2025-01-15', '2025-01-20', 'en cours'),
-(25, 'Concours Illustration Printemps 2025', '2025-04-10', '2025-04-15', 'non commencé'),
-(26, 'Concours Sculpture Estivale 2025', '2025-07-12', '2025-07-18', 'non commencé'),
-(27, 'Concours Gravure Automnale 2025', '2025-10-08', '2025-10-14', 'non commencé');
+(12, 'Concours Peinture Hivernale 2025', '2025-01-15', '2025-01-20', 'en cours'),
+(13, 'Concours Illustration Printemps 2025', '2025-04-10', '2025-04-15', 'non commencé'),
+(14, 'Concours Sculpture Estivale 2025', '2025-07-12', '2025-07-18', 'non commencé'),
+(15, 'Concours Gravure Automnale 2025', '2025-10-08', '2025-10-14', 'non commencé');
 
 
 /* Presidents des concours */
@@ -908,3 +891,110 @@ INSERT INTO Competiteur VALUES (2012, 344);
 INSERT INTO Competiteur VALUES (2012, 345);
 INSERT INTO Competiteur VALUES (2012, 346);
 INSERT INTO Competiteur VALUES (2012, 347);
+
+-- Concours 1
+INSERT INTO ClubParticipe VALUES (1, 1);
+INSERT INTO ClubParticipe VALUES (2, 1);
+INSERT INTO ClubParticipe VALUES (3, 1);
+INSERT INTO ClubParticipe VALUES (4, 1);
+INSERT INTO ClubParticipe VALUES (5, 1);
+INSERT INTO ClubParticipe VALUES (6, 1);
+-- Concours 2
+INSERT INTO ClubParticipe VALUES (7, 2);
+INSERT INTO ClubParticipe VALUES (8, 2);
+INSERT INTO ClubParticipe VALUES (9, 2);
+INSERT INTO ClubParticipe VALUES (10, 2);
+INSERT INTO ClubParticipe VALUES (11, 2);
+INSERT INTO ClubParticipe VALUES (12, 2);
+-- Concours 3
+INSERT INTO ClubParticipe VALUES (13, 3);
+INSERT INTO ClubParticipe VALUES (14, 3);
+INSERT INTO ClubParticipe VALUES (15, 3);
+INSERT INTO ClubParticipe VALUES (16, 3);
+INSERT INTO ClubParticipe VALUES (17, 3);
+INSERT INTO ClubParticipe VALUES (18, 3);
+-- Concours 4
+INSERT INTO ClubParticipe VALUES (19, 4);
+INSERT INTO ClubParticipe VALUES (20, 4);
+INSERT INTO ClubParticipe VALUES (21, 4);
+INSERT INTO ClubParticipe VALUES (22, 4);
+INSERT INTO ClubParticipe VALUES (23, 4);
+INSERT INTO ClubParticipe VALUES (24, 4);
+-- Concours 5
+INSERT INTO ClubParticipe VALUES (25, 5);
+INSERT INTO ClubParticipe VALUES (26, 5);
+INSERT INTO ClubParticipe VALUES (27, 5);
+INSERT INTO ClubParticipe VALUES (28, 5);
+INSERT INTO ClubParticipe VALUES (29, 5);
+INSERT INTO ClubParticipe VALUES (30, 5);
+-- Concours 6
+INSERT INTO ClubParticipe VALUES (1, 6);
+INSERT INTO ClubParticipe VALUES (2, 6);
+INSERT INTO ClubParticipe VALUES (3, 6);
+INSERT INTO ClubParticipe VALUES (7, 6);
+INSERT INTO ClubParticipe VALUES (8, 6);
+INSERT INTO ClubParticipe VALUES (9, 6);
+-- Concours 7
+INSERT INTO ClubParticipe VALUES (10, 7);
+INSERT INTO ClubParticipe VALUES (11, 7);
+INSERT INTO ClubParticipe VALUES (12, 7);
+INSERT INTO ClubParticipe VALUES (13, 7);
+INSERT INTO ClubParticipe VALUES (14, 7);
+INSERT INTO ClubParticipe VALUES (15, 7);
+-- Concours 8
+INSERT INTO ClubParticipe VALUES (16, 8);
+INSERT INTO ClubParticipe VALUES (17, 8);
+INSERT INTO ClubParticipe VALUES (18, 8);
+INSERT INTO ClubParticipe VALUES (19, 8);
+INSERT INTO ClubParticipe VALUES (20, 8);
+INSERT INTO ClubParticipe VALUES (21, 8);
+-- Concours 9
+INSERT INTO ClubParticipe VALUES (22, 9);
+INSERT INTO ClubParticipe VALUES (23, 9);
+INSERT INTO ClubParticipe VALUES (24, 9);
+INSERT INTO ClubParticipe VALUES (25, 9);
+INSERT INTO ClubParticipe VALUES (26, 9);
+INSERT INTO ClubParticipe VALUES (27, 9);
+-- Concours 10
+INSERT INTO ClubParticipe VALUES (28, 10);
+INSERT INTO ClubParticipe VALUES (29, 10);
+INSERT INTO ClubParticipe VALUES (30, 10);
+INSERT INTO ClubParticipe VALUES (1, 10);
+INSERT INTO ClubParticipe VALUES (2, 10);
+INSERT INTO ClubParticipe VALUES (3, 10);
+-- Concours 11
+INSERT INTO ClubParticipe VALUES (4, 11);
+INSERT INTO ClubParticipe VALUES (5, 11);
+INSERT INTO ClubParticipe VALUES (6, 11);
+INSERT INTO ClubParticipe VALUES (10, 11);
+INSERT INTO ClubParticipe VALUES (12, 11);
+INSERT INTO ClubParticipe VALUES (15, 11);
+-- Concours 12
+INSERT INTO ClubParticipe VALUES (7, 12);
+INSERT INTO ClubParticipe VALUES (8, 12);
+INSERT INTO ClubParticipe VALUES (11, 12);
+INSERT INTO ClubParticipe VALUES (13, 12);
+INSERT INTO ClubParticipe VALUES (14, 12);
+INSERT INTO ClubParticipe VALUES (18, 12);
+-- Concours 13
+INSERT INTO ClubParticipe VALUES (19, 13);
+INSERT INTO ClubParticipe VALUES (21, 13);
+INSERT INTO ClubParticipe VALUES (22, 13);
+INSERT INTO ClubParticipe VALUES (24, 13);
+INSERT INTO ClubParticipe VALUES (26, 13);
+INSERT INTO ClubParticipe VALUES (27, 13);
+-- Concours 14
+INSERT INTO ClubParticipe VALUES (28, 14);
+INSERT INTO ClubParticipe VALUES (29, 14);
+INSERT INTO ClubParticipe VALUES (30, 14);
+INSERT INTO ClubParticipe VALUES (1, 14);
+INSERT INTO ClubParticipe VALUES (5, 14);
+INSERT INTO ClubParticipe VALUES (9, 14);
+-- Concours 15
+INSERT INTO ClubParticipe VALUES (2, 15);
+INSERT INTO ClubParticipe VALUES (6, 15);
+INSERT INTO ClubParticipe VALUES (10, 15);
+INSERT INTO ClubParticipe VALUES (14, 15);
+INSERT INTO ClubParticipe VALUES (20, 15);
+INSERT INTO ClubParticipe VALUES (23, 15);
+
