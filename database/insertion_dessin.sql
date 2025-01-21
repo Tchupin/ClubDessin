@@ -722,6 +722,12 @@ INSERT INTO Competiteur VALUES
 ('2023-04-03', 109),
 ('2023-04-03', 110),
 ('2023-04-03', 111),
+('2023-04-03', 113),
+('2023-04-03', 114),
+('2023-04-03', 115),
+('2023-04-03', 116),
+('2023-04-03', 117),
+('2023-04-03', 118),
 ('2023-04-03', 119),
 ('2023-04-03', 120),
 ('2023-04-03', 121),
@@ -837,11 +843,15 @@ INSERT INTO Competiteur VALUES
 ('2024-04-09', 328),
 ('2024-04-09', 327),
 ('2024-04-09', 347),
-('2024-04-09', 346),
 ('2024-04-09', 345),
 ('2024-04-09', 344),
 ('2024-04-09', 343),
 ('2024-04-09', 342),
+('2024-04-09', 340),
+('2024-04-09', 339),
+('2024-04-09', 338),
+('2024-04-09', 337),
+('2024-04-09', 336),
 ('2024-07-15', 16),
 ('2024-07-15', 15),
 ('2024-07-15', 14),
@@ -877,7 +887,33 @@ INSERT INTO Competiteur VALUES
 ('2024-07-15', 103),
 ('2024-07-15', 102),
 ('2024-07-15', 101),
-('2024-07-15', 100);
+('2024-07-15', 100),
+('2024-07-15', 125),
+('2024-07-15', 134),
+('2024-07-15', 133),
+('2024-07-15', 132),
+('2024-07-15', 131),
+('2024-07-15', 130),
+('2024-07-15', 129),
+('2024-07-15', 144),
+('2024-07-15', 143),
+('2024-07-15', 142),
+('2024-07-15', 141),
+('2024-07-15', 140),
+('2024-07-15', 139),
+('2024-07-15', 160),
+('2024-07-15', 159),
+('2024-07-15', 158),
+('2024-07-15', 157),
+('2024-07-15', 156),
+('2024-07-15', 155),
+('2024-07-15', 172),
+('2024-07-15', 171),
+('2024-07-15', 170),
+('2024-07-15', 169),
+('2024-07-15', 168),
+('2024-07-15', 167);
+
 
 
 /* Dessin */
@@ -1075,7 +1111,7 @@ INSERT INTO Dessin VALUES (179, 238, "Sculpture Numérique : Lumières au matin"
 INSERT INTO Dessin VALUES (180, 239, "Sculpture Numérique : Brume digitale", 33, '2024-01-21', 'Brume digitale', 4);
 INSERT INTO Dessin VALUES (181, 240, "Sculpture Numérique : Champs virtuels", 34, '2024-01-21', 'Champs virtuels', 4);
 INSERT INTO Dessin VALUES (182, 241, "Sculpture Numérique : Collines holographiques", 35, '2024-01-21', 'Collines holographiques', 4);
-INSERT INTO Dessin VALUES (182, 243, "Sculpture Numérique : Hiver digital", 36, '2024-01-21', 'Hiver digital', 4);
+INSERT INTO Dessin VALUES (344, 243, "Sculpture Numérique : Hiver digital", 36, '2024-01-21', 'Hiver digital', 4);
 INSERT INTO Dessin VALUES (183, 244, "Sculpture Numérique : Flots artificiels", 37, '2024-01-21', 'Flots artificiels', 4);
 INSERT INTO Dessin VALUES (184, 245, "Sculpture Numérique : Printemps virtuel", 38, '2024-01-21', 'Printemps virtuel', 4);
 INSERT INTO Dessin VALUES (185, 246, "Sculpture Numérique : Feuilles holographiques", 39, '2024-01-21', 'Feuilles holographiques', 4);
