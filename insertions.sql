@@ -45,11 +45,11 @@ INSERT INTO Utilisateur VALUES (7, 'Petit', 'Manon', '18 quai Félix Faure', 26,
 INSERT INTO Utilisateur VALUES (8, 'Dubois', 'Antoine', '10 rue des Lices', 33, 'adubois', 'Ad65!fx$', 1);
 INSERT INTO Utilisateur VALUES (9, 'Moreau', 'Emma', '3 rue Toussaint', 24, 'emoreau', 'Em98Xs@2', 1);
 INSERT INTO Utilisateur VALUES (10, 'Laurent', 'Nicolas', '6 boulevard Foch', 31, 'nlaurent', 'Nl44Pq&*', 1);
-INSERT INTO Utilisateur VALUES (11, 'Simon', 'Sarah', '4 rue Saint-Julien', 29, 'ssimon', 'Ss77Kz!9', 1);
-INSERT INTO Utilisateur VALUES (12, 'Michel', 'Alexandre', '22 rue d’Alsace', 35, 'amichel', 'Am93+ty$', 1);
-INSERT INTO Utilisateur VALUES (13, 'Lefebvre', 'Claire', '19 rue Saint-Lazare', 28, 'clefebvre', 'Cl32Qx&*', 1);
-INSERT INTO Utilisateur VALUES (14, 'Leroy', 'Hugo', '8 rue Voltaire', 32, 'hleroy', 'Hl56We@!', 1);
-INSERT INTO Utilisateur VALUES (15, 'Roux', 'Alicia', '11 rue de la Roë', 24, 'aroux', 'Ar45%Gn$', 1);
+INSERT INTO Utilisateur VALUES (11, 'Vandomme', 'Zacharia', '4 rue Saint-Julien', 29, 'zvandomme', 'Ss77Kz!9', 1);
+INSERT INTO Utilisateur VALUES (12, 'Temmim', 'Yanis', '22 rue d’Alsace', 35, 'ytemmim', 'Am93+ty$', 1);
+INSERT INTO Utilisateur VALUES (13, 'Muller', 'Nicolas', '19 rue Saint-Lazare', 28, 'nmuller', 'Cl32Qx&*', 1);
+INSERT INTO Utilisateur VALUES (14, 'Chupin', 'Theo', '8 rue Voltaire', 32, 'tchupin', 'Hl56We@!', 1);
+INSERT INTO Utilisateur VALUES (15, 'Idir', 'Samy', '11 rue de la Roë', 24, 'sidir', 'Ar45%Gn$', 1);
 INSERT INTO Utilisateur VALUES (16, 'Fournier', 'Baptiste', '20 rue des Carmes', 29, 'bfournier', 'Bf23Zx@', 1);
 
 -- Paris Artistes 10 */
