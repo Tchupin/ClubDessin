@@ -55,8 +55,8 @@ CREATE TABLE Directeur (
 
 
 Create table Competiteur(
-    numCompetiteur int,
     datePremiereParticipation date,
+    numCompetiteur int,
     PRIMARY KEY (numCompetiteur),
     FOREIGN KEY(numCompetiteur) REFERENCES Utilisateur(numUtilisateur)  
 );
