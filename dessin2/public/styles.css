@@ -1,0 +1,71 @@
+/* Style général du body */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garantit que le body occupe toute la hauteur de la fenêtre */
+}
+
+/* Container de la page de login */
+.login-container {
+    flex: 1; /* Cela permet au formulaire de prendre toute la place disponible entre le header et le footer */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    width: 100%;
+}
+
+label {
+    font-size: 1.1em;
+}
+
+input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2e59d9;
+}
+
+.error-message {
+    color: red;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+/* Footer spécifique pour le bas de page */
+.footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.9em;
+}
