@@ -1,86 +1,106 @@
-/*   	Commandes de création de la base pour les concours de dessins  */
+																		
 
+																										
 SET FOREIGN_KEY_CHECKS = 0; /* Pour pas avoir à supprimer à la main quand je réexécute le fichier */
-
-DROP TABLE IF EXISTS Jury;
+						  
 DROP TABLE IF EXISTS ClubParticipe;
 DROP TABLE IF EXISTS CompetiteurParticipe;
 DROP TABLE IF EXISTS Evaluation;
 DROP TABLE IF EXISTS Dessin;
-DROP TABLE IF EXISTS Competiteur;
-DROP TABLE IF EXISTS Evaluateur;
+								 
+								
 DROP TABLE IF EXISTS President;
 DROP TABLE IF EXISTS Concours;
-DROP TABLE IF EXISTS Administrateur;
+DROP TABLE IF EXISTS Evaluateur;
+DROP TABLE IF EXISTS Competiteur;
 DROP TABLE IF EXISTS Directeur;
+DROP TABLE IF EXISTS Administrateur;
 DROP TABLE IF EXISTS Utilisateur;
 DROP TABLE IF EXISTS Club;
 
-SET FOREIGN_KEY_CHECKS = 1; /* On réactive */
+SET FOREIGN_KEY_CHECKS = 1; /* On réactive */										  
 
 CREATE TABLE Club (
-    numClub INT AUTO_INCREMENT PRIMARY KEY,
-    nomClub VARCHAR(100) NOT NULL,
-    adresse TEXT,
-    numTelephone VARCHAR(10),
+    numClub INT AUTO_INCREMENT,
+    nomClub VARCHAR(40) NOT NULL,
+    adresse VARCHAR(140),
+    numTelephone CHAR(10),
     nombreAdherents INT,
-    ville VARCHAR(50),
-    departement VARCHAR(50),
-    region VARCHAR(50)
+    ville VARCHAR(40),
+    departement VARCHAR(60),
+    region VARCHAR(60),
+    PRIMARY KEY(numClub)
 );
 
 CREATE TABLE Utilisateur (
-    numUtilisateur INT AUTO_INCREMENT PRIMARY KEY,
-    nom VARCHAR(50) NOT NULL,
-    prenom VARCHAR(50) NOT NULL,
-    adresse TEXT,
-    login VARCHAR(50) UNIQUE NOT NULL,
-    motdepasse VARCHAR(255) NOT NULL,
+    numUtilisateur INT AUTO_INCREMENT,
+    nom VARCHAR(40),
+    prenom VARCHAR(40),
+    adresse VARCHAR(120),
+    age int,
+    login VARCHAR(20),
+    motdepasse VARCHAR(40),
     numClub INT,
-    FOREIGN KEY (numClub) REFERENCES Club(numClub)
-);
-
-CREATE TABLE Directeur (
-    dateDebut DATE NOT NULL,
-    numDirecteur INT PRIMARY KEY,
-    numClub INT,
-    FOREIGN KEY (numDirecteur) REFERENCES Utilisateur(numUtilisateur),
-    FOREIGN KEY (numClub) REFERENCES Club(numClub)
+    PRIMARY KEY(numUtilisateur),
+    FOREIGN KEY(numClub) REFERENCES Club(numClub)
 );
 
 CREATE TABLE Administrateur (
-    dateDebut DATE NOT NULL,
-    numAdministrateur INT PRIMARY KEY,
-    FOREIGN KEY (numAdministrateur) REFERENCES Utilisateur(numUtilisateur)
+    dateDebut DATE,
+    numAdministrateur INT,
+    PRIMARY KEY(numAdministrateur),
+    FOREIGN KEY(numAdministrateur) REFERENCES Utilisateur(numUtilisateur)
 );
 
-CREATE TABLE Concours (
-    numConcours INT AUTO_INCREMENT PRIMARY KEY,
-    theme VARCHAR(255) NOT NULL,
-    dateDebut DATE NOT NULL,
-    dateFin DATE NOT NULL,
-    etat VARCHAR(50) NOT NULL
+CREATE TABLE Directeur (
+    dateDebut DATE,
+    numDirecteur INT,
+    numClub INT,
+    PRIMARY KEY(numDirecteur, numClub),
+    FOREIGN KEY(numDirecteur) REFERENCES Utilisateur(numUtilisateur),
+    FOREIGN KEY(numClub) REFERENCES Club(numClub)
 );
 
-CREATE TABLE President (
-    prime DECIMAL(10, 2),
-    numPresident INT,
-    numConcours INT,
-    PRIMARY KEY (numPresident, numConcours),
-    FOREIGN KEY (numPresident) REFERENCES Utilisateur(numUtilisateur),
-    FOREIGN KEY (numConcours) REFERENCES Concours(numConcours)
+							 
+							
+									  
+																		  
+  
+
+Create table Competiteur(
+    datePremiereParticipation date,
+    numCompetiteur int,
+    PRIMARY KEY (numCompetiteur,datePremiereParticipation),
+    FOREIGN KEY(numCompetiteur) REFERENCES Utilisateur(numUtilisateur)  
+							 
 );
 
-CREATE TABLE Evaluateur (
-    specialite VARCHAR(100) NOT NULL,
-    numEvaluateur INT PRIMARY KEY,
-    FOREIGN KEY (numEvaluateur) REFERENCES Utilisateur(numUtilisateur)
+Create table Evaluateur(
+    specialite varchar(20),
+    numEvaluateur int,
+					
+    PRIMARY KEY(numEvaluateur),
+    FOREIGN KEY(numEvaluateur) REFERENCES Utilisateur(numUtilisateur)
+															  
 );
 
-CREATE TABLE Competiteur (
-    datePremiereParticipation DATE,
-    numCompetiteur INT PRIMARY KEY,
-    FOREIGN KEY (numCompetiteur) REFERENCES Utilisateur(numUtilisateur)
+Create table Concours(
+    numConcours int AUTO_INCREMENT,
+    theme varchar(100),
+    dateDebut DATE,
+    dateFin DATE,
+    etat VARCHAR(20) CHECK (etat IN ('non commencé', 'en cours', 'en attente des résultats', 'terminé')),
+    PRIMARY KEY(numConcours)
+);
+
+Create table President(
+    prime int,
+    numPresident int,
+    numConcours int,
+    
+    PRIMARY KEY(numPresident,numConcours),
+    FOREIGN KEY(numPresident) REFERENCES Utilisateur(numUtilisateur),
+    FOREIGN KEY(numConcours) REFERENCES Concours(numConcours)
 );
 
 CREATE TABLE Dessin (
