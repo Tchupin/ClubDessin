@@ -476,9 +476,22 @@ INSERT INTO Directeur VALUES (2014, 309, 28);
 INSERT INTO Directeur VALUES (2021, 322, 29);
 INSERT INTO Directeur VALUES (2016, 333, 30);
 
+
 /* Administrateur */
 
 INSERT INTO Administrateur VALUES (2011, 271); 
+
+
+/* Presidents des concours */
+INSERT INTO President VALUES (1200, 10, 1);
+INSERT INTO President VALUES (1100, 85, 2);
+INSERT INTO President VALUES (1200, 144, 3);
+INSERT INTO President VALUES (1000, 212, 4);
+INSERT INTO President VALUES (1300, 299, 5);
+INSERT INTO President VALUES (1100, 27, 6);
+INSERT INTO President VALUES (1200, 161, 7);
+/* L'admin peut choisir un président pour le concours 8 */
+
 
 /* Concours */
 
