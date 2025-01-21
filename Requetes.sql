@@ -86,3 +86,22 @@ ORDER BY
     Utilisateur.age ASC;
 
 ----------------------------------------------------------------------------
+
+Requête 5 
+
+SELECT 
+    Club.region AS Region, 
+    AVG(Evaluation.note) AS MoyenneNote
+FROM 
+    Club
+JOIN 
+    Utilisateur ON Club.numClub = Utilisateur.numClub
+JOIN 
+    Dessin ON Utilisateur.numUtilisateur = Dessin.numCompetiteur
+JOIN 
+    Evaluation ON Dessin.numDessin = Evaluation.numDessin
+GROUP BY 
+    Club.region
+ORDER BY 
+    MoyenneNote DESC
+LIMIT 1;
