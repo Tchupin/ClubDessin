@@ -1,4 +1,3 @@
-DROP TABLE IF EXISTS Jury;
 DROP TABLE IF EXISTS ClubParticipe;
 DROP TABLE IF EXISTS CompetiteurParticipe;
 DROP TABLE IF EXISTS Evaluation;
@@ -57,7 +56,7 @@ CREATE TABLE Directeur (
 Create table Competiteur(
     datePremiereParticipation date,
     numCompetiteur int,
-    PRIMARY KEY (numCompetiteur),
+    PRIMARY KEY (numCompetiteur,datePremiereParticipation),
     FOREIGN KEY(numCompetiteur) REFERENCES Utilisateur(numUtilisateur)  
 );
 
@@ -104,10 +103,12 @@ CREATE TABLE Evaluation (
     note INT NOT NULL,
     commentaire TEXT,
     numDessin INT,
-    numEvaluateur INT,
-    PRIMARY KEY (numDessin, numEvaluateur),
+    numEvaluateur1 INT,
+    numEvaluateur2 INT,
+    PRIMARY KEY (numDessin, numEvaluateur1,numEvaluateur2),
     FOREIGN KEY (numDessin) REFERENCES Dessin(numDessin),
-    FOREIGN KEY (numEvaluateur) REFERENCES Evaluateur(numEvaluateur)
+    FOREIGN KEY (numEvaluateur1) REFERENCES Evaluateur(numEvaluateur),
+    FOREIGN KEY (numEvaluateur2) REFERENCES Evaluateur(numEvaluateur)
 );
 
 CREATE TABLE CompetiteurParticipe (
@@ -123,13 +124,5 @@ CREATE TABLE ClubParticipe (
     numConcours INT,
     PRIMARY KEY (numClub, numConcours),
     FOREIGN KEY (numClub) REFERENCES Club(numClub),
-    FOREIGN KEY (numConcours) REFERENCES Concours(numConcours)
-);
-
-CREATE TABLE Jury (
-    numEvaluateur INT,
-    numConcours INT,
-    PRIMARY KEY (numEvaluateur, numConcours),
-    FOREIGN KEY (numEvaluateur) REFERENCES Evaluateur(numEvaluateur),
     FOREIGN KEY (numConcours) REFERENCES Concours(numConcours)
 );
