@@ -105,3 +105,16 @@ GROUP BY
 ORDER BY 
     MoyenneNote DESC
 LIMIT 1;
+
+------------------------------------------------------------
+
+Requête 6 : vérification de la présence des concours qui ont bien 6 clubs participant
+
+SELECT C.numConcours, C.theme, COUNT(DISTINCT CP.numClub) AS totalClubs
+FROM Concours C
+JOIN ClubParticipe CP ON C.numConcours = CP.numConcours
+GROUP BY C.numConcours, C.theme
+HAVING totalClubs >= 6;
+
+------------------------------------------------------------------
+
