@@ -485,29 +485,22 @@ INSERT INTO Administrateur VALUES (2011, 271);
 
 /* Concours */
 INSERT INTO Concours (numConcours, theme, dateDebut, dateFin, etat) VALUES
--- Année 2015 (terminé)
-(1, 'Concours Art Numérique', '2015-01-14', '2015-01-18', 'terminé'),
-(2, 'Concours Paysage Printanier', '2015-04-07', '2015-04-12', 'terminé'),
-(3, 'Concours Peinture Impressionniste', '2015-07-10', '2015-07-15', 'terminé'),
-(4, 'Concours Dessin Automnal', '2015-10-06', '2015-10-10', 'terminé'),
 
 -- Année 2023 (terminé)
-(5, 'Concours Illustration Art Numérique', '2023-01-18', '2023-01-23', 'terminé'),
-(6, 'Concours Dessin en Plein Air', '2023-04-03', '2023-04-08', 'terminé'),
-(7, 'Concours Peinture Été', '2023-07-16', '2023-07-20', 'terminé'),
+(1, 'Concours Illustration Art Numérique', '2023-01-18', '2023-01-23', 'terminé'),
+(2, 'Concours Dessin en Plein Air', '2023-04-03', '2023-04-08', 'terminé'),
+(3, 'Concours Peinture Été', '2023-07-16', '2023-07-20', 'terminé'),
 
 -- Année 2024
-(8, 'Concours Sculpture Numérique', '2024-01-17', '2024-01-21', 'terminé'),
-(9, 'Concours Gravure Printanière', '2024-04-09', '2024-04-13', 'terminé'),
-(10, 'Concours Art Fantastique Été', '2024-07-15', '2024-07-19', 'terminé'),
-(11, 'Concours Dessin Automnal', '2024-10-10', '2024-10-15', 'terminé');
+(4, 'Concours Sculpture Numérique', '2024-01-17', '2024-01-21', 'terminé'),
+(5, 'Concours Gravure Printanière', '2024-04-09', '2024-04-13', 'terminé'),
+(6, 'Concours Art Fantastique Été', '2024-07-15', '2024-07-19', 'terminé'),
+(7, 'Concours Dessin Automnal', '2024-10-10', '2024-10-15', 'terminé');
 
 -- Année 2025 (non commencé)
 INSERT INTO Concours (numConcours, theme, dateDebut, dateFin, etat) VALUES
-(12, 'Concours Peinture Hivernale 2025', '2025-01-15', '2025-01-20', 'en cours'),
-(13, 'Concours Illustration Printemps 2025', '2025-04-10', '2025-04-15', 'non commencé'),
-(14, 'Concours Sculpture Estivale 2025', '2025-07-12', '2025-07-18', 'non commencé'),
-(15, 'Concours Gravure Automnale 2025', '2025-10-08', '2025-10-14', 'non commencé');
+(8, 'Concours Peinture Hivernale 2025', '2025-01-15', '2025-01-20', 'en cours'),
+
 
 
 /* Presidents des concours */
@@ -948,53 +941,5 @@ INSERT INTO ClubParticipe VALUES (18, 8);
 INSERT INTO ClubParticipe VALUES (19, 8);
 INSERT INTO ClubParticipe VALUES (20, 8);
 INSERT INTO ClubParticipe VALUES (21, 8);
--- Concours 9
-INSERT INTO ClubParticipe VALUES (22, 9);
-INSERT INTO ClubParticipe VALUES (23, 9);
-INSERT INTO ClubParticipe VALUES (24, 9);
-INSERT INTO ClubParticipe VALUES (25, 9);
-INSERT INTO ClubParticipe VALUES (26, 9);
-INSERT INTO ClubParticipe VALUES (27, 9);
--- Concours 10
-INSERT INTO ClubParticipe VALUES (28, 10);
-INSERT INTO ClubParticipe VALUES (29, 10);
-INSERT INTO ClubParticipe VALUES (30, 10);
-INSERT INTO ClubParticipe VALUES (1, 10);
-INSERT INTO ClubParticipe VALUES (2, 10);
-INSERT INTO ClubParticipe VALUES (3, 10);
--- Concours 11
-INSERT INTO ClubParticipe VALUES (4, 11);
-INSERT INTO ClubParticipe VALUES (5, 11);
-INSERT INTO ClubParticipe VALUES (6, 11);
-INSERT INTO ClubParticipe VALUES (10, 11);
-INSERT INTO ClubParticipe VALUES (12, 11);
-INSERT INTO ClubParticipe VALUES (15, 11);
--- Concours 12
-INSERT INTO ClubParticipe VALUES (7, 12);
-INSERT INTO ClubParticipe VALUES (8, 12);
-INSERT INTO ClubParticipe VALUES (11, 12);
-INSERT INTO ClubParticipe VALUES (13, 12);
-INSERT INTO ClubParticipe VALUES (14, 12);
-INSERT INTO ClubParticipe VALUES (18, 12);
--- Concours 13
-INSERT INTO ClubParticipe VALUES (19, 13);
-INSERT INTO ClubParticipe VALUES (21, 13);
-INSERT INTO ClubParticipe VALUES (22, 13);
-INSERT INTO ClubParticipe VALUES (24, 13);
-INSERT INTO ClubParticipe VALUES (26, 13);
-INSERT INTO ClubParticipe VALUES (27, 13);
--- Concours 14
-INSERT INTO ClubParticipe VALUES (28, 14);
-INSERT INTO ClubParticipe VALUES (29, 14);
-INSERT INTO ClubParticipe VALUES (30, 14);
-INSERT INTO ClubParticipe VALUES (1, 14);
-INSERT INTO ClubParticipe VALUES (5, 14);
-INSERT INTO ClubParticipe VALUES (9, 14);
--- Concours 15
-INSERT INTO ClubParticipe VALUES (2, 15);
-INSERT INTO ClubParticipe VALUES (6, 15);
-INSERT INTO ClubParticipe VALUES (10, 15);
-INSERT INTO ClubParticipe VALUES (14, 15);
-INSERT INTO ClubParticipe VALUES (20, 15);
-INSERT INTO ClubParticipe VALUES (23, 15);
+
 
