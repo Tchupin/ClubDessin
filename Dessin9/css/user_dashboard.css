@@ -1,0 +1,201 @@
+/* Style global */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Barre de navigation */
+.navbar {
+    background-color: #333; /* Assurez-vous que la couleur de fond est correctement définie */
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-list li {
+    margin: 0 15px;
+}
+
+.navbar-list li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 1.1em;
+    display: block;
+}
+
+.navbar-list li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+/* Espace sous la barre de navigation pour éviter qu'elle ne cache le contenu */
+body {
+    padding-top: 60px; /* Ajuste cette valeur selon la hauteur de la barre de navigation */
+}
+
+/* Conteneur de contenu principal */
+.container {
+    width: 80%;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    box-sizing: border-box;
+    margin-top: 80px; /* Assurez-vous que le contenu ne soit pas caché sous la barre de navigation */
+    max-height: 90vh;
+    overflow-y: auto; /* Permet de faire défiler verticalement */
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Style des liens de menu */
+.logout {
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+    font-size: 1.1em;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.logout:hover {
+    text-decoration: underline;
+}
+
+.select-club {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select-club select {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 70%;
+}
+
+.select-club button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.select-club button:hover {
+    background-color: #0056b3;
+}
+
+/* Style pour la table de données */
+.table-data {
+    margin-top: 30px;
+}
+
+.table-data table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-data th, .table-data td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table-data th {
+    background-color: #f1f1f1;
+}
+
+/* Style pour le bouton Retour en haut */
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #0056b3;
+}
+/* Formulaire de sélection de concours */
+.select-concours {
+    margin: 20px 0;
+}
+
+.select-concours select {
+    padding: 10px;
+    width: 200px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+
+/* Tableau historique des dessins */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+/* Bouton retour en haut */
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #45a049;
+}

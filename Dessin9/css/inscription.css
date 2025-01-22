@@ -1,0 +1,142 @@
+/* Corps de la page */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to top, #1e3c72, #2a5298); /* Dégradé doux bleu */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+    overflow: hidden;
+}
+
+/* Conteneur principal d'inscription */
+.login-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    text-align: center;
+    animation: fadeIn 0.8s ease-out;
+}
+
+/* Effet d'animation pour la page d'inscription */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Titre principal */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Groupes d'input */
+.input-group {
+    width: 100%;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+label {
+    font-size: 1.1em;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Champs d'input épurés */
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f5f5f5;
+    font-size: 1em;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    outline: none;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus {
+    border-color: #2a5298; /* Bordure bleue claire au focus */
+    background-color: #fff;
+}
+
+/* Style du bouton */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #2a5298;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    letter-spacing: 0.5px;
+}
+
+button:hover {
+    background-color: #1e3c72; /* Changement de couleur au survol */
+}
+
+/* Message d'erreur */
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-size: 1em;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    margin-top: 25px;
+    font-size: 1em;
+    color: #333;
+    text-align: center;
+}
+
+.footer a {
+    color: #2a5298;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #1e3c72;
+}
+
+/* Styles responsives pour les petits écrans */
+@media (max-width: 500px) {
+    .login-container {
+        padding: 20px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 1em;
+    }
+}
