@@ -970,7 +970,6 @@ INSERT INTO Dessin VALUES (48, 68, "Dessin de Forêt endormie", 48, '2023-01-20'
 INSERT INTO Dessin VALUES (49, 69, "Dessin de Le désert sous les étoiles", 49, '2023-01-19', 'Le désert sous les étoiles', 1);
 
 /* Concours 2 */
-
 INSERT INTO Dessin VALUES (50, 131, "Dessin de Nature au printemps", 6, '2023-04-03', 'Nature au printemps', 2);
 INSERT INTO Dessin VALUES (51, 131, "Dessin de Coucher de soleil champêtre", 2, '2023-04-03', 'Coucher de soleil champêtre', 2);
 INSERT INTO Dessin VALUES (52, 131, "Dessin de Nuages au-dessus des collines", 4, '2023-04-03', 'Nuages au-dessus des collines', 2);
@@ -1023,7 +1022,6 @@ INSERT INTO Dessin VALUES (98, 76, "Dessin de Désert sous les étoiles", 49, '2
 
 
 /* Concours 3 */
-
 INSERT INTO Dessin VALUES (99, 135, "Peinture Été : Nature estivale", 17, '2023-07-16', 'Nature estivale', 3);
 INSERT INTO Dessin VALUES (100, 135, "Peinture Été : Coucher de soleil champêtre", 15, '2023-07-16', 'Coucher de soleil champêtre', 3);
 INSERT INTO Dessin VALUES (101, 135, "Peinture Été : Nuages au-dessus des collines", 4, '2023-07-16', 'Nuages au-dessus des collines', 3);
@@ -1075,7 +1073,6 @@ INSERT INTO Dessin VALUES (146, 198, "Peinture Été : Forêt endormie", 48, '20
 INSERT INTO Dessin VALUES (147, 199, "Peinture Été : Désert sous les étoiles", 49, '2023-07-16', 'Désert sous les étoiles', 3);
 
 /* Concours 4 */
-
 INSERT INTO Dessin VALUES (148, 203, "Sculpture Numérique : Nature numérique", 17, '2024-01-17', 'Nature numérique', 4);
 INSERT INTO Dessin VALUES (149, 203, "Sculpture Numérique : Formes géométriques", 15, '2024-01-17', 'Formes géométriques', 4);
 INSERT INTO Dessin VALUES (150, 203, "Sculpture Numérique : Paysage virtuel", 4, '2024-01-17', 'Paysage virtuel', 4);
@@ -1111,25 +1108,24 @@ INSERT INTO Dessin VALUES (179, 238, "Sculpture Numérique : Lumières au matin"
 INSERT INTO Dessin VALUES (180, 239, "Sculpture Numérique : Brume digitale", 33, '2024-01-21', 'Brume digitale', 4);
 INSERT INTO Dessin VALUES (181, 240, "Sculpture Numérique : Champs virtuels", 34, '2024-01-21', 'Champs virtuels', 4);
 INSERT INTO Dessin VALUES (182, 241, "Sculpture Numérique : Collines holographiques", 35, '2024-01-21', 'Collines holographiques', 4);
-INSERT INTO Dessin VALUES (344, 243, "Sculpture Numérique : Hiver digital", 36, '2024-01-21', 'Hiver digital', 4);
-INSERT INTO Dessin VALUES (183, 244, "Sculpture Numérique : Flots artificiels", 37, '2024-01-21', 'Flots artificiels', 4);
-INSERT INTO Dessin VALUES (184, 245, "Sculpture Numérique : Printemps virtuel", 38, '2024-01-21', 'Printemps virtuel', 4);
-INSERT INTO Dessin VALUES (185, 246, "Sculpture Numérique : Feuilles holographiques", 39, '2024-01-21', 'Feuilles holographiques', 4);
-INSERT INTO Dessin VALUES (186, 247, "Sculpture Numérique : Aube artificielle", 40, '2024-01-21', 'Aube artificielle', 4);
-INSERT INTO Dessin VALUES (187, 248, "Sculpture Numérique : Nuit paisible", 41, '2024-01-21', 'Nuit paisible', 4);
-INSERT INTO Dessin VALUES (188, 253, "Sculpture Numérique : Rivière pixelisée", 42, '2024-01-21', 'Rivière pixelisée', 4);
-INSERT INTO Dessin VALUES (189, 254, "Sculpture Numérique : Matin virtuel", 43, '2024-01-21', 'Matin virtuel', 4);
-INSERT INTO Dessin VALUES (190, 255, "Sculpture Numérique : Sous-bois numériques", 44, '2024-01-21', 'Sous-bois numériques', 4);
-INSERT INTO Dessin VALUES (191, 256, "Sculpture Numérique : Sommet digital", 45, '2024-01-21', 'Sommet digital', 4);
-INSERT INTO Dessin VALUES (192, 257, "Sculpture Numérique : Mer pixelisée", 46, '2024-01-21', 'Mer pixelisée', 4);
-INSERT INTO Dessin VALUES (193, 258, "Sculpture Numérique : Ciel numérique", 47, '2024-01-21', 'Ciel numérique', 4);
-INSERT INTO Dessin VALUES (194, 218, "Sculpture Numérique : Forêt holographique", 48, '2024-01-21', 'Forêt holographique', 4);
-INSERT INTO Dessin VALUES (195, 219, "Sculpture Numérique : Désert pixelisé", 49, '2024-01-21', 'Désert pixelisé', 4);
+INSERT INTO Dessin VALUES (183, 243, "Sculpture Numérique : Hiver digital", 36, '2024-01-21', 'Hiver digital', 4);
+INSERT INTO Dessin VALUES (184, 244, "Sculpture Numérique : Flots artificiels", 37, '2024-01-21', 'Flots artificiels', 4);
+INSERT INTO Dessin VALUES (185, 245, "Sculpture Numérique : Printemps virtuel", 38, '2024-01-21', 'Printemps virtuel', 4);
+INSERT INTO Dessin VALUES (186, 246, "Sculpture Numérique : Feuilles holographiques", 39, '2024-01-21', 'Feuilles holographiques', 4);
+INSERT INTO Dessin VALUES (187, 247, "Sculpture Numérique : Aube artificielle", 40, '2024-01-21', 'Aube artificielle', 4);
+INSERT INTO Dessin VALUES (188, 248, "Sculpture Numérique : Nuit paisible", 41, '2024-01-21', 'Nuit paisible', 4);
+INSERT INTO Dessin VALUES (189, 253, "Sculpture Numérique : Rivière pixelisée", 42, '2024-01-21', 'Rivière pixelisée', 4);
+INSERT INTO Dessin VALUES (190, 254, "Sculpture Numérique : Matin virtuel", 43, '2024-01-21', 'Matin virtuel', 4);
+INSERT INTO Dessin VALUES (191, 255, "Sculpture Numérique : Sous-bois numériques", 44, '2024-01-21', 'Sous-bois numériques', 4);
+INSERT INTO Dessin VALUES (192, 256, "Sculpture Numérique : Sommet digital", 45, '2024-01-21', 'Sommet digital', 4);
+INSERT INTO Dessin VALUES (193, 257, "Sculpture Numérique : Mer pixelisée", 46, '2024-01-21', 'Mer pixelisée', 4);
+INSERT INTO Dessin VALUES (194, 258, "Sculpture Numérique : Ciel numérique", 47, '2024-01-21', 'Ciel numérique', 4);
+INSERT INTO Dessin VALUES (195, 218, "Sculpture Numérique : Forêt holographique", 48, '2024-01-21', 'Forêt holographique', 4);
+INSERT INTO Dessin VALUES (196, 219, "Sculpture Numérique : Désert pixelisé", 49, '2024-01-21', 'Désert pixelisé', 4);
 
 
 /* Concours 5 */
 
-INSERT INTO Dessin VALUES (196, 277, "Gravure Printanière : Champs en fleurs", 17, '2024-04-09', 'Champs en fleurs', 5);
 INSERT INTO Dessin VALUES (197, 277, "Gravure Printanière : Soleil levant", 11, '2024-04-09', 'Soleil levant', 5);
 INSERT INTO Dessin VALUES (198, 277, "Gravure Printanière : Matin paisible", 13, '2024-04-09', 'Matin paisible', 5);
 INSERT INTO Dessin VALUES (199, 276, "Gravure Printanière : Jardin secret", 19, '2024-04-10', 'Jardin secret', 5);
@@ -1178,18 +1174,19 @@ INSERT INTO Dessin VALUES (241, 339, "Gravure Printanière : Champs dorés", 13,
 INSERT INTO Dessin VALUES (242, 338, "Gravure Printanière : Plaisir champêtre", 14, '2024-04-13', 'Plaisir champêtre', 5);
 INSERT INTO Dessin VALUES (243, 336, "Gravure Printanière : Vertes collines", 19, '2024-04-13', 'Vertes collines', 5);
 INSERT INTO Dessin VALUES (244, 337, "Gravure Printanière : Aurore printanière", 18, '2024-04-13', 'Aurore printanière', 5);
+INSERT INTO Dessin VALUES (245, 277, "Gravure Printanière : Champs en fleurs", 17, '2024-04-09', 'Champs en fleurs', 5);
+
 
 
 /* Concours 6 */
 
-INSERT INTO Dessin VALUES (246, 16, "Art Fantastique Été : Royaume des dragons", 17, '2024-07-15', 'Royaume des dragons', 6);
-INSERT INTO Dessin VALUES (247, 16, "Art Fantastique Été : Licornes scintillantes", 11, '2024-07-15', 'Licornes scintillantes', 6);
-INSERT INTO Dessin VALUES (248, 16, "Art Fantastique Été : Sirènes enchantées", 13, '2024-07-15', 'Sirènes enchantées', 6);
-INSERT INTO Dessin VALUES (249, 15, "Art Fantastique Été : Forêt magique", 19, '2024-07-16', 'Forêt magique', 6);
-INSERT INTO Dessin VALUES (250, 15, "Art Fantastique Été : Château volant", 10, '2024-07-16', 'Château volant', 6);
-INSERT INTO Dessin VALUES (251, 15, "Art Fantastique Été : Portail mystique", 12, '2024-07-16', 'Portail mystique', 6);
-INSERT INTO Dessin VALUES (252, 13, "Art Fantastique Été : Vallée des elfes", 16, '2024-07-17', 'Vallée des elfes', 6);
-INSERT INTO Dessin VALUES (253, 13, "Art Fantastique Été : Reflets d'un autre monde", 18, '2024-07-17', 'Reflets du autre monde', 6);
+INSERT INTO Dessin VALUES (246, 16, "Art Fantastique Été : Licornes scintillantes", 11, '2024-07-15', 'Licornes scintillantes', 6);
+INSERT INTO Dessin VALUES (247, 16, "Art Fantastique Été : Sirènes enchantées", 13, '2024-07-15', 'Sirènes enchantées', 6);
+INSERT INTO Dessin VALUES (248, 15, "Art Fantastique Été : Forêt magique", 19, '2024-07-16', 'Forêt magique', 6);
+INSERT INTO Dessin VALUES (249, 15, "Art Fantastique Été : Château volant", 10, '2024-07-16', 'Château volant', 6);
+INSERT INTO Dessin VALUES (250, 15, "Art Fantastique Été : Portail mystique", 12, '2024-07-16', 'Portail mystique', 6);
+INSERT INTO Dessin VALUES (251, 13, "Art Fantastique Été : Vallée des elfes", 16, '2024-07-17', 'Vallée des elfes', 6);
+INSERT INTO Dessin VALUES (252, 13, "Art Fantastique Été : Reflets d'un autre monde", 18, '2024-07-17', 'Reflets du autre monde', 6);
 INSERT INTO Dessin VALUES (254, 13, "Art Fantastique Été : Cristaux lumineux", 14, '2024-07-17', 'Cristaux lumineux', 6);
 INSERT INTO Dessin VALUES (255, 14, "Art Fantastique Été : Rivière dorée", 19, '2024-07-18', 'Rivière dorée', 6);
 INSERT INTO Dessin VALUES (256, 14, "Art Fantastique Été : Créatures légendaires", 15, '2024-07-18', 'Créatures légendaires', 6);
@@ -1204,7 +1201,7 @@ INSERT INTO Dessin VALUES (264, 22, "Art Fantastique Été : Montagnes légendai
 INSERT INTO Dessin VALUES (265, 23, "Art Fantastique Été : Océan lumineux", 15, '2024-07-19', 'Océan lumineux', 6);
 INSERT INTO Dessin VALUES (266, 23, "Art Fantastique Été : Sérénité magique", 19, '2024-07-19', 'Sérénité magique', 6);
 INSERT INTO Dessin VALUES (267, 24, "Art Fantastique Été : Ciel irréel", 10, '2024-07-19', 'Ciel irréel', 6);
-INSERT INTO Dessin VALUES (268, 24, "Art Fantastique Été : Crépuscule mystique", 13, '2024-07-19', 'Crépuscule mystique', 6);
+INSERT INTO Dessin VALUES (268, 16, "Art Fantastique Été : Crépuscule mystique", 13, '2024-07-19', 'Crépuscule mystique', 6);
 INSERT INTO Dessin VALUES (269, 26, "Art Fantastique Été : Lune enchantée", 11, '2024-07-19', 'Lune enchantée', 6);
 INSERT INTO Dessin VALUES (270, 25, "Art Fantastique Été : Arbre éternel", 12, '2024-07-19', 'Arbre éternel', 6);
 INSERT INTO Dessin VALUES (271, 30, "Art Fantastique Été : Nature fantastique", 19, '2024-07-19', 'Nature fantastique', 6);
@@ -1231,6 +1228,7 @@ INSERT INTO Dessin VALUES (291, 102, "Art Fantastique Été : Champs irréels", 
 INSERT INTO Dessin VALUES (292, 103, "Art Fantastique Été : Plaisir éthéré", 14, '2024-07-19', 'Plaisir éthéré', 6);
 INSERT INTO Dessin VALUES (293, 104, "Art Fantastique Été : Vertes illusions", 19, '2024-07-19', 'Vertes illusions', 6);
 INSERT INTO Dessin VALUES (294, 105, "Art Fantastique Été : Aurore onirique", 18, '2024-07-19', 'Aurore onirique', 6);
+
 
 
 /* Concours 7 */ 
@@ -1286,12 +1284,216 @@ INSERT INTO Dessin VALUES (342, 168, "Dessin Automnal : Éclats flamboyants", 18
 INSERT INTO Dessin VALUES (343, 167, "Dessin Automnal : Reflets ocres", 13, '2024-10-15', 'Reflets ocres', 7);
 
 
+
 /* Evaluation */
 
-/*INSERT INTO Evaluation VALUES ('2012-01-21', 16, "Très beau", 1, );
-INSERT INTO Evaluation VALUES ('2012-01-24', 20, "Incroyable", 1, XX);
-INSERT INTO Evaluation VALUES ('2012-01-25', 17, "Harmonie des couleurs", 2, XX);
-INSERT INTO Evaluation VALUES ('2012-01-28', 18, "Détail impressionnant", 2, XX);*/
+/* Concours 1 */
+INSERT INTO Evaluation VALUES ('2023-01-30', 19, "Van Gogh est vivant", 1, 25, 34);
+INSERT INTO Evaluation VALUES ('2023-01-30', 18, "Needs improvement", 2, 57, 72);
+INSERT INTO Evaluation VALUES ('2023-01-29', 16, "Impressive technique", 3, 34, 43);
+INSERT INTO Evaluation VALUES ('2023-01-25', 15, "Impressive technique", 4, 43, 58);
+INSERT INTO Evaluation VALUES ('2023-01-28', 14, "Impressive technique", 5, 25, 33);
+INSERT INTO Evaluation VALUES ('2023-01-29', 10, "Van Gogh est vivant", 6, 58, 33);
+INSERT INTO Evaluation VALUES ('2023-01-27', 11, "Van Gogh est vivant", 7, 33, 71);
+INSERT INTO Evaluation VALUES ('2023-01-25', 19, "Needs improvement", 8, 72, 23);
+INSERT INTO Evaluation VALUES ('2023-01-25', 17, "Impressive technique", 9, 341, 43);
+INSERT INTO Evaluation VALUES ('2023-01-30', 11, "Van Gogh est vivant", 10, 43, 24);
+INSERT INTO Evaluation VALUES ('2023-01-29', 15, "Impressive technique", 11, 45, 43);
+INSERT INTO Evaluation VALUES ('2023-01-31', 14, "Needs improvement", 12, 57, 71);
+INSERT INTO Evaluation VALUES ('2023-01-29', 12, "Needs improvement", 13, 71, 70);
+INSERT INTO Evaluation VALUES ('2023-01-24', 11, "Needs improvement", 14, 58, 70);
+INSERT INTO Evaluation VALUES ('2023-01-27', 13, "Impressive technique", 15, 57, 70);
+INSERT INTO Evaluation VALUES ('2023-01-27', 18, "Van Gogh est vivant", 16, 7, 56);
+INSERT INTO Evaluation VALUES ('2023-01-28', 16, "Needs improvement", 17, 70, 7);
+INSERT INTO Evaluation VALUES ('2023-01-25', 14, "Needs improvement", 18, 71, 341);
+INSERT INTO Evaluation VALUES ('2023-01-26', 16, "Van Gogh est vivant", 19, 33, 42);
+INSERT INTO Evaluation VALUES ('2023-01-29', 16, "Needs improvement", 20, 34, 72);
+INSERT INTO Evaluation VALUES ('2023-01-25', 11, "Excellent work", 21, 8, 34);
+INSERT INTO Evaluation VALUES ('2023-01-28', 18, "Needs improvement", 22, 9, 34);
+INSERT INTO Evaluation VALUES ('2023-01-24', 11, "Impressive technique", 23, 8, 33);
+INSERT INTO Evaluation VALUES ('2023-01-25', 10, "Impressive technique", 24, 58, 71);
+INSERT INTO Evaluation VALUES ('2023-01-26', 16, "Van Gogh est vivant", 25, 9, 7);
+INSERT INTO Evaluation VALUES ('2023-01-27', 13, "Van Gogh est vivant", 26, 57, 42);
+INSERT INTO Evaluation VALUES ('2023-01-28', 15, "Impressive technique", 27, 42, 70);
+INSERT INTO Evaluation VALUES ('2023-01-30', 16, "Van Gogh est vivant", 28, 23, 43);
+INSERT INTO Evaluation VALUES ('2023-01-30', 14, "Impressive technique", 29, 23, 24);
+INSERT INTO Evaluation VALUES ('2023-01-27', 11, "Excellent work", 30, 72, 8);
+INSERT INTO Evaluation VALUES ('2023-01-25', 16, "Excellent work", 31, 9, 8);
+INSERT INTO Evaluation VALUES ('2023-01-28', 13, "Impressive technique", 32, 58, 57);
+INSERT INTO Evaluation VALUES ('2023-01-29', 16, "Van Gogh est vivant", 33, 58, 341);
+INSERT INTO Evaluation VALUES ('2023-01-26', 18, "Excellent work", 34, 34, 23);
+INSERT INTO Evaluation VALUES ('2023-01-28', 19, "Excellent work", 35, 23, 58);
+INSERT INTO Evaluation VALUES ('2023-01-30', 10, "Van Gogh est vivant", 36, 23, 56);
+INSERT INTO Evaluation VALUES ('2023-01-24', 11, "Needs improvement", 37, 24, 25);
+INSERT INTO Evaluation VALUES ('2023-01-27', 11, "Impressive technique", 38, 72, 9);
+INSERT INTO Evaluation VALUES ('2023-01-29', 20, "Van Gogh est vivant", 39, 71, 341);
+INSERT INTO Evaluation VALUES ('2023-01-26', 12, "Impressive technique", 40, 72, 45);
+INSERT INTO Evaluation VALUES ('2023-01-25', 12, "Impressive technique", 41, 33, 34);
+INSERT INTO Evaluation VALUES ('2023-01-27', 18, "Van Gogh est vivant", 42, 341, 72);
+INSERT INTO Evaluation VALUES ('2023-01-28', 16, "Excellent work", 43, 42, 341);
+INSERT INTO Evaluation VALUES ('2023-01-28', 15, "Impressive technique", 44, 33, 24);
+INSERT INTO Evaluation VALUES ('2023-01-31', 17, "Excellent work", 45, 45, 34);
+INSERT INTO Evaluation VALUES ('2023-01-25', 18, "Impressive technique", 46, 25, 9);
+INSERT INTO Evaluation VALUES ('2023-01-31', 17, "Impressive technique", 47, 7, 43);
+INSERT INTO Evaluation VALUES ('2023-01-29', 13, "Excellent work", 48, 34, 57);
+INSERT INTO Evaluation VALUES ('2023-01-29', 18, "Excellent work", 49, 25, 34);
+
+/* Concours 2 */
+INSERT INTO Evaluation VALUES ('2023-04-14', 9, "Van Gogh est vivant", 50, 103, 342);
+INSERT INTO Evaluation VALUES ('2023-04-16', 2, "Van Gogh est vivant", 51, 103, 92);
+INSERT INTO Evaluation VALUES ('2023-04-09', 7, "Van Gogh est vivant", 52, 84, 343);
+INSERT INTO Evaluation VALUES ('2023-04-14', 6, "Needs improvement", 53, 84, 125);
+INSERT INTO Evaluation VALUES ('2023-04-16', 18, "Excellent work", 54, 105, 125);
+INSERT INTO Evaluation VALUES ('2023-04-11', 15, "Impressive technique", 55, 84, 113);
+INSERT INTO Evaluation VALUES ('2023-04-11', 15, "Needs improvement", 56, 104, 113);
+INSERT INTO Evaluation VALUES ('2023-04-16', 12, "Impressive technique", 57, 83, 92);
+INSERT INTO Evaluation VALUES ('2023-04-15', 3, "Needs improvement", 58, 105, 112);
+INSERT INTO Evaluation VALUES ('2023-04-14', 14, "Needs improvement", 59, 92, 94);
+INSERT INTO Evaluation VALUES ('2023-04-11', 19, "Needs improvement", 60, 105, 93);
+INSERT INTO Evaluation VALUES ('2023-04-13', 1, "Excellent work", 61, 342, 343);
+INSERT INTO Evaluation VALUES ('2023-04-14', 14, "Van Gogh est vivant", 62, 103, 114);
+INSERT INTO Evaluation VALUES ('2023-04-11', 4, "Needs improvement", 63, 114, 125);
+INSERT INTO Evaluation VALUES ('2023-04-14', 20, "Needs improvement", 64, 94, 103);
+INSERT INTO Evaluation VALUES ('2023-04-14', 7, "Van Gogh est vivant", 65, 134, 92);
+INSERT INTO Evaluation VALUES ('2023-04-13', 4, "Excellent work", 66, 93, 105);
+INSERT INTO Evaluation VALUES ('2023-04-15', 20, "Needs improvement", 67, 112, 82);
+INSERT INTO Evaluation VALUES ('2023-04-11', 16, "Impressive technique", 68, 103, 94);
+INSERT INTO Evaluation VALUES ('2023-04-09', 15, "Excellent work", 69, 104, 93);
+INSERT INTO Evaluation VALUES ('2023-04-10', 14, "Excellent work", 70, 94, 105);
+INSERT INTO Evaluation VALUES ('2023-04-09', 13, "Impressive technique", 71, 82, 93);
+INSERT INTO Evaluation VALUES ('2023-04-14', 10, "Impressive technique", 72, 93, 103);
+INSERT INTO Evaluation VALUES ('2023-04-13', 16, "Impressive technique", 73, 103, 134);
+INSERT INTO Evaluation VALUES ('2023-04-12', 7, "Van Gogh est vivant", 74, 114, 83);
+INSERT INTO Evaluation VALUES ('2023-04-09', 2, "Impressive technique", 75, 92, 93);
+INSERT INTO Evaluation VALUES ('2023-04-16', 18, "Needs improvement", 76, 105, 82);
+INSERT INTO Evaluation VALUES ('2023-04-15', 9, "Van Gogh est vivant", 77, 125, 94);
+INSERT INTO Evaluation VALUES ('2023-04-16', 13, "Excellent work", 78, 132, 83);
+INSERT INTO Evaluation VALUES ('2023-04-12', 6, "Van Gogh est vivant", 79, 134, 94);
+INSERT INTO Evaluation VALUES ('2023-04-15', 5, "Impressive technique", 80, 103, 134);
+INSERT INTO Evaluation VALUES ('2023-04-12', 7, "Impressive technique", 81, 125, 112);
+INSERT INTO Evaluation VALUES ('2023-04-12', 20, "Excellent work", 82, 92, 133);
+INSERT INTO Evaluation VALUES ('2023-04-12', 20, "Impressive technique", 83, 83, 132);
+INSERT INTO Evaluation VALUES ('2023-04-15', 3, "Impressive technique", 84, 113, 114);
+INSERT INTO Evaluation VALUES ('2023-04-12', 11, "Impressive technique", 85, 92, 132);
+INSERT INTO Evaluation VALUES ('2023-04-12', 3, "Excellent work", 86, 113, 125);
+INSERT INTO Evaluation VALUES ('2023-04-10', 20, "Impressive technique", 87, 133, 132);
+INSERT INTO Evaluation VALUES ('2023-04-09', 4, "Excellent work", 88, 134, 84);
+INSERT INTO Evaluation VALUES ('2023-04-14', 5, "Excellent work", 89, 82, 114);
+INSERT INTO Evaluation VALUES ('2023-04-10', 8, "Impressive technique", 90, 343, 132);
+INSERT INTO Evaluation VALUES ('2023-04-15', 15, "Excellent work", 91, 113, 83);
+INSERT INTO Evaluation VALUES ('2023-04-09', 19, "Van Gogh est vivant", 92, 112, 342);
+INSERT INTO Evaluation VALUES ('2023-04-11', 16, "Needs improvement", 93, 132, 103);
+INSERT INTO Evaluation VALUES ('2023-04-09', 14, "Van Gogh est vivant", 94, 105, 103);
+INSERT INTO Evaluation VALUES ('2023-04-10', 1, "Excellent work", 95, 132, 133);
+INSERT INTO Evaluation VALUES ('2023-04-10', 12, "Impressive technique", 96, 93, 125);
+INSERT INTO Evaluation VALUES ('2023-04-11', 16, "Impressive technique", 97, 342, 103);
+INSERT INTO Evaluation VALUES ('2023-04-11', 15, "Excellent work", 98, 342, 113);
+
+/* Concours 3 */
+INSERT INTO Evaluation VALUES ('2023-07-22', 20, "Van Gogh est vivant", 99, 151, 152);
+INSERT INTO Evaluation VALUES ('2023-07-23', 18, "Impressionnant", 100, 151, 153);
+INSERT INTO Evaluation VALUES ('2023-07-24', 17, "C'est du génie", 101, 152, 153);
+INSERT INTO Evaluation VALUES ('2023-07-25', 19, "Bien réalisé", 102, 151, 152);
+INSERT INTO Evaluation VALUES ('2023-07-26', 16, "Superbe", 103, 151, 153);
+INSERT INTO Evaluation VALUES ('2023-07-27', 18, "Très artistique", 104, 152, 153);
+INSERT INTO Evaluation VALUES ('2023-07-28', 19, "Magnifique", 105, 151, 152);
+INSERT INTO Evaluation VALUES ('2023-07-29', 15, "Bravo", 106, 151, 153);
+INSERT INTO Evaluation VALUES ('2023-07-21', 18, "Époustouflant", 107, 152, 153);
+INSERT INTO Evaluation VALUES ('2023-07-22', 20, "Très bon", 108, 151, 152);
+INSERT INTO Evaluation VALUES ('2023-07-23', 17, "Exceptionnel", 109, 151, 153);
+INSERT INTO Evaluation VALUES ('2023-07-24', 18, "Original", 110, 152, 153);
+INSERT INTO Evaluation VALUES ('2023-07-25', 19, "Parfait", 111, 151, 152);
+INSERT INTO Evaluation VALUES ('2023-07-26', 15, "Incroyable", 112, 151, 153);
+INSERT INTO Evaluation VALUES ('2023-07-27', 18, "Chouette", 113, 152, 153);
+INSERT INTO Evaluation VALUES ('2023-07-28', 19, "Sensationnel", 114, 167, 168);
+INSERT INTO Evaluation VALUES ('2023-07-29', 16, "Impressionnant", 115, 167, 169);
+INSERT INTO Evaluation VALUES ('2023-07-21', 17, "Exceptionnel", 116, 168, 169);
+INSERT INTO Evaluation VALUES ('2023-07-22', 19, "C'est du génie", 117, 167, 168);
+INSERT INTO Evaluation VALUES ('2023-07-23', 15, "Incroyable", 118, 167, 169);
+INSERT INTO Evaluation VALUES ('2023-07-24', 18, "Superbe", 119, 168, 169);
+INSERT INTO Evaluation VALUES ('2023-07-25', 19, "Très artistique", 120, 167, 168);
+INSERT INTO Evaluation VALUES ('2023-07-26', 20, "Magnifique", 121, 167, 169);
+INSERT INTO Evaluation VALUES ('2023-07-27', 17, "Bien réalisé", 122, 168, 169);
+INSERT INTO Evaluation VALUES ('2023-07-28', 16, "Bravo", 123, 167, 168);
+INSERT INTO Evaluation VALUES ('2023-07-29', 18, "Très bon", 124, 179, 180);
+INSERT INTO Evaluation VALUES ('2023-07-21', 19, "Original", 125, 179, 181);
+INSERT INTO Evaluation VALUES ('2023-07-22', 20, "Parfait", 126, 180, 181);
+INSERT INTO Evaluation VALUES ('2023-07-23', 17, "Époustouflant", 127, 179, 180);
+INSERT INTO Evaluation VALUES ('2023-07-24', 15, "Exceptionnel", 128, 179, 181);
+INSERT INTO Evaluation VALUES ('2023-07-25', 18, "Sensationnel", 129, 180, 181);
+INSERT INTO Evaluation VALUES ('2023-07-26', 19, "C'est du génie", 130, 179, 180);
+INSERT INTO Evaluation VALUES ('2023-07-27', 16, "Impressionnant", 131, 179, 181);
+INSERT INTO Evaluation VALUES ('2023-07-28', 15, "Bravo", 132, 180, 181);
+INSERT INTO Evaluation VALUES ('2023-07-29', 18, "Superbe", 133, 200, 201);
+INSERT INTO Evaluation VALUES ('2023-07-21', 19, "Très artistique", 134, 200, 202);
+INSERT INTO Evaluation VALUES ('2023-07-22', 20, "Magnifique", 135, 201, 202);
+INSERT INTO Evaluation VALUES ('2023-07-23', 16, "Chouette", 136, 200, 201);
+INSERT INTO Evaluation VALUES ('2023-07-24', 18, "Époustouflant", 137, 200, 202);
+INSERT INTO Evaluation VALUES ('2023-07-25', 15, "Bien réalisé", 138, 201, 202);
+INSERT INTO Evaluation VALUES ('2023-07-26', 17, "Original", 139, 200, 201);
+INSERT INTO Evaluation VALUES ('2023-07-27', 19, "Bravo", 140, 200, 202);
+INSERT INTO Evaluation VALUES ('2023-07-28', 16, "Exceptionnel", 141, 201, 202);
+INSERT INTO Evaluation VALUES ('2023-07-29', 20, "Parfait", 142, 200, 201);
+INSERT INTO Evaluation VALUES ('2023-07-21', 18, "Sensationnel", 143, 200, 202);
+INSERT INTO Evaluation VALUES ('2023-07-22', 19, "Superbe", 144, 201, 202);
+INSERT INTO Evaluation VALUES ('2023-07-23', 17, "C'est du génie", 145, 200, 201);
+INSERT INTO Evaluation VALUES ('2023-07-24', 15, "Très bon", 146, 200, 202);
+INSERT INTO Evaluation VALUES ('2023-07-25', 20, "Exceptionnel", 147, 201, 202);
+
+/* Concours 4 */
+INSERT INTO Evaluation VALUES ('2024-01-22', 18, "Bien réalisé", 148, 222, 223);
+INSERT INTO Evaluation VALUES ('2024-01-23', 19, "Superbe", 149, 222, 344);
+INSERT INTO Evaluation VALUES ('2024-01-24', 17, "Époustouflant", 150, 223, 344);
+INSERT INTO Evaluation VALUES ('2024-01-25', 20, "Bravo", 151, 222, 223);
+INSERT INTO Evaluation VALUES ('2024-01-26', 18, "Magnifique", 152, 222, 344);
+INSERT INTO Evaluation VALUES ('2024-01-27', 19, "Chouette", 153, 223, 344);
+INSERT INTO Evaluation VALUES ('2024-01-28', 17, "Très artistique", 154, 222, 223);
+INSERT INTO Evaluation VALUES ('2024-01-29', 20, "C'est du génie", 155, 222, 344);
+INSERT INTO Evaluation VALUES ('2024-01-22', 18, "Original", 156, 223, 344);
+INSERT INTO Evaluation VALUES ('2024-01-23', 19, "Parfait", 157, 222, 223);
+INSERT INTO Evaluation VALUES ('2024-01-24', 17, "Exceptionnel", 158, 222, 344);
+INSERT INTO Evaluation VALUES ('2024-01-25', 20, "Incroyable", 159, 223, 344);
+INSERT INTO Evaluation VALUES ('2024-01-26', 18, "Sensationnel", 160, 222, 223);
+INSERT INTO Evaluation VALUES ('2024-01-27', 19, "Impressionnant", 161, 222, 344);
+INSERT INTO Evaluation VALUES ('2024-01-28', 17, "Époustouflant", 162, 223, 344);
+INSERT INTO Evaluation VALUES ('2024-01-29', 20, "C'est du génie", 163, 230, 231);
+INSERT INTO Evaluation VALUES ('2024-01-22', 18, "Bien réalisé", 164, 230, 232);
+INSERT INTO Evaluation VALUES ('2024-01-23', 19, "Superbe", 165, 231, 232);
+INSERT INTO Evaluation VALUES ('2024-01-24', 17, "Original", 166, 230, 231);
+INSERT INTO Evaluation VALUES ('2024-01-25', 20, "Parfait", 167, 230, 232);
+INSERT INTO Evaluation VALUES ('2024-01-26', 18, "Exceptionnel", 168, 231, 232);
+INSERT INTO Evaluation VALUES ('2024-01-27', 19, "Incroyable", 169, 230, 231);
+INSERT INTO Evaluation VALUES ('2024-01-28', 17, "Très artistique", 170, 230, 232);
+INSERT INTO Evaluation VALUES ('2024-01-29', 20, "Bravo", 171, 231, 232);
+INSERT INTO Evaluation VALUES ('2024-01-22', 18, "Sensationnel", 172, 230, 231);
+INSERT INTO Evaluation VALUES ('2024-01-23', 19, "Magnifique", 173, 230, 232);
+INSERT INTO Evaluation VALUES ('2024-01-24', 17, "Chouette", 174, 231, 232);
+INSERT INTO Evaluation VALUES ('2024-01-25', 20, "Très bon", 175, 230, 231);
+INSERT INTO Evaluation VALUES ('2024-01-26', 18, "Époustouflant", 176, 230, 232);
+INSERT INTO Evaluation VALUES ('2024-01-27', 19, "C'est du génie", 177, 249, 250);
+INSERT INTO Evaluation VALUES ('2024-01-28', 17, "Bien réalisé", 178, 249, 251);
+INSERT INTO Evaluation VALUES ('2024-01-29', 20, "Superbe", 179, 249, 251);
+INSERT INTO Evaluation VALUES ('2024-01-22', 18, "Exceptionnel", 180, 249, 251);
+INSERT INTO Evaluation VALUES ('2024-01-23', 19, "Original", 181, 249, 251);
+INSERT INTO Evaluation VALUES ('2024-01-24', 17, "Parfait", 182, 249, 251);
+INSERT INTO Evaluation VALUES ('2024-01-25', 20, "Incroyable", 183, 242, 345);
+INSERT INTO Evaluation VALUES ('2024-01-26', 18, "Sensationnel", 184, 242, 346);
+INSERT INTO Evaluation VALUES ('2024-01-27', 19, "Impressionnant", 185, 345, 346);
+INSERT INTO Evaluation VALUES ('2024-01-28', 17, "Très artistique", 186, 242, 345);
+INSERT INTO Evaluation VALUES ('2024-01-29', 20, "Bravo", 187, 242, 346);
+INSERT INTO Evaluation VALUES ('2024-01-22', 18, "Magnifique", 188, 345, 346);
+INSERT INTO Evaluation VALUES ('2024-01-23', 19, "Bien réalisé", 189, 230, 231);
+INSERT INTO Evaluation VALUES ('2024-01-24', 17, "Époustouflant", 190, 230, 232);
+INSERT INTO Evaluation VALUES ('2024-01-25', 20, "Très bon", 191, 231, 232);
+INSERT INTO Evaluation VALUES ('2024-01-26', 18, "Original", 192, 230, 231);
+INSERT INTO Evaluation VALUES ('2024-01-27', 19, "Parfait", 193, 230, 232);
+INSERT INTO Evaluation VALUES ('2024-01-28', 17, "Exceptionnel", 194, 250, 251);
+INSERT INTO Evaluation VALUES ('2024-01-29', 20, "Incroyable", 195, 230, 232);
+INSERT INTO Evaluation VALUES ('2024-01-22', 18, "Sensationnel", 196, 230, 232);
+
+
+
+
 
 /* CompetiteurParticipe */
 
