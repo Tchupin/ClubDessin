@@ -1,0 +1,117 @@
+/* Corps de la page */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to right, #4e73df, #1cc88a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+h1 {
+    color: #4e73df;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+    font-weight: 500;
+}
+
+/* Conteneur de l'inscription */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Groupes d'input */
+.input-group {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-size: 1.1em;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"], input[type="submit"], select {
+    width: 100%;
+    padding: 14px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    background-color: #f8f9fc;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2e59d9;
+}
+
+/* Message d'erreur */
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #333;
+    text-align: center;
+}
+
+.footer a {
+    color: #4e73df;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #2e59d9;
+}
+
+/* Animation pour la page d'inscription */
+.login-container {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
