@@ -118,3 +118,21 @@ HAVING totalClubs >= 6;
 
 ------------------------------------------------------------------
 
+Requête 7 : Vérification des dessins avec moins de 2 évaluateurs
+
+SELECT D.numDessin, D.numConcours, COUNT(EV.numEvaluateur) AS totalEvaluateurs
+FROM Dessin D
+LEFT JOIN Evaluation EV ON D.numDessin = EV.numDessin
+GROUP BY D.numDessin, D.numConcours
+HAVING totalEvaluateurs < 2;
+
+------------------------------------------------------------------
+
+Requete 8 : Concours sans évaluation
+
+SELECT C.numConcours, C.theme
+FROM Concours C
+LEFT JOIN Dessin D ON C.numConcours = D.numConcours
+LEFT JOIN Evaluation E ON D.numDessin = E.numDessin
+WHERE E.numEvaluateur IS NULL
+ORDER BY C.numConcours;
