@@ -120,11 +120,12 @@ HAVING totalClubs >= 6;
 
 Requête 7 : Vérification des dessins avec moins de 2 évaluateurs
 
-SELECT D.numDessin, D.numConcours, COUNT(EV.numEvaluateur) AS totalEvaluateurs
+SELECT D.numDessin, D.numConcours, COUNT(DISTINCT EV.numEvaluateur1) + COUNT(DISTINCT EV.numEvaluateur2) AS totalEvaluateurs
 FROM Dessin D
 LEFT JOIN Evaluation EV ON D.numDessin = EV.numDessin
 GROUP BY D.numDessin, D.numConcours
 HAVING totalEvaluateurs < 2;
+
 
 ------------------------------------------------------------------
 
