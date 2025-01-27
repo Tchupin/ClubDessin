@@ -654,6 +654,8 @@ INSERT INTO Evaluateur VALUES ("Pastel", 216);
 INSERT INTO Evaluateur VALUES ("Craie", 229);
 INSERT INTO Evaluateur VALUES ("Encre", 228);
 INSERT INTO Evaluateur VALUES ("Acrylique",227 );
+INSERT INTO Evaluateur VALUES ("Peinture avec le corps", 58);
+INSERT INTO Evaluateur VALUES ("Pixelart", 315);
 
 
 /* Compétiteur */
@@ -1288,8 +1290,8 @@ INSERT INTO Dessin VALUES (343, 167, "Dessin Automnal : Reflets ocres", 13, '202
 
 /* Concours 1 */
 INSERT INTO Evaluation VALUES ('2023-01-30', 19, "Van Gogh est vivant", 1, 25, 34);
-INSERT INTO Evaluation VALUES ('2023-01-30', 18, "Needs improvement", 2, 57, 72);
-INSERT INTO Evaluation VALUES ('2023-01-29', 16, "Impressive technique", 3, 34, 43);
+INSERT INTO Evaluation VALUES ('2023-01-30', 18, "De belles lignes, soulignées par un apport en double aveugle", 2, 57, 72);
+INSERT INTO Evaluation VALUES ('2023-01-29', 16, "Technique Impressionnante", 3, 34, 43);
 INSERT INTO Evaluation VALUES ('2023-01-25', 15, "Impressive technique", 4, 43, 58);
 INSERT INTO Evaluation VALUES ('2023-01-28', 14, "Impressive technique", 5, 25, 33);
 INSERT INTO Evaluation VALUES ('2023-01-29', 10, "Van Gogh est vivant", 6, 58, 33);
