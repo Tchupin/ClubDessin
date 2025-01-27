@@ -1179,7 +1179,6 @@ INSERT INTO Dessin VALUES (245, 277, "Gravure Printanière : Champs en fleurs", 
 
 
 /* Concours 6 */
-
 INSERT INTO Dessin VALUES (246, 16, "Art Fantastique Été : Licornes scintillantes", 11, '2024-07-15', 'Licornes scintillantes', 6);
 INSERT INTO Dessin VALUES (247, 16, "Art Fantastique Été : Sirènes enchantées", 13, '2024-07-15', 'Sirènes enchantées', 6);
 INSERT INTO Dessin VALUES (248, 15, "Art Fantastique Été : Forêt magique", 19, '2024-07-16', 'Forêt magique', 6);
@@ -1187,6 +1186,7 @@ INSERT INTO Dessin VALUES (249, 15, "Art Fantastique Été : Château volant", 1
 INSERT INTO Dessin VALUES (250, 15, "Art Fantastique Été : Portail mystique", 12, '2024-07-16', 'Portail mystique', 6);
 INSERT INTO Dessin VALUES (251, 13, "Art Fantastique Été : Vallée des elfes", 16, '2024-07-17', 'Vallée des elfes', 6);
 INSERT INTO Dessin VALUES (252, 13, "Art Fantastique Été : Reflets d'un autre monde", 18, '2024-07-17', 'Reflets du autre monde', 6);
+INSERT INTO Dessin VALUES (253, 13, "Art Fantastique Été : Reflets d'un autre monde", 18, '2024-07-17', 'Reflets du autre monde', 6);
 INSERT INTO Dessin VALUES (254, 13, "Art Fantastique Été : Cristaux lumineux", 14, '2024-07-17', 'Cristaux lumineux', 6);
 INSERT INTO Dessin VALUES (255, 14, "Art Fantastique Été : Rivière dorée", 19, '2024-07-18', 'Rivière dorée', 6);
 INSERT INTO Dessin VALUES (256, 14, "Art Fantastique Été : Créatures légendaires", 15, '2024-07-18', 'Créatures légendaires', 6);
@@ -1232,7 +1232,6 @@ INSERT INTO Dessin VALUES (294, 105, "Art Fantastique Été : Aurore onirique", 
 
 
 /* Concours 7 */ 
-
 INSERT INTO Dessin VALUES (295, 118, "Dessin Automnal : Feuilles dansantes", 14, '2024-10-10', 'Feuilles dansantes', 7);
 INSERT INTO Dessin VALUES (296, 118, "Dessin Automnal : Ombres dorées", 18, '2024-10-10', 'Ombres dorées', 7);
 INSERT INTO Dessin VALUES (297, 118, "Dessin Automnal : Souffle du vent", 16, '2024-10-10', 'Souffle du vent', 7);
@@ -1491,9 +1490,159 @@ INSERT INTO Evaluation VALUES ('2024-01-28', 17, "Exceptionnel", 194, 250, 251);
 INSERT INTO Evaluation VALUES ('2024-01-29', 20, "Incroyable", 195, 230, 232);
 INSERT INTO Evaluation VALUES ('2024-01-22', 18, "Sensationnel", 196, 230, 232);
 
+/* Concours 5 */
+INSERT INTO Evaluation VALUES ('2024-04-15', 17, "Bien réalisé", 197, 326, 313);
+INSERT INTO Evaluation VALUES ('2024-04-18', 10, "Bien réalisé", 198, 300, 315);
+INSERT INTO Evaluation VALUES ('2024-04-14', 18, "Bien réalisé", 199, 313, 287);
+INSERT INTO Evaluation VALUES ('2024-04-20', 15, "Bien réalisé", 200, 324, 287);
+INSERT INTO Evaluation VALUES ('2024-04-16', 14, "Bien réalisé", 201, 315, 287);
+INSERT INTO Evaluation VALUES ('2024-04-18', 20, "Bien réalisé", 202, 324, 315);
+INSERT INTO Evaluation VALUES ('2024-04-16', 16, "Bien réalisé", 203, 300, 287);
+INSERT INTO Evaluation VALUES ('2024-04-18', 15, "Bien réalisé", 204, 326, 313);
+INSERT INTO Evaluation VALUES ('2024-04-16', 18, "Bien réalisé", 205, 315, 287);
+INSERT INTO Evaluation VALUES ('2024-04-14', 17, "Bien réalisé", 206, 324, 287);
+INSERT INTO Evaluation VALUES ('2024-04-18', 11, "Bien réalisé", 207, 313, 300);
+INSERT INTO Evaluation VALUES ('2024-04-18', 10, "Bien réalisé", 208, 324, 287);
+INSERT INTO Evaluation VALUES ('2024-04-19', 20, "Bien réalisé", 209, 326, 313);
+INSERT INTO Evaluation VALUES ('2024-04-18', 15, "Bien réalisé", 210, 300, 287);
+INSERT INTO Evaluation VALUES ('2024-04-18', 10, "Bien réalisé", 211, 326, 313);
+INSERT INTO Evaluation VALUES ('2024-04-18', 13, "Bien réalisé", 212, 324, 287);
+INSERT INTO Evaluation VALUES ('2024-04-19', 10, "Bien réalisé", 213, 313, 300);
+INSERT INTO Evaluation VALUES ('2024-04-18', 15, "Bien réalisé", 214, 326, 315);
+INSERT INTO Evaluation VALUES ('2024-04-20', 19, "Bien réalisé", 215, 324, 287);
+INSERT INTO Evaluation VALUES ('2024-04-16', 18, "Bien réalisé", 216, 313, 300);
+INSERT INTO Evaluation VALUES ('2024-04-15', 15, "Bien réalisé", 217, 326, 315);
+INSERT INTO Evaluation VALUES ('2024-04-17', 14, "Bien réalisé", 218, 300, 287);
+INSERT INTO Evaluation VALUES ('2024-04-14', 15, "Bien réalisé", 219, 313, 324);
+INSERT INTO Evaluation VALUES ('2024-04-20', 14, "Bien réalisé", 220, 326, 315);
+INSERT INTO Evaluation VALUES ('2024-04-19', 11, "Bien réalisé", 221, 324, 287);
+INSERT INTO Evaluation VALUES ('2024-04-14', 15, "Bien réalisé", 222, 326, 313);
+INSERT INTO Evaluation VALUES ('2024-04-16', 16, "Bien réalisé", 223, 313, 300);
+INSERT INTO Evaluation VALUES ('2024-04-15', 14, "Bien réalisé", 224, 324, 287);
+INSERT INTO Evaluation VALUES ('2024-04-17', 13, "Bien réalisé", 225, 326, 313);
+INSERT INTO Evaluation VALUES ('2024-04-18', 16, "Bien réalisé", 226, 300, 315);
+INSERT INTO Evaluation VALUES ('2024-04-17', 19, "Bien réalisé", 227, 324, 287);
+INSERT INTO Evaluation VALUES ('2024-04-16', 17, "Bien réalisé", 228, 326, 313);
+INSERT INTO Evaluation VALUES ('2024-04-17', 10, "Bien réalisé", 229, 313, 300);
+INSERT INTO Evaluation VALUES ('2024-04-15', 12, "Bien réalisé", 230, 324, 287);
+INSERT INTO Evaluation VALUES ('2024-04-18', 18, "Bien réalisé", 231, 326, 313);
+INSERT INTO Evaluation VALUES ('2024-04-19', 16, "Bien réalisé", 232, 300, 315);
+INSERT INTO Evaluation VALUES ('2024-04-18', 15, "Bien réalisé", 233, 313, 324);
+INSERT INTO Evaluation VALUES ('2024-04-15', 15, "Bien réalisé", 234, 326, 315);
+INSERT INTO Evaluation VALUES ('2024-04-15', 18, "Bien réalisé", 235, 300, 287);
+INSERT INTO Evaluation VALUES ('2024-04-14', 18, "Bien réalisé", 236, 313, 324);
+INSERT INTO Evaluation VALUES ('2024-04-16', 18, "Bien réalisé", 237, 326, 315);
+INSERT INTO Evaluation VALUES ('2024-04-17', 18, "Bien réalisé", 238, 300, 287);
+INSERT INTO Evaluation VALUES ('2024-04-19', 16, "Bien réalisé", 239, 313, 324);
+INSERT INTO Evaluation VALUES ('2024-04-17', 13, "Bien réalisé", 240, 326, 315);
+INSERT INTO Evaluation VALUES ('2024-04-19', 12, "Bien réalisé", 241, 300, 287);
+INSERT INTO Evaluation VALUES ('2024-04-19', 13, "Bien réalisé", 242, 313, 324);
+INSERT INTO Evaluation VALUES ('2024-04-15', 19, "Bien réalisé", 243, 326, 315);
+INSERT INTO Evaluation VALUES ('2024-04-18', 14, "Bien réalisé", 244, 300, 287);
+INSERT INTO Evaluation VALUES ('2024-04-20', 16, "Bien réalisé", 245, 326, 313);
+
+/* Concours 6 */
+INSERT INTO Evaluation VALUES ('2024-07-24', 3, 'Commentaire sur le dessin 246', 246, 19, 89);
+INSERT INTO Evaluation VALUES ('2024-07-24', 10, 'Commentaire sur le dessin 247', 247, 79, 28);
+INSERT INTO Evaluation VALUES ('2024-07-21', 4, 'Commentaire sur le dessin 248', 248, 78, 28);
+INSERT INTO Evaluation VALUES ('2024-07-25', 17, 'Commentaire sur le dessin 249', 249, 27, 97);
+INSERT INTO Evaluation VALUES ('2024-07-26', 7, 'Commentaire sur le dessin 250', 250, 90, 89);
+INSERT INTO Evaluation VALUES ('2024-07-22', 8, 'Commentaire sur le dessin 251', 251, 78, 90);
+INSERT INTO Evaluation VALUES ('2024-07-25', 18, 'Commentaire sur le dessin 252', 252, 90, 18);
+INSERT INTO Evaluation VALUES ('2024-07-25', 1, 'Pas mal les dessins', 253, 99, 89);
+INSERT INTO Evaluation VALUES ('2024-07-23', 2, 'Commentaire sur le dessin 254', 254, 89, 88);
+INSERT INTO Evaluation VALUES ('2024-07-20', 2, 'Commentaire sur le dessin 255', 255, 27, 88);
+INSERT INTO Evaluation VALUES ('2024-07-24', 16, 'Commentaire sur le dessin 256', 256, 29, 88);
+INSERT INTO Evaluation VALUES ('2024-07-22', 14, 'Commentaire sur le dessin 257', 257, 29, 79);
+INSERT INTO Evaluation VALUES ('2024-07-21', 8, 'Commentaire sur le dessin 258', 258, 28, 77);
+INSERT INTO Evaluation VALUES ('2024-07-23', 19, 'Commentaire sur le dessin 259', 259, 27, 78);
+INSERT INTO Evaluation VALUES ('2024-07-26', 15, 'Commentaire sur le dessin 260', 260, 77, 88);
+INSERT INTO Evaluation VALUES ('2024-07-21', 6, 'Commentaire sur le dessin 261', 261, 29, 28);
+INSERT INTO Evaluation VALUES ('2024-07-20', 14, 'Commentaire sur le dessin 262', 262, 27, 79);
+INSERT INTO Evaluation VALUES ('2024-07-24', 9, 'Commentaire sur le dessin 263', 263, 97, 89);
+INSERT INTO Evaluation VALUES ('2024-07-26', 11, 'Commentaire sur le dessin 264', 264, 77, 98);
+INSERT INTO Evaluation VALUES ('2024-07-22', 5, 'Commentaire sur le dessin 265', 265, 29, 99);
+INSERT INTO Evaluation VALUES ('2024-07-25', 14, 'Commentaire sur le dessin 266', 266, 78, 99);
+INSERT INTO Evaluation VALUES ('2024-07-21', 16, 'Commentaire sur le dessin 267', 267, 89, 77);
+INSERT INTO Evaluation VALUES ('2024-07-23', 18, 'Commentaire sur le dessin 268', 268, 88, 27);
+INSERT INTO Evaluation VALUES ('2024-07-25', 12, 'Commentaire sur le dessin 269', 269, 79, 99);
+INSERT INTO Evaluation VALUES ('2024-07-20', 10, 'Commentaire sur le dessin 270', 270, 77, 28);
+INSERT INTO Evaluation VALUES ('2024-07-24', 19, 'Commentaire sur le dessin 271', 271, 79, 98);
+INSERT INTO Evaluation VALUES ('2024-07-22', 17, 'Commentaire sur le dessin 272', 272, 29, 89);
+INSERT INTO Evaluation VALUES ('2024-07-26', 9, 'Commentaire sur le dessin 273', 273, 19, 79);
+INSERT INTO Evaluation VALUES ('2024-07-20', 20, 'Commentaire sur le dessin 274', 274, 28, 77);
+INSERT INTO Evaluation VALUES ('2024-07-23', 14, 'Commentaire sur le dessin 275', 275, 79, 29);
+INSERT INTO Evaluation VALUES ('2024-07-24', 13, 'Commentaire sur le dessin 276', 276, 99, 78);
+INSERT INTO Evaluation VALUES ('2024-07-21', 11, 'Commentaire sur le dessin 277', 277, 98, 79);
+INSERT INTO Evaluation VALUES ('2024-07-22', 7, 'Commentaire sur le dessin 278', 278, 97, 29);
+INSERT INTO Evaluation VALUES ('2024-07-25', 12, 'Commentaire sur le dessin 279', 279, 19, 79);
+INSERT INTO Evaluation VALUES ('2024-07-26', 15, 'Commentaire sur le dessin 280', 280, 77, 27);
+INSERT INTO Evaluation VALUES ('2024-07-20', 17, 'Commentaire sur le dessin 281', 281, 88, 89);
+INSERT INTO Evaluation VALUES ('2024-07-21', 14, 'Commentaire sur le dessin 282', 282, 27, 98);
+INSERT INTO Evaluation VALUES ('2024-07-22', 8, 'Commentaire sur le dessin 283', 283, 79, 97);
+INSERT INTO Evaluation VALUES ('2024-07-24', 12, 'Commentaire sur le dessin 284', 284, 27, 77);
+INSERT INTO Evaluation VALUES ('2024-07-26', 9, 'Commentaire sur le dessin 285', 285, 28, 89);
+INSERT INTO Evaluation VALUES ('2024-07-25', 10, 'Commentaire sur le dessin 286', 286, 78, 99);
+INSERT INTO Evaluation VALUES ('2024-07-21', 15, 'Commentaire sur le dessin 287', 287, 19, 28);
+INSERT INTO Evaluation VALUES ('2024-07-20', 13, 'Commentaire sur le dessin 288', 288, 77, 78);
+INSERT INTO Evaluation VALUES ('2024-07-24', 14, 'Commentaire sur le dessin 289', 289, 79, 27);
+INSERT INTO Evaluation VALUES ('2024-07-26', 11, 'Commentaire sur le dessin 290', 290, 28, 89);
+INSERT INTO Evaluation VALUES ('2024-07-22', 9, 'Commentaire sur le dessin 291', 291, 78, 97);
+INSERT INTO Evaluation VALUES ('2024-07-25', 16, 'Commentaire sur le dessin 292', 292, 19, 99);
+INSERT INTO Evaluation VALUES ('2024-07-21', 8, 'Commentaire sur le dessin 293', 293, 89, 88);
+INSERT INTO Evaluation VALUES ('2024-07-23', 10, 'Commentaire sur le dessin 294', 294, 27, 77);
 
 
-
+/* Concours 7 */
+INSERT INTO Evaluation VALUES ('2024-10-20', 15, "Masterclass Jacob", 295, 154, 136);
+INSERT INTO Evaluation VALUES ('2024-10-21', 19, "Masterclass Jacob", 296, 128, 119);
+INSERT INTO Evaluation VALUES ('2024-10-17', 3, "Masterclass Jacob", 297, 154, 120);
+INSERT INTO Evaluation VALUES ('2024-10-17', 6, "Masterclass Jacob", 298, 126, 165);
+INSERT INTO Evaluation VALUES ('2024-10-19', 13, "Masterclass Jacob", 299, 137, 165);
+INSERT INTO Evaluation VALUES ('2024-10-16', 10, "Masterclass Jacob", 300, 126, 119);
+INSERT INTO Evaluation VALUES ('2024-10-19', 5, "Masterclass Jacob", 301, 166, 138);
+INSERT INTO Evaluation VALUES ('2024-10-21', 7, "Masterclass Jacob", 302, 120, 138);
+INSERT INTO Evaluation VALUES ('2024-10-24', 16, "Masterclass Jacob", 303, 120, 119);
+INSERT INTO Evaluation VALUES ('2024-10-16', 20, "Masterclass Jacob", 304, 126, 166);
+INSERT INTO Evaluation VALUES ('2024-10-24', 18, "Masterclass Jacob", 305, 137, 165);
+INSERT INTO Evaluation VALUES ('2024-10-22', 10, "Masterclass Jacob", 306, 152, 138);
+INSERT INTO Evaluation VALUES ('2024-10-18', 18, "Masterclass Jacob", 307, 121, 138);
+INSERT INTO Evaluation VALUES ('2024-10-21', 5, "Masterclass Jacob", 308, 138, 165);
+INSERT INTO Evaluation VALUES ('2024-10-20', 20, "Masterclass Jacob", 309, 153, 119);
+INSERT INTO Evaluation VALUES ('2024-10-17', 19, "Masterclass Jacob", 310, 127, 153);
+INSERT INTO Evaluation VALUES ('2024-10-19', 13, "Masterclass Jacob", 311, 111, 137);
+INSERT INTO Evaluation VALUES ('2024-10-21', 11, "Masterclass Jacob", 312, 166, 110);
+INSERT INTO Evaluation VALUES ('2024-10-22', 17, "Masterclass Jacob", 313, 154, 152);
+INSERT INTO Evaluation VALUES ('2024-10-16', 10, "Masterclass Jacob", 314, 137, 110);
+INSERT INTO Evaluation VALUES ('2024-10-19', 20, "Masterclass Jacob", 315, 165, 126);
+INSERT INTO Evaluation VALUES ('2024-10-23', 14, "Masterclass Jacob", 316, 136, 110);
+INSERT INTO Evaluation VALUES ('2024-10-18', 5, "Masterclass Jacob", 317, 138, 111);
+INSERT INTO Evaluation VALUES ('2024-10-24', 13, "Masterclass Jacob", 318, 128, 154);
+INSERT INTO Evaluation VALUES ('2024-10-21', 5, "Masterclass Jacob", 319, 152, 112);
+INSERT INTO Evaluation VALUES ('2024-10-22', 19, "Masterclass Jacob", 320, 136, 120);
+INSERT INTO Evaluation VALUES ('2024-10-20', 18, "Masterclass Jacob", 321, 138, 112);
+INSERT INTO Evaluation VALUES ('2024-10-24', 3, "Masterclass Jacob", 322, 152, 136);
+INSERT INTO Evaluation VALUES ('2024-10-19', 19, "Masterclass Jacob", 323, 111, 165);
+INSERT INTO Evaluation VALUES ('2024-10-21', 15, "Masterclass Jacob", 324, 112, 119);
+INSERT INTO Evaluation VALUES ('2024-10-20', 18, "Masterclass Jacob", 325, 137, 152);
+INSERT INTO Evaluation VALUES ('2024-10-24', 14, "Masterclass Jacob", 326, 121, 127);
+INSERT INTO Evaluation VALUES ('2024-10-22', 11, "Masterclass Jacob", 327, 120, 128);
+INSERT INTO Evaluation VALUES ('2024-10-17', 15, "Masterclass Jacob", 328, 119, 153);
+INSERT INTO Evaluation VALUES ('2024-10-21', 13, "Masterclass Jacob", 329, 153, 127);
+INSERT INTO Evaluation VALUES ('2024-10-19', 7, "Masterclass Jacob", 330, 127, 164);
+INSERT INTO Evaluation VALUES ('2024-10-22', 9, "Masterclass Jacob", 331, 119, 166);
+INSERT INTO Evaluation VALUES ('2024-10-22', 1, "Masterclass Jacob", 332, 166, 165);
+INSERT INTO Evaluation VALUES ('2024-10-23', 19, "Masterclass Jacob", 333, 110, 112);
+INSERT INTO Evaluation VALUES ('2024-10-17', 18, "Masterclass Jacob", 334, 166, 138);
+INSERT INTO Evaluation VALUES ('2024-10-19', 14, "Masterclass Jacob", 335, 137, 164);
+INSERT INTO Evaluation VALUES ('2024-10-18', 10, "Masterclass Jacob", 336, 110, 112);
+INSERT INTO Evaluation VALUES ('2024-10-22', 4, "Masterclass Jacob", 337, 164, 127);
+INSERT INTO Evaluation VALUES ('2024-10-23', 11, "Masterclass Jacob", 338, 121, 128);
+INSERT INTO Evaluation VALUES ('2024-10-23', 6, "Masterclass Jacob", 339, 119, 137);
+INSERT INTO Evaluation VALUES ('2024-10-22', 6, "Masterclass Jacob", 340, 126, 120);
+INSERT INTO Evaluation VALUES ('2024-10-20', 6, "Masterclass Jacob", 341, 137, 153);
+INSERT INTO Evaluation VALUES ('2024-10-24', 7, "Masterclass Jacob", 342, 110, 152);
+INSERT INTO Evaluation VALUES ('2024-10-18', 14, "Masterclass Jacob", 343, 153, 152);
 
 /* CompetiteurParticipe */
 
