@@ -108,19 +108,20 @@ LIMIT 1;
 
 ------------------------------------------------------------
 
-Requête 6 : vérification de la présence des concours qui ont bien 6 clubs participant
+Requête 6 : Affichage de la présence des concours qui ont bien 6 clubs participants
 
 SELECT C.numConcours, C.theme, COUNT(DISTINCT CP.numClub) AS totalClubs
 FROM Concours C
 JOIN ClubParticipe CP ON C.numConcours = CP.numConcours
 GROUP BY C.numConcours, C.theme
-HAVING totalClubs >= 6;
+HAVING totalClubs = 6;
 
 ------------------------------------------------------------------
 
-Requête 7 : Vérification des dessins avec moins de 2 évaluateurs
+Requête 7 : Affichage des dessins avec moins de 2 évaluateurs
 
-SELECT D.numDessin, D.numConcours, COUNT(DISTINCT EV.numEvaluateur1) + COUNT(DISTINCT EV.numEvaluateur2) AS totalEvaluateurs
+SELECT D.numDessin, D.numConcours, COUNT(DISTINCT EV.numEvaluateur1) + 
+COUNT(DISTINCT EV.numEvaluateur2) AS totalEvaluateurs
 FROM Dessin D
 LEFT JOIN Evaluation EV ON D.numDessin = EV.numDessin
 GROUP BY D.numDessin, D.numConcours
@@ -129,11 +130,12 @@ HAVING totalEvaluateurs < 2;
 
 ------------------------------------------------------------------
 
-Requete 8 : Concours sans évaluation
+Requete 8 : Cette requête trouve les dessins qui ont été évalués par moins de deux évaluateurs.
 
-SELECT C.numConcours, C.theme
-FROM Concours C
-LEFT JOIN Dessin D ON C.numConcours = D.numConcours
-LEFT JOIN Evaluation E ON D.numDessin = E.numDessin
-WHERE E.numEvaluateur IS NULL
-ORDER BY C.numConcours;
+SELECT D.numDessin, D.numConcours, 
+       COUNT(DISTINCT EV.numEvaluateur1) + 
+       COUNT(DISTINCT EV.numEvaluateur2) AS totalEvaluateurs
+FROM Dessin D
+JOIN Evaluation EV ON D.numDessin = EV.numDessin
+GROUP BY D.numDessin, D.numConcours
+HAVING totalEvaluateurs < 2;
